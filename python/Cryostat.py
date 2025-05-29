@@ -24,6 +24,7 @@ def make_volume(geom, material, shape, name='', aux=False):
 
 class CryostatBuilder(gegede.builder.Builder):
     def configure(self, **kwds):
+        print("configuring with parameters:", kwds)
         if not set(kwds).issubset(globals.Cryostat): # no unknown keywords
             msg = 'Unknown parameter in: "%s"' % (', '.join(sorted(kwds.keys())), )
             raise ValueError(msg)
@@ -35,18 +36,26 @@ class CryostatBuilder(gegede.builder.Builder):
         globals.SetDerived()
 
         # get the shapes
-        cryoBox = geom.shapes.Box(self.name,
+
+        print("the value of cryostat_x is:", globals.get("Cryostat_x"))
+        print("the value of cryostat_y is:", globals.get("Cryostat_y"))
+        print("the value of cryostat_z is:", globals.get("Cryostat_z"))
+        cryoBox = geom.shapes.Box(self.name,                            #this code here is using the the method of the class called geom to create a "box" to use in the geotry at this point its just the box and its dimensions
                                   dx = 0.5*globals.get("Cryostat_x"),
                                   dy = 0.5*globals.get("Cryostat_y"),
                                   dz = 0.5*globals.get("Cryostat_z"))
+        
+
         arInteriorBox = geom.shapes.Box('ArgonInterior',
-                                        dx = 0.5*globals.get("Argon_x"),
+                                        dx = 0.5*globals.get("Argon_x"), ##### same idea here as above, same for below varibales up to anodePlateBox
                                         dy = 0.5*globals.get("Argon_y"),
                                         dz = 0.5*globals.get("Argon_z"))
+        
         gasArBox = geom.shapes.Box('GaseousArgon',
                                    dx = 0.5*globals.get("HeightGaseousAr") - 0.5*globals.get("anodePlateWidth"),
                                    dy = 0.5*globals.get("Argon_y"),
                                    dz = 0.5*globals.get("Argon_z"))
+        
         steelshellBox = geom.shapes.Boolean('SteelShell',
                                             type = 'subtraction',
                                             first = cryoBox,
@@ -61,8 +70,8 @@ class CryostatBuilder(gegede.builder.Builder):
                                         dz = 0.5*globals.get("lengthCathode"))
 
         # define the logical volumes
-        cryo_LV = make_volume(geom, "LAr", cryoBox, aux=True)
-        self.add_volume(cryo_LV)
+        cryo_LV = make_volume(geom, "LAr", cryoBox, aux=True) # these lines of code where you see make_volume, now were actually creating a logical volume so actaully adding "life" to the boxes we created above such as material they are made of etc.
+        self.add_volume(cryo_LV) ## this registers the volume into the buildee, making it accesible later or by child builder
 
         # make the simple stuff
         anodePlate_LV = make_volume(geom, "vm2000", anodePlateBox)
@@ -70,15 +79,15 @@ class CryostatBuilder(gegede.builder.Builder):
         steelshell_LV = make_volume(geom, "STEEL_STAINLESS_Fe7Cr2Ni", steelshellBox)
 
         # arapucas
-        arapuca = self.get_builder("Arapuca")
-        arapuca_LV = [arapuca.get_volume("volArapuca")]
+        arapuca = self.get_builder("Arapuca") ## this line of code retrieves the sub builder called arapuca, defined in the .cfg file, so in our case look in the Arapuca.py file and sees the class called ArapucaBuilder
+        arapuca_LV = [arapuca.get_volume("volArapuca")] ## this returns the Logical volume called volArapuca in the Arapuca.py file
         if globals.get("nCRM_x") == 2:
-            arapuca_LV.append(arapuca.get_volume("volArapucaDouble"))
+            arapuca_LV.append(arapuca.get_volume("volArapucaDouble")) ## if nCRM is 2 append the arapucaDouble to Arapuca logical volume
 
         # field shapers
-        fs = self.get_builder("FieldCage")
-        fs_LV = fs.get_volume("volFieldShaper")
-        fsslim_LV = fs.get_volume("volFieldShaperSlim")
+        fs = self.get_builder("FieldCage") ## gets the sub builder called Fielcage which is the class in FieldCage.py
+        fs_LV = fs.get_volume("volFieldShaper") ## retrieves the logical volume called volFieldShaper from said sub builder
+        fsslim_LV = fs.get_volume("volFieldShaperSlim") ## retrieves the logical volume called volFieldShaperSlim from said sub builder
 
         # start placing things
         gasar_x = 0.5*(globals.get("Argon_x")- globals.get("HeightGaseousAr") + globals.get("anodePlateWidth"))

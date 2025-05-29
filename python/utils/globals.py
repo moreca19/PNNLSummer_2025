@@ -5,6 +5,11 @@ class Params:
     _params = {}
     _world = {}
     _tpc = {}
+    #_cryostat = {'Cryostat_x':Q('45cm'),
+     #           'Cryostat_y': Q('400'),
+     #            'Cryostat_z': Q('400'),
+     #  'Argon_x' : Q('500cm') }
+
     _cryostat = {}
     _detenc = {}
     _fieldcage = {}
@@ -205,7 +210,7 @@ class Params:
 
         type(self)._tpc['widthTPCActive'] = type(self)._tpc['nCRM_y'] * (type(self)._tpc['widthCRM'] + type(self)._tpc['borderCRP'])
         type(self)._tpc['lengthTPCActive'] = type(self)._tpc['nCRM_z'] * (type(self)._tpc['lengthCRM'] + type(self)._tpc['borderCRP'])
-        type(self)._tpc['ReadoutPlane'] = type(self)._tpc['nViews'] * type(self)._tpc['padWidth']
+        type(self)._tpc['ReadoutPlane'] = type(self)._tpc['nViews'] * type(self)._tpc['padWidth'] #nViews is = to 4,& padWidth is 0.02 
         type(self)._tpc['anodePlateWidth'] = type(self)._tpc['padWidth']/2.
         type(self)._tpc['TPCActive_x'] = type(self)._tpc['driftTPCActive']
         type(self)._tpc['TPCActive_y'] = type(self)._tpc['widthCRM_active']
@@ -213,12 +218,13 @@ class Params:
         type(self)._tpc['TPC_x'] = type(self)._tpc['TPCActive_x'] + type(self)._tpc['ReadoutPlane']
         type(self)._tpc['TPC_y'] = type(self)._tpc['widthCRM']
         type(self)._tpc['TPC_z'] = type(self)._tpc['lengthCRM']
-
+#################################################################################################################################################################################################################
         # Cryostat parameters
         if type(self)._world['workspace'] != 0:
             if type(self)._tpc['nCRM_x']== 1:
-                type(self)._cryostat['Argon_x'] = type(self)._tpc['driftTPCActive'] + type(self)._cryostat['HeightGaseousAr'] +                 \
+                type(self)._cryostat['Argon_x'] = type(self)._tpc['driftTPCActive'] + type(self)._cryostat['HeightGaseousAr'] +                 \#here driftActive&HeightGaseousare defaults, readout is calculated above to 
                                                   type(self)._tpc['ReadoutPlane'] + Q('100cm')
+            print("the value of Argon_x after the if statement is:", self._cryostat['Argon_x'])
             type(self)._cryostat['Argon_y'] = type(self)._tpc['widthTPCActive'] + Q('162cm')
             type(self)._cryostat['Argon_z'] = type(self)._tpc['lengthTPCActive'] + Q('214.0cm')
 
@@ -233,7 +239,10 @@ class Params:
         type(self)._cryostat['yLArBuffer'] = 0.5 * (type(self)._cryostat['Argon_y'] - type(self)._tpc['widthTPCActive'])
         type(self)._cryostat['zLArBuffer'] = 0.5 * (type(self)._cryostat['Argon_z'] - type(self)._tpc['lengthTPCActive'])
         type(self)._cryostat['Cryostat_x'] = type(self)._cryostat['Argon_x'] + 2*type(self)._cryostat['SteelThickness']
+        print("the value of cryostatx after is:", self._cryostat['Cryostat_x'])
+        #print("the value of cryosatay before is:",self._cryostat['Cryostat_y'])
         type(self)._cryostat['Cryostat_y'] = type(self)._cryostat['Argon_y'] + 2*type(self)._cryostat['SteelThickness']
+        print("the value of cryostaty after is:", self._cryostat['Cryostat_y'])
         type(self)._cryostat['Cryostat_z'] = type(self)._cryostat['Argon_z'] + 2*type(self)._cryostat['SteelThickness']
         type(self)._cryostat['TPCEnclosure_x'] = type(self)._cryostat['Argon_x'] -                                                              \
                                                  type(self)._cryostat['HeightGaseousAr'] +                                                      \
