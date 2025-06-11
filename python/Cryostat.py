@@ -82,6 +82,7 @@ class CryostatBuilder(gegede.builder.Builder):
         arapuca = self.get_builder("Arapuca") ## this line of code retrieves the sub builder called arapuca, defined in the .cfg file, so in our case look in the Arapuca.py file and sees the class called ArapucaBuilder
         arapuca_LV = [arapuca.get_volume("volArapuca")] ## this returns the Logical volume called volArapuca in the Arapuca.py file
         if globals.get("nCRM_x") == 2:
+
             arapuca_LV.append(arapuca.get_volume("volArapucaDouble")) ## if nCRM is 2 append the arapucaDouble to Arapuca logical volume
 
         # field shapers
@@ -223,8 +224,8 @@ class CryostatBuilder(gegede.builder.Builder):
                                                                                             (name_a, idx),
                                                                                       x = anode_botpos,
                                                                                       y = cathode_y,
-                                                                                      z = cathode_z),
-                                                        rot = "rIdentity")
+                                                                                          z = cathode_z),
+                                                            rot = "rIdentity")
                     tpcenc_LV.placements.append(place_ab.name)
 
                 idx += 1
