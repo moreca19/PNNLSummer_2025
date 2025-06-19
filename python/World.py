@@ -116,4 +116,9 @@ class WorldBuilder(gegede.builder.Builder):
         for i in BeltPlacements:
             worldLV.placements.append(i.name)
 
+        Cryostat = self.get_builder("Cryostat")
+        CryostatPlacement = Cryostat.PlacementList
+        for i in CryostatPlacement:
+            worldLV.placements.append(i.name)
+
         return worldLV
