@@ -1166,6 +1166,10 @@
     <position unit="cm" name="BeltFrontPlacement_34" x="-157.86" y="841.1" z="3236.7"/>
     <position unit="cm" name="BeltFrontPlacement2_34" x="157.86" y="841.1" z="3236.7"/>
     <position unit="cm" name="fPhysShellPlacement" x="0" y="0" z="0"/>
+    <position unit="cm" name="FoamPosition" x="0" y="0" z="0"/>
+    <position unit="cm" name="WoodPosition" x="0" y="0" z="0"/>
+    <position unit="cm" name="WarmskinPosition" x="0" y="0" z="0"/>
+    <position unit="cm" name="OuterAirPosition" x="0" y="0" z="0"/>
     <position unit="cm" name="posCryoInDetEnc" x="-50.0000000000001" y="0" z="0"/>
     <position unit="cm" name="posCenter" x="0" y="0" z="0"/>
     <rotation unit="degree" name="rUWireAboutX" x="150" y="0" z="0"/>
@@ -1654,6 +1658,34 @@
       <positionref ref="center"/>
       <rotationref ref="identity"/>
     </subtraction>
+    <box name="InShield" lunit="cm" x="1655.56" y="1475.56" z="6175.5599999999995"/>
+    <subtraction name="Foam">
+      <first ref="InShield"/>
+      <second ref="ShellOut"/>
+      <positionref ref="center"/>
+      <rotationref ref="identity"/>
+    </subtraction>
+    <box name="InWood" lunit="cm" x="1665.1599999999999" y="1485.1599999999999" z="6185.16"/>
+    <subtraction name="Wood">
+      <first ref="InWood"/>
+      <second ref="InShield"/>
+      <positionref ref="center"/>
+      <rotationref ref="identity"/>
+    </subtraction>
+    <box name="ShellOutW" lunit="cm" x="1669.9599999999998" y="1489.9599999999998" z="6189.96"/>
+    <subtraction name="WarmSkin">
+      <first ref="ShellOutW"/>
+      <second ref="InWood"/>
+      <positionref ref="center"/>
+      <rotationref ref="identity"/>
+    </subtraction>
+    <box name="WorldBox" lunit="cm" x="5000.0" y="5000.0" z="7500.0"/>
+    <subtraction name="OuterAir">
+      <first ref="WorldBox"/>
+      <second ref="ShellOutW"/>
+      <positionref ref="center"/>
+      <rotationref ref="identity"/>
+    </subtraction>
     <box name="World" lunit="cm" x="5000.0" y="5000.0" z="7500.0"/>
   </solids>
   <structure>
@@ -1680,6 +1712,22 @@
     <volume name="fShellLog">
       <materialref ref="AirSteelMixture"/>
       <solidref ref="fShell"/>
+    </volume>
+    <volume name="FoamLog">
+      <materialref ref="AirSteelMixture"/>
+      <solidref ref="Foam"/>
+    </volume>
+    <volume name="WoodLog">
+      <materialref ref="AirSteelMixture"/>
+      <solidref ref="Wood"/>
+    </volume>
+    <volume name="ShellOutLog">
+      <materialref ref="AirSteelMixture"/>
+      <solidref ref="WarmSkin"/>
+    </volume>
+    <volume name="OuterAirLog">
+      <materialref ref="Air"/>
+      <solidref ref="OuterAir"/>
     </volume>
     <volume name="volWorld">
       <materialref ref="DUSEL_Rock"/>
@@ -7427,6 +7475,26 @@
       <physvol>
         <volumeref ref="fShellLog"/>
         <positionref ref="fPhysShellPlacement"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="FoamLog"/>
+        <positionref ref="FoamPosition"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="WoodLog"/>
+        <positionref ref="WoodPosition"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShellOutLog"/>
+        <positionref ref="WarmskinPosition"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="OuterAirLog"/>
+        <positionref ref="OuterAirPosition"/>
         <rotationref ref="identity"/>
       </physvol>
     </volume>
