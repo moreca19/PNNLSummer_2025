@@ -73,6 +73,8 @@ class DetEnclosureBuilder(gegede.builder.Builder):
         steelsupport_place = geom.structure.Placement('place'+steelsupportBox.name,
                                                      volume = steelsupportLV,
                                                      pos = "posCryoInDetEnc")
+        
+
         detencLV.placements.append(foampadding_place.name)
         detencLV.placements.append(steelsupport_place.name)
         return

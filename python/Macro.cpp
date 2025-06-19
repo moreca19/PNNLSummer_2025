@@ -1,0 +1,53 @@
+#include <iostream>
+#include "TGeoManager.h"
+#include "TApplication.h"
+#include "TCanvas.h"
+#include "TGeoVolume.h"
+#include "TColor.h"
+
+using namespace std;
+
+
+int main(int argc, char **argv)
+{
+
+
+    TApplication app("app", &argc, argv);
+    TGeoManager::Import("dunevd_v10.gdml");
+
+    TGeoVolume* vol = gGeoManager->FindVolumeFast("fShellLog");
+    vol->SetLineColor(kBlue);
+    vol->SetFillColor(kBlue);
+
+    cout << "fShellVoume is the blue one" << endl;
+ 
+    TGeoVolume* vol2 = gGeoManager->FindVolumeFast("BeltUni");
+    vol2->SetLineColor(kBlack);
+    vol2->SetFillColor(kBlack);
+
+    cout << "BeltUni volume is the black one" << endl;
+
+    TGeoVolume* vol3 = gGeoManager->FindVolumeFast("BeltHoleUni");
+    vol3->SetLineColor(kRed);
+    vol3->SetFillColor(kRed);
+
+    cout << "BeltHoleUni volume is the red one" << endl;
+
+    TGeoVolume* vol4 = gGeoManager->FindVolumeFast("IBeamSide");
+    vol4->SetLineColor(kGreen);
+    vol4->SetFillColor(kGreen);
+    TGeoVolume* vol5 = gGeoManager->FindVolumeFast("IBeamTop");
+    vol5->SetLineColor(kGreen);
+    vol5->SetFillColor(kGreen);
+    TGeoVolume* vol6 = gGeoManager->FindVolumeFast("IBeamBot");
+    vol6->SetLineColor(kGreen);
+    vol6->SetFillColor(kGreen);
+
+    cout << "all of the Ibeams are the green ones" << endl;
+
+    gGeoManager->GetTopVolume()->Draw("same");
+
+    app.Run();
+    return 0;
+}
+

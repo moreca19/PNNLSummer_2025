@@ -143,7 +143,7 @@ class FieldCageBuilder(gegede.builder.Builder):
                                              second = secondShape,
                                              pos = geom.structure.Position(pos_name,
                                                                            x = xz_positions[ui-1][0],
-                                                                           y = Q('0cm'),
+                                                                           y = xz_positions[ui-1][0],##Q('0cm'),
                                                                            z = xz_positions[ui-1][1]),
                                              rot = rotations[ui-1]
                                              )

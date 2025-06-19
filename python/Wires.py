@@ -12,7 +12,8 @@ import sys
 def line_clip(x0, y0, nx, ny, rcl, rcw):
     tol = 1.0E-4
     endpts = []
-
+	
+    #print("in wires.py file")
     if abs(nx) < tol:
         return [x0, 0, x0, rcw]
     if abs(ny) < tol:

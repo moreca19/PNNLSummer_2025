@@ -5,11 +5,6 @@ class Params:
     _params = {}
     _world = {}
     _tpc = {}
-    #_cryostat = {'Cryostat_x':Q('45cm'),
-     #           'Cryostat_y': Q('400'),
-     #            'Cryostat_z': Q('400'),
-     #  'Argon_x' : Q('500cm') }
-
     _cryostat = {}
     _detenc = {}
     _fieldcage = {}
@@ -222,9 +217,10 @@ class Params:
         # Cryostat parameters
         if type(self)._world['workspace'] != 0:
             if type(self)._tpc['nCRM_x']== 1:
-                type(self)._cryostat['Argon_x'] = type(self)._tpc['driftTPCActive'] + type(self)._cryostat['HeightGaseousAr'] +                 \#here driftActive&HeightGaseousare defaults, readout is calculated above to 
-                                                  type(self)._tpc['ReadoutPlane'] + Q('100cm')
-            print("the value of Argon_x after the if statement is:", self._cryostat['Argon_x'])
+                type(self)._cryostat['Argon_x'] = type(self)._tpc['driftTPCActive'] + type(self)._cryostat['HeightGaseousAr'] +                 \
+                                                  type(self)._tpc['ReadoutPlane'] + Q('100cm')#heredriftAtcive&HeithGaseous are deafaults
+            #print("the value of Argon_x after the if statement is:", self._cryostat['Argon_x'])
+            
             type(self)._cryostat['Argon_y'] = type(self)._tpc['widthTPCActive'] + Q('162cm')
             type(self)._cryostat['Argon_z'] = type(self)._tpc['lengthTPCActive'] + Q('214.0cm')
 
