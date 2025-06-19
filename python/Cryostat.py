@@ -1,7 +1,5 @@
 import gegede.builder
 from gegede import Quantity as Q
-import ROOT
-from ROOT import kBlue
 from utils import *
 
 
@@ -28,6 +26,10 @@ Offset = Q('10cm')
 fCryostat_x = Q('1480cm')
 fCryostat_y = Q('1300cm')
 fCryostat_z = Q('6000cm')
+fShieldThickness = Q('77.6cm')
+fWoodThickness = Q('4.8cm')
+fWarmSkinThickness = Q('2.4cm')
+
 
 
 
@@ -62,7 +64,7 @@ class CryostatBuilder(gegede.builder.Builder):
     def construct(self, geom):
         globals.SetDerived()
         self.PlacementList = []
-
+        ###this is the start of Cryostat logical volume ###
         fSolidCryostat = geom.shapes.Box('Cryostat',
 					dx = fCryostat_x/2 + Offset,
 					dy = fCryostat_y/2 + Offset,
@@ -77,24 +79,121 @@ class CryostatBuilder(gegede.builder.Builder):
 						second = fSolidCryostat,
         )              
 
-        fLogicShell = make_volume(geom, 'AirSteelMixture', fShell, "fShellLog", aux=True)        
+        fLogicShell = make_volume(geom, 'AirSteelMixture', fShell, "fShellLog", aux=True) ## need to fix the material used
         
 
 
         fPhysShell = geom.structure.Placement('fPhysShell',
                                                                 
-                                                                pos = geom.structure.Position('fPhysShellPlacement',
-                                                                x = "0cm",
-                                                                y =  "0cm",
-                                                                z = "0cm"),
-                                                            	volume = fLogicShell
+                                            pos = geom.structure.Position('fPhysShellPlacement',
+                                            x = "0cm",
+                                            y =  "0cm",
+                                            z = "0cm"),
+                                            volume = fLogicShell
                                                                 
-                                                                )  
+                                            )  
     
         self.PlacementList.append(fPhysShell)
       
+        ###this is the start of foam logical volume###
+        sOutShield = geom.shapes.Box('InShield',
+					dx = fCryostat_x/2 + fShieldThickness + fColdSkinThickness + Offset,
+					dy = fCryostat_y/2 + fShieldThickness + fColdSkinThickness + Offset,
+					dz = fCryostat_z/2 + fShieldThickness + fColdSkinThickness + Offset)
+        
+        sShield = geom.shapes.Boolean('Foam', type = 'subtraction', 
+						first = sOutShield, 
+						second = ShellOut)
+        fLogicShield = make_volume(geom,"AirSteelMixture",sShield,"FoamLog", aux=True) ## need to fix the material used
+        
+        FoamPla = geom.structure.Placement('FoamPlacement',
+                                                                
+                                            pos = geom.structure.Position('FoamPosition',
+                                            x = "0cm",
+                                            y =  "0cm",
+                                            z = "0cm"),
+                                            volume = fLogicShield
+                                                                
+                                            ) 
+        
+        self.PlacementList.append(FoamPla)
+        
+        ###this is start of wood logical volume###
+        sOutWood = geom.shapes.Box('InWood',
+					dx = fCryostat_x/2 + fWoodThickness + fShieldThickness+ fColdSkinThickness + Offset,
+					dy = fCryostat_y/2 + fWoodThickness +fShieldThickness+ fColdSkinThickness + Offset,
+					dz = fCryostat_z/2 + fWoodThickness +fShieldThickness+ fColdSkinThickness + Offset)
+        
+        sWood = geom.shapes.Boolean('Wood', type = 'subtraction', 
+						first = sOutWood, 
+						second = sOutShield)
+        
+        fLogicWood = make_volume(geom, "AirSteelMixture", sWood, "WoodLog",aux=True)
 
+        WoodPla = geom.structure.Placement('WoodPlacement',
+                                                                
+                                            pos = geom.structure.Position('WoodPosition',
+                                            x = "0cm",
+                                            y =  "0cm",
+                                            z = "0cm"),
+                                            volume = fLogicWood
+                                                                
+                                            ) 
+        self.PlacementList.append(WoodPla)
 
+        ###this is the start of wood Logical volume###
+        ShellOutW = geom.shapes.Box('ShellOutW',
+					dx = fCryostat_x/2 +fWarmSkinThickness+ fWoodThickness +fShieldThickness+ fColdSkinThickness + Offset,
+					dy = fCryostat_y/2 +fWarmSkinThickness+ fWoodThickness +fShieldThickness+ fColdSkinThickness + Offset,
+					dz = fCryostat_z/2 +fWarmSkinThickness+ fWoodThickness +fShieldThickness+ fColdSkinThickness + Offset)
+        
+        fShellW = geom.shapes.Boolean('WarmSkin', type = 'subtraction', 
+						first = ShellOutW, 
+						second = sOutWood)
+        fLogicShellW = make_volume(geom,"AirSteelMixture",fShellW, "ShellOutLog", aux=True)
+
+        ShellOutPla = geom.structure.Placement('Warmskin',
+                                                                
+                                            pos = geom.structure.Position('WarmskinPosition',
+                                            x = "0cm",
+                                            y =  "0cm",
+                                            z = "0cm"),
+                                            volume = fLogicShellW
+                                                                
+                                            ) 
+        self.PlacementList.append(ShellOutPla)
+        
+
+        ##this is the start of air box logical volume###
+
+        worldBox = geom.shapes.Box("WorldBox",
+                                   dx=Q('5000cm')/2 ,
+                                   dy=Q('5000cm')/2,
+                                   dz=Q('7500cm')/2)
+        fOuterAir = geom.shapes.Boolean('OuterAir', type = 'subtraction', 
+						first = worldBox, 
+						second = ShellOutW)
+        fLogicOAir = make_volume(geom, "Air",fOuterAir,"OuterAirLog", aux=True)
+
+        OuterAirPla = geom.structure.Placement('OuterAirPla',
+                                                                
+                                            pos = geom.structure.Position('OuterAirPosition',
+                                            x = "0cm",
+                                            y =  "0cm",
+                                            z = "0cm"),
+                                            volume = fLogicOAir
+                                                                
+                                            ) 
+        self.PlacementList.append(OuterAirPla)
+
+        
+
+    
+        
+
+        
+
+   
 
 
 
