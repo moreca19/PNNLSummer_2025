@@ -189,7 +189,7 @@ class BeltsBuilder(gegede.builder.Builder):
                         belt =BeltHoleUniLog
 
                 if kk == 0:
-                    yvar  = -((fISideLength / 2) +(fIFlangeHeight / 2) -Q('590.7cm') +(4.0 * fIPortSpacing) +(9 * fIPortHoleRad)) / 2
+                    yvar  = -((fISideLength / 2) +(fIFlangeHeight / 2) -Q('590.7cm') -(4.0 * fIPortSpacing) +(9 * fIPortHoleRad)) / 2
                     belt = BeltUniLog
                     if ((ii+2) %3):
                         belt = BeltHoleUniLog
