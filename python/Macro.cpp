@@ -5,6 +5,9 @@
 #include "TGeoVolume.h"
 #include "TColor.h"
 
+##On Ragan Rae's macOS don't forget the parenthesis to compile
+##g++ Macro.cpp $(root-config --cflags --libs) -lGdml -lGeom -o runGeo
+
 using namespace std;
 
 
