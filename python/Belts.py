@@ -62,12 +62,12 @@ class BeltsBuilder(gegede.builder.Builder):
         BeltFlange = geom.shapes.Box('BeltFlange',
 					dx = Q('10cm'),
 					dy = (fIFlangeWaist /2),
-					dz = ((fSpacing /2) - (fIFlangeWaist/2) - Q('0.001cm')))
+					dz = ((fSpacing /2) - (fIFlangeWaist/2) - Q('0.1cm')))
         
         BeltMid = geom.shapes.Box('BeltMid',
 					dx = (fIFlangeWaist/2),
 					dy = (fIFlangeHeight /4),
-					dz = ((fSpacing /2) - (fIFlangeWaist/2) - Q('0.001cm')))
+					dz = ((fSpacing /2) - (fIFlangeWaist/2) - Q('0.1cm')))
         
         IBeamPort = geom.shapes.Tubs('BeltPortHole',
 					rmin = Q('0cm'),
@@ -183,7 +183,7 @@ class BeltsBuilder(gegede.builder.Builder):
                     yvar = -((fISideLength / 2) +(fIFlangeHeight / 2) -Q('590.7cm') +(0.0 * fIPortSpacing) +(9 * fIPortHoleRad)) / 2
 
                 if kk ==1:
-                    yvar = -((fISideLength / 2) +(fIFlangeHeight / 2) -Q('590.7cm') +(2.0 * fIPortSpacing) +(9 * fIPortHoleRad)) / 2
+                    yvar = -((fISideLength / 2) +(fIFlangeHeight / 2) -Q('590.7cm') -(2.0 * fIPortSpacing) +(9 * fIPortHoleRad)) / 2
                     belt = BeltUniLog
                     if (ii+1) % 3:
                         belt =BeltHoleUniLog
@@ -241,26 +241,26 @@ class BeltsBuilder(gegede.builder.Builder):
         cpBF =0
         cpBBK =0
         xpl = zbsp/2
-        zpl = fzpl / 2 + Q('0.100cm')
+        zpl = fzpl / 2 + Q('0.10cm')
         for ii in range(5):
             for jj in range (4):
-                y = None
+                yvar = None
                 belt = BeltHoleUniLog
 
                 if jj == 3:
-                    y = ht
+                    yvar = ht
                     belt = BeltUniLog
-                    if ii % 3:
+                    if (ii % 3):
                         belt = BeltHoleUniLog
                 if jj == 2:
-                    y = -((fISideLength / 2) +(fIFlangeHeight / 2) -Q('590.7cm') +(0.0 * fIPortSpacing) +(9 * fIPortHoleRad)) / 2
+                    yvar = -((fISideLength / 2) +(fIFlangeHeight / 2) -Q('590.7cm') +(0.0 * fIPortSpacing) +(9 * fIPortHoleRad)) / 2
                 if jj ==1:
-                    y = -((fISideLength / 2) +(fIFlangeHeight / 2) -Q('590.7cm') +(0.0 * fIPortSpacing) +(9 * fIPortHoleRad)) / 2
+                    yvar = -((fISideLength / 2) +(fIFlangeHeight / 2) -Q('590.7cm') -(2.0 * fIPortSpacing) +(9 * fIPortHoleRad)) / 2
                     belt = BeltUniLog
                     if ((ii +1) % 3):
                         belt = BeltHoleUniLog
                 if jj == 0:
-                    y = -((fISideLength / 2) +(fIFlangeHeight / 2) -Q('590.7cm') +(0.0 * fIPortSpacing) +(9 * fIPortHoleRad)) / 2
+                    yvar = -((fISideLength / 2) +(fIFlangeHeight / 2) -Q('590.7cm') -(4.0 * fIPortSpacing) +(9 * fIPortHoleRad)) / 2
                     belt = BeltUniLog
                     if ((ii +2) %3 ):
                         belt = BeltHoleUniLog
@@ -274,7 +274,7 @@ class BeltsBuilder(gegede.builder.Builder):
                                                                 
                                                                 pos = geom.structure.Position(f'BeltBackPlacement_{jj}{ii}',
                                                                 x = -xpl,
-                                                                y = y ,
+                                                                y = yvar ,
                                                                 z = -zpl),
                                                             	volume = belt,
                                                                 rot= fc3Rotation)
@@ -284,7 +284,7 @@ class BeltsBuilder(gegede.builder.Builder):
                                                                 
                                                                 pos = geom.structure.Position(f'BeltBackPlacement2_{jj}{ii}',
                                                                 x = xpl,
-                                                                y = y ,
+                                                                y = yvar ,
                                                                 z = -zpl),
                                                             	volume = belt,
                                                                 rot= fc3Rotation)
@@ -294,7 +294,7 @@ class BeltsBuilder(gegede.builder.Builder):
                                                                 
                                                                 pos = geom.structure.Position(f'BeltFrontPlacement_{jj}{ii}',
                                                                 x = -xpl,
-                                                                y = y ,
+                                                                y = yvar ,
                                                                 z = zpl),
                                                             	volume = belt,
                                                                 rot= fc3Rotation)
@@ -304,7 +304,7 @@ class BeltsBuilder(gegede.builder.Builder):
                                                                 
                                                                 pos = geom.structure.Position(f'BeltFrontPlacement2_{jj}{ii}',
                                                                 x = xpl,
-                                                                y = y ,
+                                                                y = yvar ,
                                                                 z = zpl),
                                                             	volume = belt,
                                                                 rot= fc3Rotation)
