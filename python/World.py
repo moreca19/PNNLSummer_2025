@@ -98,7 +98,9 @@ class WorldBuilder(gegede.builder.Builder):
                                    dz=Q('7500cm')/2)## this creates the world "box" whereteh detector will go in
 
         # put it in the world volume
-        worldLV = geom.structure.Volume('vol'+self.name, material="DUSEL_Rock", shape=worldBox)## make taht box we created above a avtualy logical volume
+        worldLV = geom.structure.Volume('vol'+self.name, material="Air", shape=worldBox)## make taht box we created above a avtualy logical volume
+        print("about to print the name")
+        print(self.name)
         self.add_volume(worldLV)## add it to the registry
 
         # get the detector enclosure sub-builder
@@ -119,6 +121,11 @@ class WorldBuilder(gegede.builder.Builder):
         Cryostat = self.get_builder("Cryostat")
         CryostatPlacement = Cryostat.PlacementList
         for i in CryostatPlacement:
+            worldLV.placements.append(i.name)
+
+        Cavern = self.get_builder("Cavern")
+        CavernPlacement = Cavern.PlacementList
+        for i in CavernPlacement:
             worldLV.placements.append(i.name)
 
         return worldLV
