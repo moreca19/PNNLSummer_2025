@@ -5,8 +5,8 @@
 #include "TGeoVolume.h"
 #include "TColor.h"
 
-##On Ragan Rae's macOS don't forget the parenthesis to compile
-##g++ Macro.cpp $(root-config --cflags --libs) -lGdml -lGeom -o runGeo
+//On Ragan Rae's macOS don't forget the parenthesis to compile
+//g++ Macro.cpp $(root-config --cflags --libs) -lGdml -lGeom -o runGeo
 
 using namespace std;
 
@@ -23,32 +23,32 @@ int main(int argc, char **argv)
     vol->SetFillColor(kOrange);
     vol->SetTransparency(0);
 
-    // cout << "fShellVoume is the blue one" << endl;
+    cout << "fShellVoume is the blue one" << endl;
  
-    // TGeoVolume* vol2 = gGeoManager->FindVolumeFast("BeltUni");
-    // vol2->SetLineColor(kBlack);
-    // vol2->SetFillColor(kBlack);
+    TGeoVolume* vol2 = gGeoManager->FindVolumeFast("BeltUni");
+    vol2->SetLineColor(kBlack);
+    vol2->SetFillColor(kBlack);
 
-    // cout << "BeltUni volume is the black one" << endl;
+    cout << "BeltUni volume is the black one" << endl;
 
-    // TGeoVolume* vol3 = gGeoManager->FindVolumeFast("BeltHoleUni");
-    // vol3->SetLineColor(kRed);
-    // vol3->SetFillColor(kRed);
+    TGeoVolume* vol3 = gGeoManager->FindVolumeFast("BeltHoleUni");
+    vol3->SetLineColor(kRed);
+    vol3->SetFillColor(kRed);
 
-    // cout << "BeltHoleUni volume is the red one" << endl;
+    cout << "BeltHoleUni volume is the red one" << endl;
 
-    // TGeoVolume* vol4 = gGeoManager->FindVolumeFast("IBeamSide");
-    // vol4->SetLineColor(kGreen);
-    // vol4->SetFillColor(kGreen);
-    // TGeoVolume* vol5 = gGeoManager->FindVolumeFast("IBeamTop");
-    // vol5->SetLineColor(kGreen);
-    // vol5->SetFillColor(kGreen);
-    // TGeoVolume* vol6 = gGeoManager->FindVolumeFast("IBeamBot");
-    // vol6->SetLineColor(kGreen);
-    // vol6->SetFillColor(kGreen);
+    TGeoVolume* vol4 = gGeoManager->FindVolumeFast("IBeamSide");
+    vol4->SetLineColor(kGreen);
+    vol4->SetFillColor(kGreen);
+    TGeoVolume* vol5 = gGeoManager->FindVolumeFast("IBeamTop");
+    vol5->SetLineColor(kGreen);
+    vol5->SetFillColor(kGreen);
+    TGeoVolume* vol6 = gGeoManager->FindVolumeFast("IBeamBot");
+    vol6->SetLineColor(kGreen);
+    vol6->SetFillColor(kGreen);
 
-    // cout << "all of the Ibeams are the green ones" << endl;
-    // cout << "gets to here" << endl;
+    cout << "all of the Ibeams are the green ones" << endl;
+    cout << "gets to here" << endl;
     TGeoVolume* vol7 = gGeoManager->FindVolumeFast("FoamLog");
     vol7->SetLineColor(kBlack);
     vol7->SetFillColor(kBlack);

@@ -11,7 +11,7 @@ from utils import *
 fht = Q('841.1cm')
 fst = Q('896.4cm')
 fSpacing = Q('157.86cm')
-fIFlangeWidth = Q('0.42cm')
+fIFlangeWidth = Q('40.2cm')
 fIFlangeThick = Q('4cm')
 fIFlangeWaist = Q('2.2cm')
 fIFlangeHeight = Q('110.8cm')
