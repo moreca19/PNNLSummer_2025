@@ -24,17 +24,17 @@ int main(int argc, char **argv)
     vol1->SetFillColor(kGreen);
     
 
-    // cout << "fShellVoume is the blue one" << endl;
+    cout << "fShellVoume is the blue one" << endl;
  
-    // TGeoVolume* vol2 = gGeoManager->FindVolumeFast("BeltUni");
-    // vol2->SetLineColor(kBlack);
-    // vol2->SetFillColor(kBlack);
+    TGeoVolume* vol2 = gGeoManager->FindVolumeFast("BeltUni");
+    vol2->SetLineColor(kBlack);
+    vol2->SetFillColor(kBlack);
 
-    // cout << "BeltUni volume is the black one" << endl;
+    cout << "BeltUni volume is the black one" << endl;
 
-    // TGeoVolume* vol3 = gGeoManager->FindVolumeFast("BeltHoleUni");
-    // vol3->SetLineColor(kRed);
-    // vol3->SetFillColor(kRed);
+    TGeoVolume* vol3 = gGeoManager->FindVolumeFast("BeltHoleUni");
+    vol3->SetLineColor(kRed);
+    vol3->SetFillColor(kRed);
 
     // cout << "BeltHoleUni volume is the red one" << endl;
 

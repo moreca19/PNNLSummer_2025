@@ -33156,28 +33156,28 @@
     <box lunit="cm" name="GroutBox" x="1980.0" y="2.54" z="15060.0"/>
     <box lunit="cm" name="ShotOuterBox" x="1980.0" y="2315.0" z="15060.0"/>
     <tube aunit="radian" deltaphi="1.74532925199" lunit="cm" name="ShotOuterArch" rmax="1284.0" rmin="0.0" startphi="0.698131700798" z="15060.0"/>
-    <union name="ShotOuterBoolAdd">
+    <union name="ShotOuterBoolAdd"> <!--only one union for shot box-->
       <first ref="ShotOuterBox"/>
       <second ref="ShotOuterArch"/>
       <positionref ref="ShotOuterArchPos"/>
       <rotationref ref="identity"/>
     </union>
     <box lunit="cm" name="ShotInnerBox" x="1959.68" y="2315.0" z="15039.68"/>
-    <subtraction name="ShotInnerBoxSub">
+    <subtraction name="ShotInnerBoxSub"> <!--first subtraction-->
       <first ref="ShotOuterBoolAdd"/>
       <second ref="ShotInnerBox"/>
       <positionref ref="ShotInnerBoxPos"/>
       <rotationref ref="identity"/>
     </subtraction>
     <tube aunit="radian" deltaphi="1.7551821149" lunit="cm" name="ShotInnerArch" rmax="1273.84" rmin="0.0" startphi="0.693205269343" z="15039.68"/>
-    <subtraction name="ShotInnerArchSub">
+    <subtraction name="ShotInnerArchSub"> <!--secod subtraction-->
       <first ref="ShotInnerBoxSub"/>
       <second ref="ShotInnerArch"/>
       <positionref ref="ShotInnerArchPos"/>
       <rotationref ref="identity"/>
     </subtraction>
     <box lunit="cm" name="ConcSubBox" x="1980.0" y="30.48" z="15060.0"/>
-    <subtraction name="ShotOuterMinusBox">
+    <subtraction name="ShotOuterMinusBox"> <!--last subtraction-->
       <first ref="ShotInnerArchSub"/>
       <second ref="ConcSubBox"/>
       <positionref ref="ConcSubPos"/>
@@ -33194,11 +33194,11 @@
       <materialref ref="Concrete"/> <!--concrete material-->
       <solidref ref="ConcreteBox"/> <!--the object that makes up this volume-->
     </volume>
-    <volume name="volGrout">
+    <volume name="volGrout"> <!--logial Gorut volume-->
       <materialref ref="Concrete"/>
       <solidref ref="GroutBox"/>
     </volume>
-    <volume name="volShotbox">
+    <volume name="volShotbox"> <!--logical volume ofshotbox-->
       <materialref ref="ShotRock"/>
       <solidref ref="ShotOuterMinusBox"/>
     </volume>
@@ -50289,12 +50289,12 @@
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="volGrout"/>
+        <volumeref ref="volGrout"/> <!--this is the placement for the grout-->
         <positionref ref="posGrout"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="volShotbox"/>
+        <volumeref ref="volShotbox"/> <!--thsi is the placement-->
         <positionref ref="posShotBox"/>
         <rotationref ref="identity"/>
       </physvol>
