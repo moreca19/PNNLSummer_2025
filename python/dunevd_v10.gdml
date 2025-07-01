@@ -6,9 +6,9 @@
     <rotation unit="degree" name="fc3" x="90" y="90" z="0"/>
     <position unit="cm" name="PosOfIBeam" x="0" y="0" z="200.0"/>
     <position unit="cm" name="PosOfIBeam2" x="0" y="0" z="-200.0"/>
-    <position unit="cm" name="PosOfIBeam3" x="0" y="0" z="356.69999999999993"/>
-    <position unit="cm" name="PosOfIBeam4" x="0" y="0" z="-43.30000000000007"/>
-    <position unit="cm" name="PosOfIBeam5" x="0" y="0" z="-443.30000000000007"/>
+    <position unit="cm" name="PosOfIBeam3" x="0" y="0" z="256.69999999999993"/>
+    <position unit="cm" name="PosOfIBeam4" x="0" y="0" z="-143.30000000000007"/>
+    <position unit="cm" name="PosOfIBeam5" x="0" y="0" z="-543.3000000000001"/>
     <position unit="cm" name="TopPosition" x="57.4" y="0" z="0"/>
     <position unit="cm" name="BottomPosition" x="-57.4" y="0" z="0"/>
     <position unit="cm" name="IBeamTopPlacementPos0" x="841.1" y="0" z="0"/>
@@ -1561,8 +1561,8 @@
   <solids>
     <box name="IBeamTopFlange" lunit="cm" x="4.0" y="40.2" z="1894.0"/>
     <box name="IBeamTopMid" lunit="cm" x="110.8" y="2.2" z="1894.0"/>
-    <box name="IBeamSideFlange" lunit="cm" x="4.0" y="40.2" z="1784.0"/>
-    <box name="IBeamSideMid" lunit="cm" x="110.8" y="2.2" z="1784.0"/>
+    <box name="IBeamSideFlange" lunit="cm" x="4.0" y="40.2" z="1584.0"/>
+    <box name="IBeamSideMid" lunit="cm" x="110.8" y="2.2" z="1584.0"/>
     <tube name="IBeamPortTub" lunit="cm" aunit="radian" rmin="0.0" rmax="40.0" z="4.0" startphi="0.0" deltaphi="6.283185307179586"/>
     <subtraction name="IBeamBottomtmp">
       <first ref="IBeamTopMid"/>
