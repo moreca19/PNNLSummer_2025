@@ -66,12 +66,12 @@ class CryostatBuilder(gegede.builder.Builder):
         self.PlacementList = []
         ###this is the start of Cryostat logical volume ###
         fSolidCryostat = geom.shapes.Box('Cryostat',
-					dx = fCryostat_x/2 + Offset,
-					dy = fCryostat_y/2 + Offset,
+					dy = fCryostat_x/2 + Offset,
+					dx = fCryostat_y/2 + Offset,
 					dz = fCryostat_z/2+Offset)
         ShellOut = geom.shapes.Box('ShellOut',
-					dx = fCryostat_x/2+fColdSkinThickness + Offset,
-					dy = fCryostat_y/2 +fColdSkinThickness+ Offset,
+					dy = fCryostat_x/2+fColdSkinThickness + Offset,
+					dx = fCryostat_y/2 +fColdSkinThickness+ Offset,
 					dz = fCryostat_z/2+fColdSkinThickness+Offset)
         
         fShell = geom.shapes.Boolean('fShell', type = 'subtraction', 
@@ -97,8 +97,8 @@ class CryostatBuilder(gegede.builder.Builder):
       
         ###this is the start of foam logical volume###
         sOutShield = geom.shapes.Box('InShield',
-					dx = fCryostat_x/2 + fShieldThickness + fColdSkinThickness + Offset,
-					dy = fCryostat_y/2 + fShieldThickness + fColdSkinThickness + Offset,
+					dy = fCryostat_x/2 + fShieldThickness + fColdSkinThickness + Offset,
+					dx = fCryostat_y/2 + fShieldThickness + fColdSkinThickness + Offset,
 					dz = fCryostat_z/2 + fShieldThickness + fColdSkinThickness + Offset)
         
         sShield = geom.shapes.Boolean('Foam', type = 'subtraction', 
@@ -120,8 +120,8 @@ class CryostatBuilder(gegede.builder.Builder):
         
         ###this is start of wood logical volume###
         sOutWood = geom.shapes.Box('InWood',
-					dx = fCryostat_x/2 + fWoodThickness + fShieldThickness+ fColdSkinThickness + Offset,
-					dy = fCryostat_y/2 + fWoodThickness +fShieldThickness+ fColdSkinThickness + Offset,
+					dy = fCryostat_x/2 + fWoodThickness + fShieldThickness+ fColdSkinThickness + Offset,
+					dx = fCryostat_y/2 + fWoodThickness +fShieldThickness+ fColdSkinThickness + Offset,
 					dz = fCryostat_z/2 + fWoodThickness +fShieldThickness+ fColdSkinThickness + Offset)
         
         sWood = geom.shapes.Boolean('Wood', type = 'subtraction', 
@@ -143,8 +143,8 @@ class CryostatBuilder(gegede.builder.Builder):
 
         ###this is the start of wood Logical volume###
         ShellOutW = geom.shapes.Box('ShellOutW',
-					dx = fCryostat_x/2 +fWarmSkinThickness+ fWoodThickness +fShieldThickness+ fColdSkinThickness + Offset,
-					dy = fCryostat_y/2 +fWarmSkinThickness+ fWoodThickness +fShieldThickness+ fColdSkinThickness + Offset,
+					dy = fCryostat_x/2 +fWarmSkinThickness+ fWoodThickness +fShieldThickness+ fColdSkinThickness + Offset,
+					dx = fCryostat_y/2 +fWarmSkinThickness+ fWoodThickness +fShieldThickness+ fColdSkinThickness + Offset,
 					dz = fCryostat_z/2 +fWarmSkinThickness+ fWoodThickness +fShieldThickness+ fColdSkinThickness + Offset)
         
         fShellW = geom.shapes.Boolean('WarmSkin', type = 'subtraction', 
@@ -167,8 +167,8 @@ class CryostatBuilder(gegede.builder.Builder):
         ##this is the start of air box logical volume###
 
         worldBox = geom.shapes.Box("WorldBox",
-                                   dx=Q('5000cm')/2 ,
-                                   dy=Q('5000cm')/2,
+                                   dy=Q('5000cm')/2 ,
+                                   dx=Q('5000cm')/2,
                                    dz=Q('7500cm')/2)
         fOuterAir = geom.shapes.Boolean('OuterAir', type = 'subtraction', 
 						first = worldBox, 
