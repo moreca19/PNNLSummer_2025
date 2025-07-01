@@ -15,16 +15,16 @@ int main(int argc, char **argv)
     TApplication app("app", &argc, argv);
     TGeoManager::Import("dunevd_v10.gdml");
 
-    TGeoVolume* vol = gGeoManager->FindVolumeFast("fShellLog");
-    vol->SetLineColor(kOrange);
-    vol->SetFillColor(kOrange);
+    // TGeoVolume* vol = gGeoManager->FindVolumeFast("fShellLog");
+    // vol->SetLineColor(kOrange);
+    // vol->SetFillColor(kOrange);
 
     TGeoVolume* vol1 = gGeoManager->FindVolumeFast("volWorld");
     vol1->SetLineColor(kGreen);
     vol1->SetFillColor(kGreen);
     
 
-    cout << "fShellVoume is the blue one" << endl;
+    // cout << "fShellVoume is the blue one" << endl;
  
     TGeoVolume* vol2 = gGeoManager->FindVolumeFast("BeltUni");
     vol2->SetLineColor(kBlack);
