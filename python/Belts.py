@@ -60,13 +60,13 @@ class BeltsBuilder(gegede.builder.Builder):
         st = fst
 
         BeltFlange = geom.shapes.Box('BeltFlange',
-					dx = Q('10cm'),
-					dy = (fIFlangeWaist /2),
+					dy = Q('10cm'),
+					dx = (fIFlangeWaist /2),
 					dz = ((fSpacing /2) - (fIFlangeWaist/2) - Q('0.1cm')))
         
         BeltMid = geom.shapes.Box('BeltMid',
-					dx = (fIFlangeWaist/2),
-					dy = (fIFlangeHeight /4),
+					dy = (fIFlangeWaist/2),
+					dx = (fIFlangeHeight /4),
 					dz = ((fSpacing /2) - (fIFlangeWaist/2) - Q('0.1cm')))
         
         IBeamPort = geom.shapes.Tubs('BeltPortHole',
@@ -88,8 +88,8 @@ class BeltsBuilder(gegede.builder.Builder):
 						rot = fc2Rotation)
         
 
-        tr1 = geom.structure.Position('tr1', x= Q('0cm'), y=(fIFlangeHeight/4), z= Q('0cm')) 
-        tr2 = geom.structure.Position('tr2', x= Q('0cm'), y=(-fIFlangeHeight /4), z= Q('0cm'))
+        tr1 = geom.structure.Position('tr1', y= Q('0cm'), x=(fIFlangeHeight/4), z= Q('0cm')) 
+        tr2 = geom.structure.Position('tr2', y= Q('0cm'), x=(-fIFlangeHeight /4), z= Q('0cm'))
 
         Union1 = geom.shapes.Boolean('Union1', type = 'union', 
 						first = BeltHole,
@@ -134,8 +134,8 @@ class BeltsBuilder(gegede.builder.Builder):
                 BeltBot = geom.structure.Placement(f'BeltBottom_{jj}_{ii}',
                                                                 
                                                                 pos = geom.structure.Position(f'BeltBottomPlacement_{jj}_{ii}',
-                                                                x = ((jj + 0.5) * zbsp),
-                                                                y =  (-ht + eps),
+                                                                y = ((jj + 0.5) * zbsp),
+                                                                x =  (-ht + eps),
                                                                 z = (zpl)),
                                                             	volume = BeltHoleUniLog)
                 self.PlacementList.append(BeltBot)
@@ -143,8 +143,8 @@ class BeltsBuilder(gegede.builder.Builder):
                 BeltBot = geom.structure.Placement(f'BeltBottom2_{jj}_{ii}',
                                                                 
                                                                 pos = geom.structure.Position(f'BeltBottomPlacement2_{jj}_{ii}',
-                                                                x = ((jj + 0.5) * zbsp),
-                                                                y =  (-ht + eps),
+                                                                y = ((jj + 0.5) * zbsp),
+                                                                x =  (-ht + eps),
                                                                 z = (-zpl)),
                                                             	volume = BeltHoleUniLog)
                 self.PlacementList.append(BeltBot)
@@ -154,8 +154,8 @@ class BeltsBuilder(gegede.builder.Builder):
                     BeltTop = geom.structure.Placement(f'BeltTop_{jj}_{ii}',
                                                                 
                                                                 pos = geom.structure.Position(f'BeltTopPlacement_{jj}_{ii}',
-                                                                x = ((jj + 0.5) * zbsp),
-                                                                y =  (ht - eps),
+                                                                y = ((jj + 0.5) * zbsp),
+                                                                x =  (ht - eps),
                                                                 z = (zpl)),
                                                             	volume = BeltUniLog)
                     self.PlacementList.append(BeltTop)
@@ -163,8 +163,8 @@ class BeltsBuilder(gegede.builder.Builder):
                     BeltTop = geom.structure.Placement(f'BeltTop2_{jj}_{ii}',
                                                                 
                                                                 pos = geom.structure.Position(f'BeltTopPlacement2_{jj}_{ii}',
-                                                                x = ((jj + 0.5) * zbsp),
-                                                                y =  (ht - eps),
+                                                                y = ((jj + 0.5) * zbsp),
+                                                                x =  (ht - eps),
                                                                 z = (-zpl)),
                                                             	volume = BeltUniLog)
                     self.PlacementList.append(BeltTop)
@@ -200,8 +200,8 @@ class BeltsBuilder(gegede.builder.Builder):
                 BeltLeft = geom.structure.Placement(f'BeltLeft{kk}_{ii}',
                                                                 
                                                                 pos = geom.structure.Position(f'BeltLeftPlacement{kk}_{ii}',
-                                                                x = -st,
-                                                                y = yvar ,
+                                                                y = -st,
+                                                                x = yvar ,
                                                                 z = (-zpl)),
                                                             	volume = belt,
                                                                 rot= fcRotation)
@@ -210,8 +210,8 @@ class BeltsBuilder(gegede.builder.Builder):
                 BeltRight = geom.structure.Placement(f'BeltRight{kk}_{ii}',
                                                                 
                                                                 pos = geom.structure.Position(f'BeltRigthPlacement{kk}_{ii}',
-                                                                x = st,
-                                                                y = yvar ,
+                                                                y = st,
+                                                                x = yvar ,
                                                                 z = (-zpl)),
                                                             	volume = belt,
                                                                 rot= fcRotation)
@@ -220,8 +220,8 @@ class BeltsBuilder(gegede.builder.Builder):
                 BeltLeft = geom.structure.Placement(f'BeltLeft_{kk}_{ii}',
                                                                 
                                                                 pos = geom.structure.Position(f'BeltLeftPlacement_{kk}_{ii}',
-                                                                x = -st,
-                                                                y = yvar ,
+                                                                y = -st,
+                                                                x = yvar ,
                                                                 z = (zpl)),
                                                             	volume = belt,
                                                                 rot= fcRotation)
@@ -230,9 +230,9 @@ class BeltsBuilder(gegede.builder.Builder):
                 BeltRight = geom.structure.Placement(f'BeltRight_{kk}_{ii}',
                                                                 
                                                                 pos = geom.structure.Position(f'BeltRigthPlacement_{kk}_{ii}',
-                                                                x = st,
-                                                                y = yvar ,
-                                                                z = (zpl)),
+                                                                y = st,
+                                                                x = yvar ,
+                                                                z = zpl),
                                                             	volume = belt,
                                                                 rot= fcRotation)
                 self.PlacementList.append(BeltRight)
@@ -270,21 +270,19 @@ class BeltsBuilder(gegede.builder.Builder):
                     belt = BeltUniLog
 
                 
-                BeltBack = geom.structure.Placement(f'BeltBack_{jj}_{ii}',
-                                                                
-                                                                pos = geom.structure.Position(f'BeltBackPlacement_{jj}{ii}',
-                                                                x = -xpl,
-                                                                y = yvar ,
+                BeltBack = geom.structure.Placement(f'BeltBack_{jj}_{ii}',        
+                                                                pos = geom.structure.Position(f'BeltBackPlacement_{jj}_{ii}',
+                                                                y = -xpl,
+                                                                x = yvar ,
                                                                 z = -zpl),
                                                             	volume = belt,
                                                                 rot= fc3Rotation)
                 self.PlacementList.append(BeltBack)
 
                 BeltBack = geom.structure.Placement(f'BeltBack2_{jj}_{ii}',
-                                                                
-                                                                pos = geom.structure.Position(f'BeltBackPlacement2_{jj}{ii}',
-                                                                x = xpl,
-                                                                y = yvar ,
+                                                                pos = geom.structure.Position(f'BeltBackPlacement2_{jj}_{ii}',
+                                                                y = xpl,
+                                                                x = yvar ,
                                                                 z = -zpl),
                                                             	volume = belt,
                                                                 rot= fc3Rotation)
@@ -292,9 +290,9 @@ class BeltsBuilder(gegede.builder.Builder):
 
                 BeltFront = geom.structure.Placement(f'BeltFront_{jj}_{ii}',
                                                                 
-                                                                pos = geom.structure.Position(f'BeltFrontPlacement_{jj}{ii}',
-                                                                x = -xpl,
-                                                                y = yvar ,
+                                                                pos = geom.structure.Position(f'BeltFrontPlacement_{jj}_{ii}',
+                                                                y = -xpl,
+                                                                x = yvar ,
                                                                 z = zpl),
                                                             	volume = belt,
                                                                 rot= fc3Rotation)
@@ -302,14 +300,18 @@ class BeltsBuilder(gegede.builder.Builder):
 
                 BeltFront = geom.structure.Placement(f'BeltFront2_{jj}_{ii}',
                                                                 
-                                                                pos = geom.structure.Position(f'BeltFrontPlacement2_{jj}{ii}',
-                                                                x = xpl,
-                                                                y = yvar ,
+                                                                pos = geom.structure.Position(f'BeltFrontPlacement2_{jj}_{ii}',
+                                                                y = xpl,
+                                                                x = yvar ,
                                                                 z = zpl),
                                                             	volume = belt,
                                                                 rot= fc3Rotation)
                 self.PlacementList.append(BeltFront)
-            xpl =+zbsp
+                print(f" j is {jj}")
+
+            print("xpls is at " + str(xpl))
+            print(f" i is {ii}")
+            xpl += zbsp
 
                 
                 

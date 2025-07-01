@@ -71,10 +71,12 @@ class CavernBuilder(gegede.builder.Builder):
 					dphi = Q('106.6213147592774deg'))
         
         DefaultRotation = geom.structure.Rotation('dr', x= "0deg", y= "0deg",z= "0deg")
+        DefaultRotation2 = geom.structure.Rotation('dr2', x= "0deg", y= "0deg",z= "0deg")
 
         detEnclosureLArBoolAdd = geom.shapes.Boolean('DetEnclosureLArBoolAdd', type = 'union', 
 						first = detEnclosureBox,
 						second = detEnclosureArch,
+                       
 						pos = geom.structure.Position('DetEnclosureLAr_ArchPos',
                                    x= Q('0cm'),
                                    y =Q('332.160709162cm'),
@@ -83,6 +85,7 @@ class CavernBuilder(gegede.builder.Builder):
         rockAddition = geom.shapes.Boolean('RockAddition', type = 'union', 
 						first = radioRockBox,
 						second = rockArch,
+                        
 						pos = geom.structure.Position('posTube',
                                    x= Q('0cm'),
                                    y =Q('370.84561412cm'),
@@ -92,7 +95,7 @@ class CavernBuilder(gegede.builder.Builder):
 						first = rockAddition, 
 						second = detEnclosureLArBoolAdd,
 						pos = geom.structure.Position('posFirstSub', x="0cm", y="100cm", z="0cm"), 
-						rot = DefaultRotation)
+						rot = DefaultRotation2)
         
         volRadioRockShell = make_volume(geom, 'DUSEL_Rock', firstSub, 'VolRadioRockShell', aux = True)
 
@@ -170,6 +173,7 @@ class CavernBuilder(gegede.builder.Builder):
         
         shotOuterBoolAdd = geom.shapes.Boolean('ShotOuterBoolAdd', type = 'union', 
 						first = shotOuterBox,
+                        
 						second = shotOuterrArch,
 						pos = geom.structure.Position('shotOuterArchPos',
                                    x= Q('0cm'),
@@ -180,19 +184,19 @@ class CavernBuilder(gegede.builder.Builder):
 						first = shotOuterBoolAdd, 
 						second = shotInnerBox,
 						pos = geom.structure.Position('posInnerBoxSub', x="0cm", y="0cm", z="0cm"), 
-						rot = DefaultRotation)
+						rot = DefaultRotation2)
         
         shotInnerArchSub = geom.shapes.Boolean('ShotInnerArchSub', type = 'subtraction', 
 						first = shotInnerBoxSub, 
 						second = shotInnerArch,
 						pos = geom.structure.Position('posInnerArchSub', x="0cm", y="338.428648695cm", z="0cm"), 
-						rot = DefaultRotation)
+						rot = DefaultRotation2)
         
         shotOuterMinusBox = geom.shapes.Boolean('ShotOuterMinusBox', type = 'subtraction', 
 						first = shotInnerArchSub, 
 						second = concSubBox,
 						pos = geom.structure.Position('posOuterMinusBoxSub', x="0cm", y="-1142.26cm", z="0cm"), 
-						rot = DefaultRotation)
+						rot = DefaultRotation2)
         
         volShotBox = make_volume(geom, 'Concrete', shotOuterMinusBox, 'VolShotBox', aux = True) ## still need to fix the material its made off.
 

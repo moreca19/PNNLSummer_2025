@@ -57,20 +57,20 @@ class IBeamsBuilder(gegede.builder.Builder):
 
         self.PlacementList = []
         IBeamTopFlange = geom.shapes.Box('IBeamTopFlange',
-					dx = (fIFlangeWidth /2),
-					dy = (fIFlangeThick /2),
+					dy = (fIFlangeWidth /2),
+					dx = (fIFlangeThick /2),
 					dz = (fITopLength /2))#creating a IBeamTopFlanfe object
         IBeamTopMid = geom.shapes.Box('IBeamTopMid',
-					dx = (fIFlangeWaist /2),
-					dy = (fIFlangeHeight /2),
+					dy = (fIFlangeWaist /2),
+					dx = (fIFlangeHeight /2),
 					dz = (fITopLength /2))#creating a IBeamTopMid object
         IBeamSideFlange = geom.shapes.Box('IBeamSideFlange',
-					dx = (fIFlangeWidth /2),
-					dy = (fIFlangeThick /2),
+					dy = (fIFlangeWidth /2),
+					dx = (fIFlangeThick /2),
 					dz = (fISideLength /2))#creating a IBeamSideFlange object
         IBeamSideMidtmp0 = geom.shapes.Box('IBeamSideMid',
-					dx = (fIFlangeWaist /2),
-					dy = (fIFlangeHeight /2),
+					dy = (fIFlangeWaist /2),
+					dx = (fIFlangeHeight /2),
 					dz = (fISideLength /2))#creating a IBeamSideMid object
         IBeamPort = geom.shapes.Tubs('IBeamPortTub',
 					rmin = Q('0cm'),
@@ -79,9 +79,9 @@ class IBeamsBuilder(gegede.builder.Builder):
 					sphi = Q('0deg'),
 					dphi = Q('360deg')) 
         
-        fcRotation = geom.structure.Rotation('fc', x= "0deg", y= "90deg",z= "0deg")
-        fc2Rotation = geom.structure.Rotation('fc2',x= "-90deg", y= "0deg",z= "90deg")
-        fc3Rotation = geom.structure.Rotation('fc3', x= "-90deg", y= "0deg",z= "0deg")
+        fcRotation = geom.structure.Rotation('fc', x= "90deg", y= "0deg",z= "0deg")
+        fc2Rotation = geom.structure.Rotation('fc2',x= "0deg", y= "90deg",z= "90deg")
+        fc3Rotation = geom.structure.Rotation('fc3', x= "90deg", y= "90deg",z= "0deg")
         
         IBeamBotMidtmp = geom.shapes.Boolean('IBeamBottomtmp', type = 'subtraction', 
 						first = IBeamTopMid, 
@@ -109,8 +109,8 @@ class IBeamsBuilder(gegede.builder.Builder):
 						pos = geom.structure.Position('PosOfIBeam5', x="0cm", y="0cm", z=((fISideLength/2) + (fIFlangeHeight/2) - Q('590.7cm') - (2*fIPortSpacing))),## the z dimension will need ot be fixed
 						rot =fcRotation)
         
-        IBeamTopPosition = geom.structure.Position('TopPosition', x= Q('0cm'), y=((fIFlangeHeight /2) + (fIFlangeThick /2)), z= Q('0cm')) 
-        IBeamBottomPosition = geom.structure.Position('BottomPosition', x= Q('0cm'), y=((-fIFlangeHeight /2) - (fIFlangeThick /2)), z= Q('0cm'))
+        IBeamTopPosition = geom.structure.Position('TopPosition', y= Q('0cm'), x=((fIFlangeHeight /2) + (fIFlangeThick /2)), z= Q('0cm')) 
+        IBeamBottomPosition = geom.structure.Position('BottomPosition', y= Q('0cm'), x=((-fIFlangeHeight /2) - (fIFlangeThick /2)), z= Q('0cm'))
 
 
 
@@ -165,8 +165,8 @@ class IBeamsBuilder(gegede.builder.Builder):
                                                                rot = fcRotation,
                                                                volume = fIBeamTopLog,
                                                                 pos = geom.structure.Position(f'IBeamTopPlacementPos{i}',
-                                                                x = "0cm",
-                                                                y =  ht,
+                                                                y = "0cm",
+                                                                x =  ht,
                                                                 z = zpl),
                                                             	)
                   self.PlacementList.append(IBeamTopPlacement)
@@ -175,8 +175,8 @@ class IBeamsBuilder(gegede.builder.Builder):
                                                                rot = fcRotation,
                                                                volume = fIBeamBotLog,
                                                                 pos = geom.structure.Position(f'IBeamBackPlacementPos{i}',
-                                                                x = "0cm",
-                                                                y =  - ht,
+                                                                y = "0cm",
+                                                                x =  - ht,
                                                                 z = zpl) 
                                                             	)
                   self.PlacementList.append(IBeamBotPlacement)
@@ -185,8 +185,8 @@ class IBeamsBuilder(gegede.builder.Builder):
                                                                rot = fc2Rotation,
                                                                volume = fIBeamSideLog,
                                                                 pos = geom.structure.Position(f'IBeamLeftPlacementPos{i}',
-                                                                x = - st,
-                                                                y =  "0cm",
+                                                                y = - st,
+                                                                x =  "0cm",
                                                                 z = zpl)
                                                             	)
                   self.PlacementList.append(IBeamLeftPlacement)
@@ -194,8 +194,8 @@ class IBeamsBuilder(gegede.builder.Builder):
                   IBeamRightPlacement = geom.structure.Placement(f'IBeamRightPLacement{i}',
                                                                 rot = fc2Rotation,
                                                                 pos = geom.structure.Position(f'IBeamRightPlacementPos{i}',
-                                                                x = st,
-                                                                y =  "0cm",
+                                                                y = st,
+                                                                x =  "0cm",
                                                                 z = zpl),
                                                             	volume = fIBeamSideLog)
                   self.PlacementList.append(IBeamRightPlacement)
@@ -208,8 +208,8 @@ class IBeamsBuilder(gegede.builder.Builder):
                   IBeamTopPlacement = geom.structure.Placement(f'IBeamTopPLacement2{i}',
                                                                  rot = fcRotation,
                                                                 pos = geom.structure.Position(f'IBeamTopPlacementPos2{i}',
-                                                                x = "0cm",
-                                                                y =  ht,
+                                                                y = "0cm",
+                                                                x =  ht,
                                                                 z = -(zpl)),
                                                             	volume = fIBeamTopLog)
                   self.PlacementList.append(IBeamTopPlacement)
@@ -217,8 +217,8 @@ class IBeamsBuilder(gegede.builder.Builder):
                   IBeamBotPlacement = geom.structure.Placement(f'IBeamBotPLacement2{i}',
                                                                  rot = fcRotation,
                                                                 pos = geom.structure.Position(f'IBeamBotPlacementPos2{i}',
-                                                                x = "0cm",
-                                                                y =  -(ht),
+                                                                y = "0cm",
+                                                                x =  -(ht),
                                                                 z = -(zpl)),
                                                             	volume = fIBeamBotLog)
                   self.PlacementList.append(IBeamBotPlacement)
@@ -226,8 +226,8 @@ class IBeamsBuilder(gegede.builder.Builder):
                   IBeamLeftPlacement = geom.structure.Placement(f'IBeamLeftPLacement2{i}',
                                                                 rot = fc2Rotation,
                                                                 pos = geom.structure.Position(f'IBeamLeftPlacementPos2{i}',
-                                                                x = -(st),
-                                                                y =  "0cm",
+                                                                y = -(st),
+                                                                x =  "0cm",
                                                                 z = -(zpl)),
                                                             	volume = fIBeamSideLog)
                   self.PlacementList.append(IBeamLeftPlacement)
@@ -235,8 +235,8 @@ class IBeamsBuilder(gegede.builder.Builder):
                   IBeamRightPlacement = geom.structure.Placement(f'IBeamRightPLacement2{i}',
                                                                  rot = fc2Rotation,
                                                                 pos = geom.structure.Position(f'IBeamRightPlacementPos2{i}',
-                                                                x = st,
-                                                                y =  "0cm",
+                                                                y = st,
+                                                                x =  "0cm",
                                                                 z = -(zpl)),
                                                             	volume = fIBeamSideLog)
                   self.PlacementList.append(IBeamRightPlacement)
@@ -248,8 +248,8 @@ class IBeamsBuilder(gegede.builder.Builder):
              IBeamFrontPlacement = geom.structure.Placement(f'IBeamFrontPLacement{i}',
                                                                 rot = fc3Rotation,
                                                                 pos = geom.structure.Position(f'IBeamFrontPlacementPos{i}',
-                                                                x = xpl,
-                                                                y =  "0cm",
+                                                                y = xpl,
+                                                                x =  "0cm",
                                                                 z = zpl),
                                                             	volume = fIBeamSideLog)
              self.PlacementList.append(IBeamFrontPlacement)
@@ -257,8 +257,8 @@ class IBeamsBuilder(gegede.builder.Builder):
              IBeamBackPlacement = geom.structure.Placement(f'IBeamBackPlacement{i}',
                                                                 rot = fc3Rotation,
                                                                 pos = geom.structure.Position(f'IBeamBackPlacementPos2ndLoop{i}',
-                                                                x = xpl,
-                                                                y =  "0cm",
+                                                                y = xpl,
+                                                                x =  "0cm",
                                                                 z = -zpl),
                                                             	volume = fIBeamSideLog)
              self.PlacementList.append(IBeamBackPlacement)
@@ -269,8 +269,8 @@ class IBeamsBuilder(gegede.builder.Builder):
              IBeamFrontPlacement = geom.structure.Placement(f'IBeamFrontPLacement2{i}',
                                                                 rot = fc3Rotation,
                                                                 pos = geom.structure.Position(f'IBeamFrontPlacementPos2{i}',
-                                                                x = -xpl,
-                                                                y =  "0cm",
+                                                                y = -xpl,
+                                                                x =  "0cm",
                                                                 z = zpl),
                                                             	volume = fIBeamSideLog)
              self.PlacementList.append(IBeamFrontPlacement)
@@ -278,8 +278,8 @@ class IBeamsBuilder(gegede.builder.Builder):
              IBeamBackPlacement = geom.structure.Placement(f'IBeamBackPlacement2{i}',
                                                                 rot = fc3Rotation,
                                                                 pos = geom.structure.Position(f'IBeamBackPlacementPos2{i}',
-                                                                x = -xpl,
-                                                                y =  "0cm",
+                                                                y = -xpl,
+                                                                x =  "0cm",
                                                                 z = -zpl),
                                                             	volume = fIBeamSideLog)
              self.PlacementList.append(IBeamBackPlacement)
