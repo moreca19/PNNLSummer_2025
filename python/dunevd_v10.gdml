@@ -209,10 +209,10 @@
     <position unit="cm" name="BeltRigthPlacement0_0" x="896.4" y="441.6500000000001" z="-78.93"/>
     <position unit="cm" name="BeltLeftPlacement_0_0" x="-896.4" y="441.6500000000001" z="78.93"/>
     <position unit="cm" name="BeltRigthPlacement_0_0" x="896.4" y="441.6500000000001" z="78.93"/>
-    <position unit="cm" name="BeltLeftPlacement1_0" x="-896.4" y="-758.3499999999999" z="-78.93"/>
-    <position unit="cm" name="BeltRigthPlacement1_0" x="896.4" y="-758.3499999999999" z="-78.93"/>
-    <position unit="cm" name="BeltLeftPlacement_1_0" x="-896.4" y="-758.3499999999999" z="78.93"/>
-    <position unit="cm" name="BeltRigthPlacement_1_0" x="896.4" y="-758.3499999999999" z="78.93"/>
+    <position unit="cm" name="BeltLeftPlacement1_0" x="-896.4" y="41.650000000000034" z="-78.93"/>
+    <position unit="cm" name="BeltRigthPlacement1_0" x="896.4" y="41.650000000000034" z="-78.93"/>
+    <position unit="cm" name="BeltLeftPlacement_1_0" x="-896.4" y="41.650000000000034" z="78.93"/>
+    <position unit="cm" name="BeltRigthPlacement_1_0" x="896.4" y="41.650000000000034" z="78.93"/>
     <position unit="cm" name="BeltLeftPlacement2_0" x="-896.4" y="-358.34999999999997" z="-78.93"/>
     <position unit="cm" name="BeltRigthPlacement2_0" x="896.4" y="-358.34999999999997" z="-78.93"/>
     <position unit="cm" name="BeltLeftPlacement_2_0" x="-896.4" y="-358.34999999999997" z="78.93"/>
@@ -257,10 +257,10 @@
     <position unit="cm" name="BeltRigthPlacement0_1" x="896.4" y="441.6500000000001" z="-236.79000000000002"/>
     <position unit="cm" name="BeltLeftPlacement_0_1" x="-896.4" y="441.6500000000001" z="236.79000000000002"/>
     <position unit="cm" name="BeltRigthPlacement_0_1" x="896.4" y="441.6500000000001" z="236.79000000000002"/>
-    <position unit="cm" name="BeltLeftPlacement1_1" x="-896.4" y="-758.3499999999999" z="-236.79000000000002"/>
-    <position unit="cm" name="BeltRigthPlacement1_1" x="896.4" y="-758.3499999999999" z="-236.79000000000002"/>
-    <position unit="cm" name="BeltLeftPlacement_1_1" x="-896.4" y="-758.3499999999999" z="236.79000000000002"/>
-    <position unit="cm" name="BeltRigthPlacement_1_1" x="896.4" y="-758.3499999999999" z="236.79000000000002"/>
+    <position unit="cm" name="BeltLeftPlacement1_1" x="-896.4" y="41.650000000000034" z="-236.79000000000002"/>
+    <position unit="cm" name="BeltRigthPlacement1_1" x="896.4" y="41.650000000000034" z="-236.79000000000002"/>
+    <position unit="cm" name="BeltLeftPlacement_1_1" x="-896.4" y="41.650000000000034" z="236.79000000000002"/>
+    <position unit="cm" name="BeltRigthPlacement_1_1" x="896.4" y="41.650000000000034" z="236.79000000000002"/>
     <position unit="cm" name="BeltLeftPlacement2_1" x="-896.4" y="-358.34999999999997" z="-236.79000000000002"/>
     <position unit="cm" name="BeltRigthPlacement2_1" x="896.4" y="-358.34999999999997" z="-236.79000000000002"/>
     <position unit="cm" name="BeltLeftPlacement_2_1" x="-896.4" y="-358.34999999999997" z="236.79000000000002"/>
@@ -305,10 +305,10 @@
     <position unit="cm" name="BeltRigthPlacement0_2" x="896.4" y="441.6500000000001" z="-394.65000000000003"/>
     <position unit="cm" name="BeltLeftPlacement_0_2" x="-896.4" y="441.6500000000001" z="394.65000000000003"/>
     <position unit="cm" name="BeltRigthPlacement_0_2" x="896.4" y="441.6500000000001" z="394.65000000000003"/>
-    <position unit="cm" name="BeltLeftPlacement1_2" x="-896.4" y="-758.3499999999999" z="-394.65000000000003"/>
-    <position unit="cm" name="BeltRigthPlacement1_2" x="896.4" y="-758.3499999999999" z="-394.65000000000003"/>
-    <position unit="cm" name="BeltLeftPlacement_1_2" x="-896.4" y="-758.3499999999999" z="394.65000000000003"/>
-    <position unit="cm" name="BeltRigthPlacement_1_2" x="896.4" y="-758.3499999999999" z="394.65000000000003"/>
+    <position unit="cm" name="BeltLeftPlacement1_2" x="-896.4" y="41.650000000000034" z="-394.65000000000003"/>
+    <position unit="cm" name="BeltRigthPlacement1_2" x="896.4" y="41.650000000000034" z="-394.65000000000003"/>
+    <position unit="cm" name="BeltLeftPlacement_1_2" x="-896.4" y="41.650000000000034" z="394.65000000000003"/>
+    <position unit="cm" name="BeltRigthPlacement_1_2" x="896.4" y="41.650000000000034" z="394.65000000000003"/>
     <position unit="cm" name="BeltLeftPlacement2_2" x="-896.4" y="-358.34999999999997" z="-394.65000000000003"/>
     <position unit="cm" name="BeltRigthPlacement2_2" x="896.4" y="-358.34999999999997" z="-394.65000000000003"/>
     <position unit="cm" name="BeltLeftPlacement_2_2" x="-896.4" y="-358.34999999999997" z="394.65000000000003"/>
@@ -353,10 +353,10 @@
     <position unit="cm" name="BeltRigthPlacement0_3" x="896.4" y="441.6500000000001" z="-552.51"/>
     <position unit="cm" name="BeltLeftPlacement_0_3" x="-896.4" y="441.6500000000001" z="552.51"/>
     <position unit="cm" name="BeltRigthPlacement_0_3" x="896.4" y="441.6500000000001" z="552.51"/>
-    <position unit="cm" name="BeltLeftPlacement1_3" x="-896.4" y="-758.3499999999999" z="-552.51"/>
-    <position unit="cm" name="BeltRigthPlacement1_3" x="896.4" y="-758.3499999999999" z="-552.51"/>
-    <position unit="cm" name="BeltLeftPlacement_1_3" x="-896.4" y="-758.3499999999999" z="552.51"/>
-    <position unit="cm" name="BeltRigthPlacement_1_3" x="896.4" y="-758.3499999999999" z="552.51"/>
+    <position unit="cm" name="BeltLeftPlacement1_3" x="-896.4" y="41.650000000000034" z="-552.51"/>
+    <position unit="cm" name="BeltRigthPlacement1_3" x="896.4" y="41.650000000000034" z="-552.51"/>
+    <position unit="cm" name="BeltLeftPlacement_1_3" x="-896.4" y="41.650000000000034" z="552.51"/>
+    <position unit="cm" name="BeltRigthPlacement_1_3" x="896.4" y="41.650000000000034" z="552.51"/>
     <position unit="cm" name="BeltLeftPlacement2_3" x="-896.4" y="-358.34999999999997" z="-552.51"/>
     <position unit="cm" name="BeltRigthPlacement2_3" x="896.4" y="-358.34999999999997" z="-552.51"/>
     <position unit="cm" name="BeltLeftPlacement_2_3" x="-896.4" y="-358.34999999999997" z="552.51"/>
@@ -401,10 +401,10 @@
     <position unit="cm" name="BeltRigthPlacement0_4" x="896.4" y="441.6500000000001" z="-710.37"/>
     <position unit="cm" name="BeltLeftPlacement_0_4" x="-896.4" y="441.6500000000001" z="710.37"/>
     <position unit="cm" name="BeltRigthPlacement_0_4" x="896.4" y="441.6500000000001" z="710.37"/>
-    <position unit="cm" name="BeltLeftPlacement1_4" x="-896.4" y="-758.3499999999999" z="-710.37"/>
-    <position unit="cm" name="BeltRigthPlacement1_4" x="896.4" y="-758.3499999999999" z="-710.37"/>
-    <position unit="cm" name="BeltLeftPlacement_1_4" x="-896.4" y="-758.3499999999999" z="710.37"/>
-    <position unit="cm" name="BeltRigthPlacement_1_4" x="896.4" y="-758.3499999999999" z="710.37"/>
+    <position unit="cm" name="BeltLeftPlacement1_4" x="-896.4" y="41.650000000000034" z="-710.37"/>
+    <position unit="cm" name="BeltRigthPlacement1_4" x="896.4" y="41.650000000000034" z="-710.37"/>
+    <position unit="cm" name="BeltLeftPlacement_1_4" x="-896.4" y="41.650000000000034" z="710.37"/>
+    <position unit="cm" name="BeltRigthPlacement_1_4" x="896.4" y="41.650000000000034" z="710.37"/>
     <position unit="cm" name="BeltLeftPlacement2_4" x="-896.4" y="-358.34999999999997" z="-710.37"/>
     <position unit="cm" name="BeltRigthPlacement2_4" x="896.4" y="-358.34999999999997" z="-710.37"/>
     <position unit="cm" name="BeltLeftPlacement_2_4" x="-896.4" y="-358.34999999999997" z="710.37"/>
@@ -449,10 +449,10 @@
     <position unit="cm" name="BeltRigthPlacement0_5" x="896.4" y="441.6500000000001" z="-868.23"/>
     <position unit="cm" name="BeltLeftPlacement_0_5" x="-896.4" y="441.6500000000001" z="868.23"/>
     <position unit="cm" name="BeltRigthPlacement_0_5" x="896.4" y="441.6500000000001" z="868.23"/>
-    <position unit="cm" name="BeltLeftPlacement1_5" x="-896.4" y="-758.3499999999999" z="-868.23"/>
-    <position unit="cm" name="BeltRigthPlacement1_5" x="896.4" y="-758.3499999999999" z="-868.23"/>
-    <position unit="cm" name="BeltLeftPlacement_1_5" x="-896.4" y="-758.3499999999999" z="868.23"/>
-    <position unit="cm" name="BeltRigthPlacement_1_5" x="896.4" y="-758.3499999999999" z="868.23"/>
+    <position unit="cm" name="BeltLeftPlacement1_5" x="-896.4" y="41.650000000000034" z="-868.23"/>
+    <position unit="cm" name="BeltRigthPlacement1_5" x="896.4" y="41.650000000000034" z="-868.23"/>
+    <position unit="cm" name="BeltLeftPlacement_1_5" x="-896.4" y="41.650000000000034" z="868.23"/>
+    <position unit="cm" name="BeltRigthPlacement_1_5" x="896.4" y="41.650000000000034" z="868.23"/>
     <position unit="cm" name="BeltLeftPlacement2_5" x="-896.4" y="-358.34999999999997" z="-868.23"/>
     <position unit="cm" name="BeltRigthPlacement2_5" x="896.4" y="-358.34999999999997" z="-868.23"/>
     <position unit="cm" name="BeltLeftPlacement_2_5" x="-896.4" y="-358.34999999999997" z="868.23"/>
@@ -497,10 +497,10 @@
     <position unit="cm" name="BeltRigthPlacement0_6" x="896.4" y="441.6500000000001" z="-1026.0900000000001"/>
     <position unit="cm" name="BeltLeftPlacement_0_6" x="-896.4" y="441.6500000000001" z="1026.0900000000001"/>
     <position unit="cm" name="BeltRigthPlacement_0_6" x="896.4" y="441.6500000000001" z="1026.0900000000001"/>
-    <position unit="cm" name="BeltLeftPlacement1_6" x="-896.4" y="-758.3499999999999" z="-1026.0900000000001"/>
-    <position unit="cm" name="BeltRigthPlacement1_6" x="896.4" y="-758.3499999999999" z="-1026.0900000000001"/>
-    <position unit="cm" name="BeltLeftPlacement_1_6" x="-896.4" y="-758.3499999999999" z="1026.0900000000001"/>
-    <position unit="cm" name="BeltRigthPlacement_1_6" x="896.4" y="-758.3499999999999" z="1026.0900000000001"/>
+    <position unit="cm" name="BeltLeftPlacement1_6" x="-896.4" y="41.650000000000034" z="-1026.0900000000001"/>
+    <position unit="cm" name="BeltRigthPlacement1_6" x="896.4" y="41.650000000000034" z="-1026.0900000000001"/>
+    <position unit="cm" name="BeltLeftPlacement_1_6" x="-896.4" y="41.650000000000034" z="1026.0900000000001"/>
+    <position unit="cm" name="BeltRigthPlacement_1_6" x="896.4" y="41.650000000000034" z="1026.0900000000001"/>
     <position unit="cm" name="BeltLeftPlacement2_6" x="-896.4" y="-358.34999999999997" z="-1026.0900000000001"/>
     <position unit="cm" name="BeltRigthPlacement2_6" x="896.4" y="-358.34999999999997" z="-1026.0900000000001"/>
     <position unit="cm" name="BeltLeftPlacement_2_6" x="-896.4" y="-358.34999999999997" z="1026.0900000000001"/>
@@ -545,10 +545,10 @@
     <position unit="cm" name="BeltRigthPlacement0_7" x="896.4" y="441.6500000000001" z="-1183.9500000000003"/>
     <position unit="cm" name="BeltLeftPlacement_0_7" x="-896.4" y="441.6500000000001" z="1183.9500000000003"/>
     <position unit="cm" name="BeltRigthPlacement_0_7" x="896.4" y="441.6500000000001" z="1183.9500000000003"/>
-    <position unit="cm" name="BeltLeftPlacement1_7" x="-896.4" y="-758.3499999999999" z="-1183.9500000000003"/>
-    <position unit="cm" name="BeltRigthPlacement1_7" x="896.4" y="-758.3499999999999" z="-1183.9500000000003"/>
-    <position unit="cm" name="BeltLeftPlacement_1_7" x="-896.4" y="-758.3499999999999" z="1183.9500000000003"/>
-    <position unit="cm" name="BeltRigthPlacement_1_7" x="896.4" y="-758.3499999999999" z="1183.9500000000003"/>
+    <position unit="cm" name="BeltLeftPlacement1_7" x="-896.4" y="41.650000000000034" z="-1183.9500000000003"/>
+    <position unit="cm" name="BeltRigthPlacement1_7" x="896.4" y="41.650000000000034" z="-1183.9500000000003"/>
+    <position unit="cm" name="BeltLeftPlacement_1_7" x="-896.4" y="41.650000000000034" z="1183.9500000000003"/>
+    <position unit="cm" name="BeltRigthPlacement_1_7" x="896.4" y="41.650000000000034" z="1183.9500000000003"/>
     <position unit="cm" name="BeltLeftPlacement2_7" x="-896.4" y="-358.34999999999997" z="-1183.9500000000003"/>
     <position unit="cm" name="BeltRigthPlacement2_7" x="896.4" y="-358.34999999999997" z="-1183.9500000000003"/>
     <position unit="cm" name="BeltLeftPlacement_2_7" x="-896.4" y="-358.34999999999997" z="1183.9500000000003"/>
@@ -593,10 +593,10 @@
     <position unit="cm" name="BeltRigthPlacement0_8" x="896.4" y="441.6500000000001" z="-1341.8100000000004"/>
     <position unit="cm" name="BeltLeftPlacement_0_8" x="-896.4" y="441.6500000000001" z="1341.8100000000004"/>
     <position unit="cm" name="BeltRigthPlacement_0_8" x="896.4" y="441.6500000000001" z="1341.8100000000004"/>
-    <position unit="cm" name="BeltLeftPlacement1_8" x="-896.4" y="-758.3499999999999" z="-1341.8100000000004"/>
-    <position unit="cm" name="BeltRigthPlacement1_8" x="896.4" y="-758.3499999999999" z="-1341.8100000000004"/>
-    <position unit="cm" name="BeltLeftPlacement_1_8" x="-896.4" y="-758.3499999999999" z="1341.8100000000004"/>
-    <position unit="cm" name="BeltRigthPlacement_1_8" x="896.4" y="-758.3499999999999" z="1341.8100000000004"/>
+    <position unit="cm" name="BeltLeftPlacement1_8" x="-896.4" y="41.650000000000034" z="-1341.8100000000004"/>
+    <position unit="cm" name="BeltRigthPlacement1_8" x="896.4" y="41.650000000000034" z="-1341.8100000000004"/>
+    <position unit="cm" name="BeltLeftPlacement_1_8" x="-896.4" y="41.650000000000034" z="1341.8100000000004"/>
+    <position unit="cm" name="BeltRigthPlacement_1_8" x="896.4" y="41.650000000000034" z="1341.8100000000004"/>
     <position unit="cm" name="BeltLeftPlacement2_8" x="-896.4" y="-358.34999999999997" z="-1341.8100000000004"/>
     <position unit="cm" name="BeltRigthPlacement2_8" x="896.4" y="-358.34999999999997" z="-1341.8100000000004"/>
     <position unit="cm" name="BeltLeftPlacement_2_8" x="-896.4" y="-358.34999999999997" z="1341.8100000000004"/>
@@ -641,10 +641,10 @@
     <position unit="cm" name="BeltRigthPlacement0_9" x="896.4" y="441.6500000000001" z="-1499.6700000000005"/>
     <position unit="cm" name="BeltLeftPlacement_0_9" x="-896.4" y="441.6500000000001" z="1499.6700000000005"/>
     <position unit="cm" name="BeltRigthPlacement_0_9" x="896.4" y="441.6500000000001" z="1499.6700000000005"/>
-    <position unit="cm" name="BeltLeftPlacement1_9" x="-896.4" y="-758.3499999999999" z="-1499.6700000000005"/>
-    <position unit="cm" name="BeltRigthPlacement1_9" x="896.4" y="-758.3499999999999" z="-1499.6700000000005"/>
-    <position unit="cm" name="BeltLeftPlacement_1_9" x="-896.4" y="-758.3499999999999" z="1499.6700000000005"/>
-    <position unit="cm" name="BeltRigthPlacement_1_9" x="896.4" y="-758.3499999999999" z="1499.6700000000005"/>
+    <position unit="cm" name="BeltLeftPlacement1_9" x="-896.4" y="41.650000000000034" z="-1499.6700000000005"/>
+    <position unit="cm" name="BeltRigthPlacement1_9" x="896.4" y="41.650000000000034" z="-1499.6700000000005"/>
+    <position unit="cm" name="BeltLeftPlacement_1_9" x="-896.4" y="41.650000000000034" z="1499.6700000000005"/>
+    <position unit="cm" name="BeltRigthPlacement_1_9" x="896.4" y="41.650000000000034" z="1499.6700000000005"/>
     <position unit="cm" name="BeltLeftPlacement2_9" x="-896.4" y="-358.34999999999997" z="-1499.6700000000005"/>
     <position unit="cm" name="BeltRigthPlacement2_9" x="896.4" y="-358.34999999999997" z="-1499.6700000000005"/>
     <position unit="cm" name="BeltLeftPlacement_2_9" x="-896.4" y="-358.34999999999997" z="1499.6700000000005"/>
@@ -689,10 +689,10 @@
     <position unit="cm" name="BeltRigthPlacement0_10" x="896.4" y="441.6500000000001" z="-1657.5300000000007"/>
     <position unit="cm" name="BeltLeftPlacement_0_10" x="-896.4" y="441.6500000000001" z="1657.5300000000007"/>
     <position unit="cm" name="BeltRigthPlacement_0_10" x="896.4" y="441.6500000000001" z="1657.5300000000007"/>
-    <position unit="cm" name="BeltLeftPlacement1_10" x="-896.4" y="-758.3499999999999" z="-1657.5300000000007"/>
-    <position unit="cm" name="BeltRigthPlacement1_10" x="896.4" y="-758.3499999999999" z="-1657.5300000000007"/>
-    <position unit="cm" name="BeltLeftPlacement_1_10" x="-896.4" y="-758.3499999999999" z="1657.5300000000007"/>
-    <position unit="cm" name="BeltRigthPlacement_1_10" x="896.4" y="-758.3499999999999" z="1657.5300000000007"/>
+    <position unit="cm" name="BeltLeftPlacement1_10" x="-896.4" y="41.650000000000034" z="-1657.5300000000007"/>
+    <position unit="cm" name="BeltRigthPlacement1_10" x="896.4" y="41.650000000000034" z="-1657.5300000000007"/>
+    <position unit="cm" name="BeltLeftPlacement_1_10" x="-896.4" y="41.650000000000034" z="1657.5300000000007"/>
+    <position unit="cm" name="BeltRigthPlacement_1_10" x="896.4" y="41.650000000000034" z="1657.5300000000007"/>
     <position unit="cm" name="BeltLeftPlacement2_10" x="-896.4" y="-358.34999999999997" z="-1657.5300000000007"/>
     <position unit="cm" name="BeltRigthPlacement2_10" x="896.4" y="-358.34999999999997" z="-1657.5300000000007"/>
     <position unit="cm" name="BeltLeftPlacement_2_10" x="-896.4" y="-358.34999999999997" z="1657.5300000000007"/>
@@ -737,10 +737,10 @@
     <position unit="cm" name="BeltRigthPlacement0_11" x="896.4" y="441.6500000000001" z="-1815.3900000000008"/>
     <position unit="cm" name="BeltLeftPlacement_0_11" x="-896.4" y="441.6500000000001" z="1815.3900000000008"/>
     <position unit="cm" name="BeltRigthPlacement_0_11" x="896.4" y="441.6500000000001" z="1815.3900000000008"/>
-    <position unit="cm" name="BeltLeftPlacement1_11" x="-896.4" y="-758.3499999999999" z="-1815.3900000000008"/>
-    <position unit="cm" name="BeltRigthPlacement1_11" x="896.4" y="-758.3499999999999" z="-1815.3900000000008"/>
-    <position unit="cm" name="BeltLeftPlacement_1_11" x="-896.4" y="-758.3499999999999" z="1815.3900000000008"/>
-    <position unit="cm" name="BeltRigthPlacement_1_11" x="896.4" y="-758.3499999999999" z="1815.3900000000008"/>
+    <position unit="cm" name="BeltLeftPlacement1_11" x="-896.4" y="41.650000000000034" z="-1815.3900000000008"/>
+    <position unit="cm" name="BeltRigthPlacement1_11" x="896.4" y="41.650000000000034" z="-1815.3900000000008"/>
+    <position unit="cm" name="BeltLeftPlacement_1_11" x="-896.4" y="41.650000000000034" z="1815.3900000000008"/>
+    <position unit="cm" name="BeltRigthPlacement_1_11" x="896.4" y="41.650000000000034" z="1815.3900000000008"/>
     <position unit="cm" name="BeltLeftPlacement2_11" x="-896.4" y="-358.34999999999997" z="-1815.3900000000008"/>
     <position unit="cm" name="BeltRigthPlacement2_11" x="896.4" y="-358.34999999999997" z="-1815.3900000000008"/>
     <position unit="cm" name="BeltLeftPlacement_2_11" x="-896.4" y="-358.34999999999997" z="1815.3900000000008"/>
@@ -785,10 +785,10 @@
     <position unit="cm" name="BeltRigthPlacement0_12" x="896.4" y="441.6500000000001" z="-1973.250000000001"/>
     <position unit="cm" name="BeltLeftPlacement_0_12" x="-896.4" y="441.6500000000001" z="1973.250000000001"/>
     <position unit="cm" name="BeltRigthPlacement_0_12" x="896.4" y="441.6500000000001" z="1973.250000000001"/>
-    <position unit="cm" name="BeltLeftPlacement1_12" x="-896.4" y="-758.3499999999999" z="-1973.250000000001"/>
-    <position unit="cm" name="BeltRigthPlacement1_12" x="896.4" y="-758.3499999999999" z="-1973.250000000001"/>
-    <position unit="cm" name="BeltLeftPlacement_1_12" x="-896.4" y="-758.3499999999999" z="1973.250000000001"/>
-    <position unit="cm" name="BeltRigthPlacement_1_12" x="896.4" y="-758.3499999999999" z="1973.250000000001"/>
+    <position unit="cm" name="BeltLeftPlacement1_12" x="-896.4" y="41.650000000000034" z="-1973.250000000001"/>
+    <position unit="cm" name="BeltRigthPlacement1_12" x="896.4" y="41.650000000000034" z="-1973.250000000001"/>
+    <position unit="cm" name="BeltLeftPlacement_1_12" x="-896.4" y="41.650000000000034" z="1973.250000000001"/>
+    <position unit="cm" name="BeltRigthPlacement_1_12" x="896.4" y="41.650000000000034" z="1973.250000000001"/>
     <position unit="cm" name="BeltLeftPlacement2_12" x="-896.4" y="-358.34999999999997" z="-1973.250000000001"/>
     <position unit="cm" name="BeltRigthPlacement2_12" x="896.4" y="-358.34999999999997" z="-1973.250000000001"/>
     <position unit="cm" name="BeltLeftPlacement_2_12" x="-896.4" y="-358.34999999999997" z="1973.250000000001"/>
@@ -833,10 +833,10 @@
     <position unit="cm" name="BeltRigthPlacement0_13" x="896.4" y="441.6500000000001" z="-2131.110000000001"/>
     <position unit="cm" name="BeltLeftPlacement_0_13" x="-896.4" y="441.6500000000001" z="2131.110000000001"/>
     <position unit="cm" name="BeltRigthPlacement_0_13" x="896.4" y="441.6500000000001" z="2131.110000000001"/>
-    <position unit="cm" name="BeltLeftPlacement1_13" x="-896.4" y="-758.3499999999999" z="-2131.110000000001"/>
-    <position unit="cm" name="BeltRigthPlacement1_13" x="896.4" y="-758.3499999999999" z="-2131.110000000001"/>
-    <position unit="cm" name="BeltLeftPlacement_1_13" x="-896.4" y="-758.3499999999999" z="2131.110000000001"/>
-    <position unit="cm" name="BeltRigthPlacement_1_13" x="896.4" y="-758.3499999999999" z="2131.110000000001"/>
+    <position unit="cm" name="BeltLeftPlacement1_13" x="-896.4" y="41.650000000000034" z="-2131.110000000001"/>
+    <position unit="cm" name="BeltRigthPlacement1_13" x="896.4" y="41.650000000000034" z="-2131.110000000001"/>
+    <position unit="cm" name="BeltLeftPlacement_1_13" x="-896.4" y="41.650000000000034" z="2131.110000000001"/>
+    <position unit="cm" name="BeltRigthPlacement_1_13" x="896.4" y="41.650000000000034" z="2131.110000000001"/>
     <position unit="cm" name="BeltLeftPlacement2_13" x="-896.4" y="-358.34999999999997" z="-2131.110000000001"/>
     <position unit="cm" name="BeltRigthPlacement2_13" x="896.4" y="-358.34999999999997" z="-2131.110000000001"/>
     <position unit="cm" name="BeltLeftPlacement_2_13" x="-896.4" y="-358.34999999999997" z="2131.110000000001"/>
@@ -881,10 +881,10 @@
     <position unit="cm" name="BeltRigthPlacement0_14" x="896.4" y="441.6500000000001" z="-2288.970000000001"/>
     <position unit="cm" name="BeltLeftPlacement_0_14" x="-896.4" y="441.6500000000001" z="2288.970000000001"/>
     <position unit="cm" name="BeltRigthPlacement_0_14" x="896.4" y="441.6500000000001" z="2288.970000000001"/>
-    <position unit="cm" name="BeltLeftPlacement1_14" x="-896.4" y="-758.3499999999999" z="-2288.970000000001"/>
-    <position unit="cm" name="BeltRigthPlacement1_14" x="896.4" y="-758.3499999999999" z="-2288.970000000001"/>
-    <position unit="cm" name="BeltLeftPlacement_1_14" x="-896.4" y="-758.3499999999999" z="2288.970000000001"/>
-    <position unit="cm" name="BeltRigthPlacement_1_14" x="896.4" y="-758.3499999999999" z="2288.970000000001"/>
+    <position unit="cm" name="BeltLeftPlacement1_14" x="-896.4" y="41.650000000000034" z="-2288.970000000001"/>
+    <position unit="cm" name="BeltRigthPlacement1_14" x="896.4" y="41.650000000000034" z="-2288.970000000001"/>
+    <position unit="cm" name="BeltLeftPlacement_1_14" x="-896.4" y="41.650000000000034" z="2288.970000000001"/>
+    <position unit="cm" name="BeltRigthPlacement_1_14" x="896.4" y="41.650000000000034" z="2288.970000000001"/>
     <position unit="cm" name="BeltLeftPlacement2_14" x="-896.4" y="-358.34999999999997" z="-2288.970000000001"/>
     <position unit="cm" name="BeltRigthPlacement2_14" x="896.4" y="-358.34999999999997" z="-2288.970000000001"/>
     <position unit="cm" name="BeltLeftPlacement_2_14" x="-896.4" y="-358.34999999999997" z="2288.970000000001"/>
@@ -929,10 +929,10 @@
     <position unit="cm" name="BeltRigthPlacement0_15" x="896.4" y="441.6500000000001" z="-2446.8300000000013"/>
     <position unit="cm" name="BeltLeftPlacement_0_15" x="-896.4" y="441.6500000000001" z="2446.8300000000013"/>
     <position unit="cm" name="BeltRigthPlacement_0_15" x="896.4" y="441.6500000000001" z="2446.8300000000013"/>
-    <position unit="cm" name="BeltLeftPlacement1_15" x="-896.4" y="-758.3499999999999" z="-2446.8300000000013"/>
-    <position unit="cm" name="BeltRigthPlacement1_15" x="896.4" y="-758.3499999999999" z="-2446.8300000000013"/>
-    <position unit="cm" name="BeltLeftPlacement_1_15" x="-896.4" y="-758.3499999999999" z="2446.8300000000013"/>
-    <position unit="cm" name="BeltRigthPlacement_1_15" x="896.4" y="-758.3499999999999" z="2446.8300000000013"/>
+    <position unit="cm" name="BeltLeftPlacement1_15" x="-896.4" y="41.650000000000034" z="-2446.8300000000013"/>
+    <position unit="cm" name="BeltRigthPlacement1_15" x="896.4" y="41.650000000000034" z="-2446.8300000000013"/>
+    <position unit="cm" name="BeltLeftPlacement_1_15" x="-896.4" y="41.650000000000034" z="2446.8300000000013"/>
+    <position unit="cm" name="BeltRigthPlacement_1_15" x="896.4" y="41.650000000000034" z="2446.8300000000013"/>
     <position unit="cm" name="BeltLeftPlacement2_15" x="-896.4" y="-358.34999999999997" z="-2446.8300000000013"/>
     <position unit="cm" name="BeltRigthPlacement2_15" x="896.4" y="-358.34999999999997" z="-2446.8300000000013"/>
     <position unit="cm" name="BeltLeftPlacement_2_15" x="-896.4" y="-358.34999999999997" z="2446.8300000000013"/>
@@ -977,10 +977,10 @@
     <position unit="cm" name="BeltRigthPlacement0_16" x="896.4" y="441.6500000000001" z="-2604.6900000000014"/>
     <position unit="cm" name="BeltLeftPlacement_0_16" x="-896.4" y="441.6500000000001" z="2604.6900000000014"/>
     <position unit="cm" name="BeltRigthPlacement_0_16" x="896.4" y="441.6500000000001" z="2604.6900000000014"/>
-    <position unit="cm" name="BeltLeftPlacement1_16" x="-896.4" y="-758.3499999999999" z="-2604.6900000000014"/>
-    <position unit="cm" name="BeltRigthPlacement1_16" x="896.4" y="-758.3499999999999" z="-2604.6900000000014"/>
-    <position unit="cm" name="BeltLeftPlacement_1_16" x="-896.4" y="-758.3499999999999" z="2604.6900000000014"/>
-    <position unit="cm" name="BeltRigthPlacement_1_16" x="896.4" y="-758.3499999999999" z="2604.6900000000014"/>
+    <position unit="cm" name="BeltLeftPlacement1_16" x="-896.4" y="41.650000000000034" z="-2604.6900000000014"/>
+    <position unit="cm" name="BeltRigthPlacement1_16" x="896.4" y="41.650000000000034" z="-2604.6900000000014"/>
+    <position unit="cm" name="BeltLeftPlacement_1_16" x="-896.4" y="41.650000000000034" z="2604.6900000000014"/>
+    <position unit="cm" name="BeltRigthPlacement_1_16" x="896.4" y="41.650000000000034" z="2604.6900000000014"/>
     <position unit="cm" name="BeltLeftPlacement2_16" x="-896.4" y="-358.34999999999997" z="-2604.6900000000014"/>
     <position unit="cm" name="BeltRigthPlacement2_16" x="896.4" y="-358.34999999999997" z="-2604.6900000000014"/>
     <position unit="cm" name="BeltLeftPlacement_2_16" x="-896.4" y="-358.34999999999997" z="2604.6900000000014"/>
@@ -1025,10 +1025,10 @@
     <position unit="cm" name="BeltRigthPlacement0_17" x="896.4" y="441.6500000000001" z="-2762.5500000000015"/>
     <position unit="cm" name="BeltLeftPlacement_0_17" x="-896.4" y="441.6500000000001" z="2762.5500000000015"/>
     <position unit="cm" name="BeltRigthPlacement_0_17" x="896.4" y="441.6500000000001" z="2762.5500000000015"/>
-    <position unit="cm" name="BeltLeftPlacement1_17" x="-896.4" y="-758.3499999999999" z="-2762.5500000000015"/>
-    <position unit="cm" name="BeltRigthPlacement1_17" x="896.4" y="-758.3499999999999" z="-2762.5500000000015"/>
-    <position unit="cm" name="BeltLeftPlacement_1_17" x="-896.4" y="-758.3499999999999" z="2762.5500000000015"/>
-    <position unit="cm" name="BeltRigthPlacement_1_17" x="896.4" y="-758.3499999999999" z="2762.5500000000015"/>
+    <position unit="cm" name="BeltLeftPlacement1_17" x="-896.4" y="41.650000000000034" z="-2762.5500000000015"/>
+    <position unit="cm" name="BeltRigthPlacement1_17" x="896.4" y="41.650000000000034" z="-2762.5500000000015"/>
+    <position unit="cm" name="BeltLeftPlacement_1_17" x="-896.4" y="41.650000000000034" z="2762.5500000000015"/>
+    <position unit="cm" name="BeltRigthPlacement_1_17" x="896.4" y="41.650000000000034" z="2762.5500000000015"/>
     <position unit="cm" name="BeltLeftPlacement2_17" x="-896.4" y="-358.34999999999997" z="-2762.5500000000015"/>
     <position unit="cm" name="BeltRigthPlacement2_17" x="896.4" y="-358.34999999999997" z="-2762.5500000000015"/>
     <position unit="cm" name="BeltLeftPlacement_2_17" x="-896.4" y="-358.34999999999997" z="2762.5500000000015"/>
@@ -1073,10 +1073,10 @@
     <position unit="cm" name="BeltRigthPlacement0_18" x="896.4" y="441.6500000000001" z="-2920.4100000000017"/>
     <position unit="cm" name="BeltLeftPlacement_0_18" x="-896.4" y="441.6500000000001" z="2920.4100000000017"/>
     <position unit="cm" name="BeltRigthPlacement_0_18" x="896.4" y="441.6500000000001" z="2920.4100000000017"/>
-    <position unit="cm" name="BeltLeftPlacement1_18" x="-896.4" y="-758.3499999999999" z="-2920.4100000000017"/>
-    <position unit="cm" name="BeltRigthPlacement1_18" x="896.4" y="-758.3499999999999" z="-2920.4100000000017"/>
-    <position unit="cm" name="BeltLeftPlacement_1_18" x="-896.4" y="-758.3499999999999" z="2920.4100000000017"/>
-    <position unit="cm" name="BeltRigthPlacement_1_18" x="896.4" y="-758.3499999999999" z="2920.4100000000017"/>
+    <position unit="cm" name="BeltLeftPlacement1_18" x="-896.4" y="41.650000000000034" z="-2920.4100000000017"/>
+    <position unit="cm" name="BeltRigthPlacement1_18" x="896.4" y="41.650000000000034" z="-2920.4100000000017"/>
+    <position unit="cm" name="BeltLeftPlacement_1_18" x="-896.4" y="41.650000000000034" z="2920.4100000000017"/>
+    <position unit="cm" name="BeltRigthPlacement_1_18" x="896.4" y="41.650000000000034" z="2920.4100000000017"/>
     <position unit="cm" name="BeltLeftPlacement2_18" x="-896.4" y="-358.34999999999997" z="-2920.4100000000017"/>
     <position unit="cm" name="BeltRigthPlacement2_18" x="896.4" y="-358.34999999999997" z="-2920.4100000000017"/>
     <position unit="cm" name="BeltLeftPlacement_2_18" x="-896.4" y="-358.34999999999997" z="2920.4100000000017"/>
@@ -1085,14 +1085,14 @@
     <position unit="cm" name="BeltRigthPlacement3_18" x="896.4" y="819.6" z="-2920.4100000000017"/>
     <position unit="cm" name="BeltLeftPlacement_3_18" x="-896.4" y="819.6" z="2920.4100000000017"/>
     <position unit="cm" name="BeltRigthPlacement_3_18" x="896.4" y="819.6" z="2920.4100000000017"/>
-    <position unit="cm" name="BeltBackPlacement_00" x="-78.93" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltBackPlacement2_00" x="78.93" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement_00" x="-78.93" y="-358.34999999999997" z="3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement2_00" x="78.93" y="-358.34999999999997" z="3236.7"/>
-    <position unit="cm" name="BeltBackPlacement_10" x="-78.93" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltBackPlacement2_10" x="78.93" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement_10" x="-78.93" y="-358.34999999999997" z="3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement2_10" x="78.93" y="-358.34999999999997" z="3236.7"/>
+    <position unit="cm" name="BeltBackPlacement_00" x="-78.93" y="441.6500000000001" z="-3236.7"/>
+    <position unit="cm" name="BeltBackPlacement2_00" x="78.93" y="441.6500000000001" z="-3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement_00" x="-78.93" y="441.6500000000001" z="3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement2_00" x="78.93" y="441.6500000000001" z="3236.7"/>
+    <position unit="cm" name="BeltBackPlacement_10" x="-78.93" y="41.650000000000034" z="-3236.7"/>
+    <position unit="cm" name="BeltBackPlacement2_10" x="78.93" y="41.650000000000034" z="-3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement_10" x="-78.93" y="41.650000000000034" z="3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement2_10" x="78.93" y="41.650000000000034" z="3236.7"/>
     <position unit="cm" name="BeltBackPlacement_20" x="-78.93" y="-358.34999999999997" z="-3236.7"/>
     <position unit="cm" name="BeltBackPlacement2_20" x="78.93" y="-358.34999999999997" z="-3236.7"/>
     <position unit="cm" name="BeltFrontPlacement_20" x="-78.93" y="-358.34999999999997" z="3236.7"/>
@@ -1101,14 +1101,14 @@
     <position unit="cm" name="BeltBackPlacement2_30" x="78.93" y="841.1" z="-3236.7"/>
     <position unit="cm" name="BeltFrontPlacement_30" x="-78.93" y="841.1" z="3236.7"/>
     <position unit="cm" name="BeltFrontPlacement2_30" x="78.93" y="841.1" z="3236.7"/>
-    <position unit="cm" name="BeltBackPlacement_01" x="-157.86" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltBackPlacement2_01" x="157.86" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement_01" x="-157.86" y="-358.34999999999997" z="3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement2_01" x="157.86" y="-358.34999999999997" z="3236.7"/>
-    <position unit="cm" name="BeltBackPlacement_11" x="-157.86" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltBackPlacement2_11" x="157.86" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement_11" x="-157.86" y="-358.34999999999997" z="3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement2_11" x="157.86" y="-358.34999999999997" z="3236.7"/>
+    <position unit="cm" name="BeltBackPlacement_01" x="-157.86" y="441.6500000000001" z="-3236.7"/>
+    <position unit="cm" name="BeltBackPlacement2_01" x="157.86" y="441.6500000000001" z="-3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement_01" x="-157.86" y="441.6500000000001" z="3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement2_01" x="157.86" y="441.6500000000001" z="3236.7"/>
+    <position unit="cm" name="BeltBackPlacement_11" x="-157.86" y="41.650000000000034" z="-3236.7"/>
+    <position unit="cm" name="BeltBackPlacement2_11" x="157.86" y="41.650000000000034" z="-3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement_11" x="-157.86" y="41.650000000000034" z="3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement2_11" x="157.86" y="41.650000000000034" z="3236.7"/>
     <position unit="cm" name="BeltBackPlacement_21" x="-157.86" y="-358.34999999999997" z="-3236.7"/>
     <position unit="cm" name="BeltBackPlacement2_21" x="157.86" y="-358.34999999999997" z="-3236.7"/>
     <position unit="cm" name="BeltFrontPlacement_21" x="-157.86" y="-358.34999999999997" z="3236.7"/>
@@ -1117,14 +1117,14 @@
     <position unit="cm" name="BeltBackPlacement2_31" x="157.86" y="841.1" z="-3236.7"/>
     <position unit="cm" name="BeltFrontPlacement_31" x="-157.86" y="841.1" z="3236.7"/>
     <position unit="cm" name="BeltFrontPlacement2_31" x="157.86" y="841.1" z="3236.7"/>
-    <position unit="cm" name="BeltBackPlacement_02" x="-157.86" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltBackPlacement2_02" x="157.86" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement_02" x="-157.86" y="-358.34999999999997" z="3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement2_02" x="157.86" y="-358.34999999999997" z="3236.7"/>
-    <position unit="cm" name="BeltBackPlacement_12" x="-157.86" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltBackPlacement2_12" x="157.86" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement_12" x="-157.86" y="-358.34999999999997" z="3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement2_12" x="157.86" y="-358.34999999999997" z="3236.7"/>
+    <position unit="cm" name="BeltBackPlacement_02" x="-157.86" y="441.6500000000001" z="-3236.7"/>
+    <position unit="cm" name="BeltBackPlacement2_02" x="157.86" y="441.6500000000001" z="-3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement_02" x="-157.86" y="441.6500000000001" z="3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement2_02" x="157.86" y="441.6500000000001" z="3236.7"/>
+    <position unit="cm" name="BeltBackPlacement_12" x="-157.86" y="41.650000000000034" z="-3236.7"/>
+    <position unit="cm" name="BeltBackPlacement2_12" x="157.86" y="41.650000000000034" z="-3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement_12" x="-157.86" y="41.650000000000034" z="3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement2_12" x="157.86" y="41.650000000000034" z="3236.7"/>
     <position unit="cm" name="BeltBackPlacement_22" x="-157.86" y="-358.34999999999997" z="-3236.7"/>
     <position unit="cm" name="BeltBackPlacement2_22" x="157.86" y="-358.34999999999997" z="-3236.7"/>
     <position unit="cm" name="BeltFrontPlacement_22" x="-157.86" y="-358.34999999999997" z="3236.7"/>
@@ -1133,14 +1133,14 @@
     <position unit="cm" name="BeltBackPlacement2_32" x="157.86" y="841.1" z="-3236.7"/>
     <position unit="cm" name="BeltFrontPlacement_32" x="-157.86" y="841.1" z="3236.7"/>
     <position unit="cm" name="BeltFrontPlacement2_32" x="157.86" y="841.1" z="3236.7"/>
-    <position unit="cm" name="BeltBackPlacement_03" x="-157.86" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltBackPlacement2_03" x="157.86" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement_03" x="-157.86" y="-358.34999999999997" z="3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement2_03" x="157.86" y="-358.34999999999997" z="3236.7"/>
-    <position unit="cm" name="BeltBackPlacement_13" x="-157.86" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltBackPlacement2_13" x="157.86" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement_13" x="-157.86" y="-358.34999999999997" z="3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement2_13" x="157.86" y="-358.34999999999997" z="3236.7"/>
+    <position unit="cm" name="BeltBackPlacement_03" x="-157.86" y="441.6500000000001" z="-3236.7"/>
+    <position unit="cm" name="BeltBackPlacement2_03" x="157.86" y="441.6500000000001" z="-3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement_03" x="-157.86" y="441.6500000000001" z="3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement2_03" x="157.86" y="441.6500000000001" z="3236.7"/>
+    <position unit="cm" name="BeltBackPlacement_13" x="-157.86" y="41.650000000000034" z="-3236.7"/>
+    <position unit="cm" name="BeltBackPlacement2_13" x="157.86" y="41.650000000000034" z="-3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement_13" x="-157.86" y="41.650000000000034" z="3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement2_13" x="157.86" y="41.650000000000034" z="3236.7"/>
     <position unit="cm" name="BeltBackPlacement_23" x="-157.86" y="-358.34999999999997" z="-3236.7"/>
     <position unit="cm" name="BeltBackPlacement2_23" x="157.86" y="-358.34999999999997" z="-3236.7"/>
     <position unit="cm" name="BeltFrontPlacement_23" x="-157.86" y="-358.34999999999997" z="3236.7"/>
@@ -1149,14 +1149,14 @@
     <position unit="cm" name="BeltBackPlacement2_33" x="157.86" y="841.1" z="-3236.7"/>
     <position unit="cm" name="BeltFrontPlacement_33" x="-157.86" y="841.1" z="3236.7"/>
     <position unit="cm" name="BeltFrontPlacement2_33" x="157.86" y="841.1" z="3236.7"/>
-    <position unit="cm" name="BeltBackPlacement_04" x="-157.86" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltBackPlacement2_04" x="157.86" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement_04" x="-157.86" y="-358.34999999999997" z="3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement2_04" x="157.86" y="-358.34999999999997" z="3236.7"/>
-    <position unit="cm" name="BeltBackPlacement_14" x="-157.86" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltBackPlacement2_14" x="157.86" y="-358.34999999999997" z="-3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement_14" x="-157.86" y="-358.34999999999997" z="3236.7"/>
-    <position unit="cm" name="BeltFrontPlacement2_14" x="157.86" y="-358.34999999999997" z="3236.7"/>
+    <position unit="cm" name="BeltBackPlacement_04" x="-157.86" y="441.6500000000001" z="-3236.7"/>
+    <position unit="cm" name="BeltBackPlacement2_04" x="157.86" y="441.6500000000001" z="-3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement_04" x="-157.86" y="441.6500000000001" z="3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement2_04" x="157.86" y="441.6500000000001" z="3236.7"/>
+    <position unit="cm" name="BeltBackPlacement_14" x="-157.86" y="41.650000000000034" z="-3236.7"/>
+    <position unit="cm" name="BeltBackPlacement2_14" x="157.86" y="41.650000000000034" z="-3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement_14" x="-157.86" y="41.650000000000034" z="3236.7"/>
+    <position unit="cm" name="BeltFrontPlacement2_14" x="157.86" y="41.650000000000034" z="3236.7"/>
     <position unit="cm" name="BeltBackPlacement_24" x="-157.86" y="-358.34999999999997" z="-3236.7"/>
     <position unit="cm" name="BeltBackPlacement2_24" x="157.86" y="-358.34999999999997" z="-3236.7"/>
     <position unit="cm" name="BeltFrontPlacement_24" x="-157.86" y="-358.34999999999997" z="3236.7"/>
@@ -1170,6 +1170,18 @@
     <position unit="cm" name="WoodPosition" x="0" y="0" z="0"/>
     <position unit="cm" name="WarmskinPosition" x="0" y="0" z="0"/>
     <position unit="cm" name="OuterAirPosition" x="0" y="0" z="0"/>
+    <rotation unit="degree" name="dr" x="0" y="0" z="0"/>
+    <position unit="cm" name="DetEnclosureLAr_ArchPos" x="0" y="332.160709162" z="0"/>
+    <position unit="cm" name="posTube" x="0" y="370.84561412" z="0"/>
+    <position unit="cm" name="posFirstSub" x="0" y="100" z="0"/>
+    <position unit="cm" name="RadioRockShellPositionInPlacement" x="0" y="0" z="0"/>
+    <position unit="cm" name="ConcretePositionInPlacement" x="0" y="-1043.53" z="0"/>
+    <position unit="cm" name="GroutPositionInPlacement" x="0" y="-1028.29" z="0"/>
+    <position unit="cm" name="shotOuterArchPos" x="0" y="332.160709162" z="0"/>
+    <position unit="cm" name="posInnerBoxSub" x="0" y="0" z="0"/>
+    <position unit="cm" name="posInnerArchSub" x="0" y="338.428648695" z="0"/>
+    <position unit="cm" name="posOuterMinusBoxSub" x="0" y="-1142.26" z="0"/>
+    <position unit="cm" name="ShotBoxPositionInPlacement" x="0" y="100" z="0"/>
     <position unit="cm" name="posCryoInDetEnc" x="-50.0000000000001" y="0" z="0"/>
     <position unit="cm" name="posCenter" x="0" y="0" z="0"/>
     <rotation unit="degree" name="rUWireAboutX" x="150" y="0" z="0"/>
@@ -1617,8 +1629,8 @@
       <positionref ref="BottomPosition"/>
       <rotationref ref="identity"/>
     </union>
-    <box name="BeltFlange" lunit="cm" x="20.0" y="2.2" z="155.65800000000002"/>
-    <box name="BeltMid" lunit="cm" x="2.2" y="55.4" z="155.65800000000002"/>
+    <box name="BeltFlange" lunit="cm" x="20.0" y="2.2" z="155.46000000000004"/>
+    <box name="BeltMid" lunit="cm" x="2.2" y="55.4" z="155.46000000000004"/>
     <tube name="BeltPortHole" lunit="cm" aunit="radian" rmin="0.0" rmax="25.0" z="4.0" startphi="0.0" deltaphi="6.283185307179586"/>
     <subtraction name="BeltHole">
       <first ref="BeltMid"/>
@@ -1686,6 +1698,59 @@
       <positionref ref="center"/>
       <rotationref ref="identity"/>
     </subtraction>
+    <box name="DetEnclosureBox" lunit="cm" x="1980.0" y="2315.0" z="15060.0"/>
+    <box name="RadioRockBox" lunit="cm" x="2380.0" y="2515.0" z="15460.0"/>
+    <box name="ConcreteBox" lunit="cm" x="1980.0" y="27.49" z="15060.0"/>
+    <box name="GroutBox" lunit="cm" x="1980.0" y="2.54" z="15060.0"/>
+    <tube name="DetEnclosureArch" lunit="cm" aunit="radian" rmin="0.0" rmax="1284.0" z="15060.0" startphi="0.6981317007997317" deltaphi="1.7453292519943295"/>
+    <tube name="RockArch" lunit="cm" aunit="radian" rmin="0.0" rmax="1484.0" z="15460.0" startphi="0.6403498291205884" deltaphi="1.8608929953546158"/>
+    <union name="DetEnclosureLArBoolAdd">
+      <first ref="DetEnclosureBox"/>
+      <second ref="DetEnclosureArch"/>
+      <positionref ref="DetEnclosureLAr_ArchPos"/>
+      <rotationref ref="identity"/>
+    </union>
+    <union name="RockAddition">
+      <first ref="RadioRockBox"/>
+      <second ref="RockArch"/>
+      <positionref ref="posTube"/>
+      <rotationref ref="identity"/>
+    </union>
+    <subtraction name="FirstSub">
+      <first ref="RockAddition"/>
+      <second ref="DetEnclosureLArBoolAdd"/>
+      <positionref ref="posFirstSub"/>
+      <rotationref ref="dr"/>
+    </subtraction>
+    <box name="oncSubBox" lunit="cm" x="1980.0" y="30.48" z="15060.0"/>
+    <box name="ShotInnerBox" lunit="cm" x="1959.68" y="2315.0" z="15039.68"/>
+    <box name="ShotOuterBox" lunit="cm" x="1980.68" y="2315.0" z="15060.0"/>
+    <tube name="ShotOuterArch" lunit="cm" aunit="radian" rmin="0.0" rmax="1284.0" z="15060.0" startphi="0.6981317007997317" deltaphi="1.7453292519943295"/>
+    <tube name="ShotInnerArch" lunit="cm" aunit="radian" rmin="0.0" rmax="1273.84" z="15039.68" startphi="0.6932052693447195" deltaphi="1.7551821149043472"/>
+    <union name="ShotOuterBoolAdd">
+      <first ref="ShotOuterBox"/>
+      <second ref="ShotOuterArch"/>
+      <positionref ref="shotOuterArchPos"/>
+      <rotationref ref="identity"/>
+    </union>
+    <subtraction name="ShotInnerBoxSub">
+      <first ref="ShotOuterBoolAdd"/>
+      <second ref="ShotInnerBox"/>
+      <positionref ref="posInnerBoxSub"/>
+      <rotationref ref="dr"/>
+    </subtraction>
+    <subtraction name="ShotInnerArchSub">
+      <first ref="ShotInnerBoxSub"/>
+      <second ref="ShotInnerArch"/>
+      <positionref ref="posInnerArchSub"/>
+      <rotationref ref="dr"/>
+    </subtraction>
+    <subtraction name="ShotOuterMinusBox">
+      <first ref="ShotInnerArchSub"/>
+      <second ref="oncSubBox"/>
+      <positionref ref="posOuterMinusBoxSub"/>
+      <rotationref ref="dr"/>
+    </subtraction>
     <box name="World" lunit="cm" x="5000.0" y="5000.0" z="7500.0"/>
   </solids>
   <structure>
@@ -1729,8 +1794,24 @@
       <materialref ref="Air"/>
       <solidref ref="OuterAir"/>
     </volume>
-    <volume name="volWorld">
+    <volume name="VolRadioRockShell">
       <materialref ref="DUSEL_Rock"/>
+      <solidref ref="FirstSub"/>
+    </volume>
+    <volume name="volConcrete">
+      <materialref ref="Concrete"/>
+      <solidref ref="ConcreteBox"/>
+    </volume>
+    <volume name="volGrout">
+      <materialref ref="Concrete"/>
+      <solidref ref="GroutBox"/>
+    </volume>
+    <volume name="VolShotBox">
+      <materialref ref="Concrete"/>
+      <solidref ref="ShotOuterMinusBox"/>
+    </volume>
+    <volume name="volWorld">
+      <materialref ref="Air"/>
       <solidref ref="World"/>
       <physvol>
         <volumeref ref="IBeamTop"/>
@@ -7496,6 +7577,26 @@
         <volumeref ref="OuterAirLog"/>
         <positionref ref="OuterAirPosition"/>
         <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VolRadioRockShell"/>
+        <positionref ref="RadioRockShellPositionInPlacement"/>
+        <rotationref ref="dr"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volConcrete"/>
+        <positionref ref="ConcretePositionInPlacement"/>
+        <rotationref ref="dr"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volGrout"/>
+        <positionref ref="GroutPositionInPlacement"/>
+        <rotationref ref="dr"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VolShotBox"/>
+        <positionref ref="ShotBoxPositionInPlacement"/>
+        <rotationref ref="dr"/>
       </physvol>
     </volume>
   </structure>
