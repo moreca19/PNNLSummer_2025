@@ -168,7 +168,7 @@
     <position unit="cm" name="IBeamFrontPlacementPos23" x="0" y="-631.44" z="3236.6"/>
     <position unit="cm" name="IBeamBackPlacementPos23" x="0" y="-631.44" z="-3236.6"/>
     <rotation unit="degree" name="fcBelt" x="0" y="0" z="90"/>
-    <rotation unit="degree" name="fc2Belt" x="0" y="90" z="0"/>
+    <rotation unit="degree" name="fc2Belt" x="0" y="90" z="90"/>
     <rotation unit="degree" name="fc3Belt" x="90" y="0" z="90"/>
     <position unit="cm" name="BeltHoleSub" x="0" y="0" z="0"/>
     <position unit="cm" name="tr1" x="27.7" y="0" z="0"/>
