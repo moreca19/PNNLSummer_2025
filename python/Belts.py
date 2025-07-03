@@ -77,7 +77,7 @@ class BeltsBuilder(gegede.builder.Builder):
 					dphi = Q('360deg')) 
         
         fcRotation = geom.structure.Rotation('fcBelt', x= "0deg", y= "0deg",z= "90deg")
-        fc2Rotation = geom.structure.Rotation('fc2Belt',x= "0deg", y= "90deg",z= "0deg")
+        fc2Rotation = geom.structure.Rotation('fc2Belt',x= "0deg", y= "90deg",z= "90deg")
         fc3Rotation = geom.structure.Rotation('fc3Belt', x= "90deg", y= "0deg",z= "90deg")
         
 

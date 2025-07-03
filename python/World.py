@@ -123,10 +123,10 @@ class WorldBuilder(gegede.builder.Builder):
         for i in CryostatPlacement:
             worldLV.placements.append(i.name)
 
-        # Cavern = self.get_builder("Cavern")
-        # CavernPlacement = Cavern.PlacementList
-        # for i in CavernPlacement:
-        #     worldLV.placements.append(i.name)
+        Cavern = self.get_builder("Cavern")
+        CavernPlacement = Cavern.PlacementList
+        for i in CavernPlacement:
+            worldLV.placements.append(i.name)
 
 	ShieldingFloors = self.get_builder("ShieldingFloors")
 	ShiledingFloorPlacements = ShileldingFloors.PlacementList:

@@ -19,7 +19,7 @@ fIPortSpacing = Q('400cm')
 
 
 fITopLength = Q('1783.2cm') + fIFlangeHeight
-fISideLength = Q('1673.2cm') + fIFlangeHeight
+fISideLength = Q('1473.2cm') + fIFlangeHeight
 fIPortHoleRad = Q('40cm')	
 	
 #....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -86,12 +86,12 @@ class IBeamsBuilder(gegede.builder.Builder):
         IBeamBotMidtmp = geom.shapes.Boolean('IBeamBottomtmp', type = 'subtraction', 
 						first = IBeamTopMid, 
 						second = IBeamPort,
-						pos = geom.structure.Position('PosOfIBeam', x="0cm", y="0cm", z=(fIPortSpacing/2 )), 
+						pos = geom.structure.Position('PosOfIBeam', x="0cm", y="0cm", z=fIPortSpacing/2), 
 						rot = fcRotation)## these next couple of subtractions are basically cutting out a part of thr first object passed in with the second object, still need to create the global variables
         IBeamBotMid = geom.shapes.Boolean('IBeamBottom', type = 'subtraction', 
 						first = IBeamBotMidtmp, 
 						second = IBeamPort,
-						pos = geom.structure.Position('PosOfIBeam2', x="0cm", y="0cm", z=(-fIPortSpacing/2)), 
+						pos = geom.structure.Position('PosOfIBeam2', x="0cm", y="0cm", z=-fIPortSpacing/2), 
 						rot = fcRotation)
         IBeamSideMidtmp1 = geom.shapes.Boolean('IBeamSidetmp', type = 'subtraction', 
 						first = IBeamSideMidtmp0, 
