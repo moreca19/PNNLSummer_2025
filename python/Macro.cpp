@@ -41,6 +41,8 @@ int main(int argc, char **argv)
     TGeoVolume* vol4 = gGeoManager->FindVolumeFast("IBeamSide");
     vol4->SetLineColor(kGreen);
     vol4->SetFillColor(kGreen);
+    vol4->SetTransparency(0);
+    vol4->Draw("sh");
     TGeoVolume* vol5 = gGeoManager->FindVolumeFast("IBeamTop");
     vol5->SetLineColor(kGreen);
     vol5->SetFillColor(kGreen);
@@ -59,7 +61,7 @@ int main(int argc, char **argv)
     vol8->SetFillColor(kViolet);
     
 
-    gGeoManager->GetTopVolume()->Draw("same");
+    gGeoManager->GetTopVolume()->Draw("sh");
 
     app.Run();
     return 0;
