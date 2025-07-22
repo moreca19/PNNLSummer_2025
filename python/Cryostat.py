@@ -64,6 +64,7 @@ class CryostatBuilder(gegede.builder.Builder):
     def construct(self, geom):
         globals.SetDerived()
         self.PlacementList = []
+        
         ###this is the start of Cryostat logical volume ###
         fSolidCryostat = geom.shapes.Box('Cryostat',
 					dy = fCryostat_x/2 + Offset,
@@ -79,7 +80,7 @@ class CryostatBuilder(gegede.builder.Builder):
 						second = fSolidCryostat,
         )              
 
-        fLogicShell = make_volume(geom, 'AirSteelMixture', fShell, "fShellLog", aux=True) ## need to fix the material used
+        fLogicShell = make_volume(geom, 'fDuneSteel', fShell, "fShellLog", aux=True) 
         
 
 
@@ -104,7 +105,7 @@ class CryostatBuilder(gegede.builder.Builder):
         sShield = geom.shapes.Boolean('Foam', type = 'subtraction', 
 						first = sOutShield, 
 						second = ShellOut)
-        fLogicShield = make_volume(geom,"AirSteelMixture",sShield,"FoamLog", aux=True) ## need to fix the material used
+        fLogicShield = make_volume(geom,"Foam",sShield,"FoamLog", aux=True) 
         
         FoamPla = geom.structure.Placement('FoamPlacement',
                                                                 
@@ -128,7 +129,7 @@ class CryostatBuilder(gegede.builder.Builder):
 						first = sOutWood, 
 						second = sOutShield)
         
-        fLogicWood = make_volume(geom, "AirSteelMixture", sWood, "WoodLog",aux=True)
+        fLogicWood = make_volume(geom, "Wood", sWood, "WoodLog",aux=True) 
 
         WoodPla = geom.structure.Placement('WoodPlacement',
                                                                 
@@ -166,7 +167,7 @@ class CryostatBuilder(gegede.builder.Builder):
 
         ##this is the start of air box logical volume###
 
-        worldBox = geom.shapes.Box("WorldBox",
+        '''worldBox = geom.shapes.Box("WorldBox",
                                    dy=Q('5000cm')/2 ,
                                    dx=Q('5000cm')/2,
                                    dz=Q('7500cm')/2)
@@ -186,7 +187,7 @@ class CryostatBuilder(gegede.builder.Builder):
                                             ) 
         self.PlacementList.append(OuterAirPla)
 
-        
+        '''
 
     
         

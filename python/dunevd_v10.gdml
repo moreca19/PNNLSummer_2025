@@ -3,7 +3,7 @@
   <define>
     <rotation unit="degree" name="fc" x="90" y="0" z="0"/>
     <rotation unit="degree" name="fc2" x="0" y="90" z="90"/>
-    <rotation unit="degree" name="fc3" x="90" y="90" z="0"/>
+    <rotation unit="degree" name="fc3" x="0" y="90" z="0"/>
     <position unit="cm" name="PosOfIBeam" x="0" y="0" z="200.0"/>
     <position unit="cm" name="PosOfIBeam2" x="0" y="0" z="-200.0"/>
     <position unit="cm" name="PosOfIBeam3" x="0" y="0" z="256.69999999999993"/>
@@ -151,22 +151,40 @@
     <position unit="cm" name="IBeamBotPlacementPos217" x="-841.1" y="0" z="-2683.6200000000013"/>
     <position unit="cm" name="IBeamLeftPlacementPos217" x="0" y="-896.4" z="-2683.6200000000013"/>
     <position unit="cm" name="IBeamRightPlacementPos217" x="0" y="896.4" z="-2683.6200000000013"/>
+    <position unit="cm" name="IBeamTopPlacementPos18" x="841.1" y="0" z="2841.4800000000014"/>
+    <position unit="cm" name="IBeamBackPlacementPos18" x="-841.1" y="0" z="2841.4800000000014"/>
+    <position unit="cm" name="IBeamLeftPlacementPos18" x="0" y="-896.4" z="2841.4800000000014"/>
+    <position unit="cm" name="IBeamRightPlacementPos18" x="0" y="896.4" z="2841.4800000000014"/>
+    <position unit="cm" name="IBeamTopPlacementPos218" x="841.1" y="0" z="-2841.4800000000014"/>
+    <position unit="cm" name="IBeamBotPlacementPos218" x="-841.1" y="0" z="-2841.4800000000014"/>
+    <position unit="cm" name="IBeamLeftPlacementPos218" x="0" y="-896.4" z="-2841.4800000000014"/>
+    <position unit="cm" name="IBeamRightPlacementPos218" x="0" y="896.4" z="-2841.4800000000014"/>
+    <position unit="cm" name="IBeamTopPlacementPos19" x="841.1" y="0" z="2999.3400000000015"/>
+    <position unit="cm" name="IBeamBackPlacementPos19" x="-841.1" y="0" z="2999.3400000000015"/>
+    <position unit="cm" name="IBeamLeftPlacementPos19" x="0" y="-896.4" z="2999.3400000000015"/>
+    <position unit="cm" name="IBeamRightPlacementPos19" x="0" y="896.4" z="2999.3400000000015"/>
+    <position unit="cm" name="IBeamTopPlacementPos219" x="841.1" y="0" z="-2999.3400000000015"/>
+    <position unit="cm" name="IBeamBotPlacementPos219" x="-841.1" y="0" z="-2999.3400000000015"/>
+    <position unit="cm" name="IBeamLeftPlacementPos219" x="0" y="-896.4" z="-2999.3400000000015"/>
+    <position unit="cm" name="IBeamRightPlacementPos219" x="0" y="896.4" z="-2999.3400000000015"/>
     <position unit="cm" name="IBeamFrontPlacementPos0" x="0" y="0" z="3236.6"/>
     <position unit="cm" name="IBeamBackPlacementPos2ndLoop0" x="0" y="0" z="-3236.6"/>
-    <position unit="cm" name="IBeamFrontPlacementPos20" x="0" y="-157.86" z="3236.6"/>
-    <position unit="cm" name="IBeamBackPlacementPos20" x="0" y="-157.86" z="-3236.6"/>
-    <position unit="cm" name="IBeamFrontPlacementPos1" x="0" y="315.72" z="3236.6"/>
-    <position unit="cm" name="IBeamBackPlacementPos2ndLoop1" x="0" y="315.72" z="-3236.6"/>
-    <position unit="cm" name="IBeamFrontPlacementPos21" x="0" y="-315.72" z="3236.6"/>
-    <position unit="cm" name="IBeamBackPlacementPos21" x="0" y="-315.72" z="-3236.6"/>
-    <position unit="cm" name="IBeamFrontPlacementPos2" x="0" y="473.58000000000004" z="3236.6"/>
-    <position unit="cm" name="IBeamBackPlacementPos2ndLoop2" x="0" y="473.58000000000004" z="-3236.6"/>
-    <position unit="cm" name="IBeamFrontPlacementPos22" x="0" y="-473.58000000000004" z="3236.6"/>
-    <position unit="cm" name="IBeamBackPlacementPos22" x="0" y="-473.58000000000004" z="-3236.6"/>
-    <position unit="cm" name="IBeamFrontPlacementPos3" x="0" y="631.44" z="3236.6"/>
-    <position unit="cm" name="IBeamBackPlacementPos2ndLoop3" x="0" y="631.44" z="-3236.6"/>
-    <position unit="cm" name="IBeamFrontPlacementPos23" x="0" y="-631.44" z="3236.6"/>
-    <position unit="cm" name="IBeamBackPlacementPos23" x="0" y="-631.44" z="-3236.6"/>
+    <position unit="cm" name="IBeamFrontPlacementPos1" x="0" y="157.86" z="3236.6"/>
+    <position unit="cm" name="IBeamBackPlacementPos2ndLoop1" x="0" y="157.86" z="-3236.6"/>
+    <position unit="cm" name="IBeamFrontPlacementPos21" x="0" y="-157.86" z="3236.6"/>
+    <position unit="cm" name="IBeamBackPlacementPos21" x="0" y="-157.86" z="-3236.6"/>
+    <position unit="cm" name="IBeamFrontPlacementPos2" x="0" y="315.72" z="3236.6"/>
+    <position unit="cm" name="IBeamBackPlacementPos2ndLoop2" x="0" y="315.72" z="-3236.6"/>
+    <position unit="cm" name="IBeamFrontPlacementPos22" x="0" y="-315.72" z="3236.6"/>
+    <position unit="cm" name="IBeamBackPlacementPos22" x="0" y="-315.72" z="-3236.6"/>
+    <position unit="cm" name="IBeamFrontPlacementPos3" x="0" y="473.58000000000004" z="3236.6"/>
+    <position unit="cm" name="IBeamBackPlacementPos2ndLoop3" x="0" y="473.58000000000004" z="-3236.6"/>
+    <position unit="cm" name="IBeamFrontPlacementPos23" x="0" y="-473.58000000000004" z="3236.6"/>
+    <position unit="cm" name="IBeamBackPlacementPos23" x="0" y="-473.58000000000004" z="-3236.6"/>
+    <position unit="cm" name="IBeamFrontPlacementPos4" x="0" y="631.44" z="3236.6"/>
+    <position unit="cm" name="IBeamBackPlacementPos2ndLoop4" x="0" y="631.44" z="-3236.6"/>
+    <position unit="cm" name="IBeamFrontPlacementPos24" x="0" y="-631.44" z="3236.6"/>
+    <position unit="cm" name="IBeamBackPlacementPos24" x="0" y="-631.44" z="-3236.6"/>
     <rotation unit="degree" name="fcBelt" x="0" y="0" z="90"/>
     <rotation unit="degree" name="fc2Belt" x="0" y="90" z="90"/>
     <rotation unit="degree" name="fc3Belt" x="90" y="0" z="90"/>
@@ -1169,21 +1187,500 @@
     <position unit="cm" name="FoamPosition" x="0" y="0" z="0"/>
     <position unit="cm" name="WoodPosition" x="0" y="0" z="0"/>
     <position unit="cm" name="WarmskinPosition" x="0" y="0" z="0"/>
-    <position unit="cm" name="OuterAirPosition" x="0" y="0" z="0"/>
     <rotation unit="degree" name="dr" x="0" y="0" z="0"/>
     <rotation unit="degree" name="dr2" x="0" y="0" z="-90"/>
     <rotation unit="degree" name="dr3" x="0" y="0" z="-180"/>
     <position unit="cm" name="DetEnclosureLAr_ArchPos" x="332.160709162" y="0" z="0"/>
     <position unit="cm" name="posTube" x="370.84561412" y="0" z="0"/>
     <position unit="cm" name="posFirstSub" x="100" y="0" z="0"/>
-    <position unit="cm" name="RadioRockShellPositionInPlacement" x="0" y="0" z="-4195.3"/>
-    <position unit="cm" name="ConcretePositionInPlacement" x="-1043.53" y="0" z="-4195.3"/>
-    <position unit="cm" name="GroutPositionInPlacement" x="-1028.29" y="0" z="-4195.3"/>
+    <position unit="cm" name="RadioRockShellPositionInPlacement" x="0" y="0" z="-4000"/>
+    <position unit="cm" name="ConcretePositionInPlacement" x="-1043.53" y="0" z="-4000"/>
+    <position unit="cm" name="GroutPositionInPlacement" x="-1028.29" y="0" z="-4000"/>
     <position unit="cm" name="shotOuterArchPos" x="332.160709162" y="0" z="0"/>
     <position unit="cm" name="posInnerBoxSub" x="0" y="0" z="0"/>
     <position unit="cm" name="posInnerArchSub" x="338.428648695" y="0" z="0"/>
     <position unit="cm" name="posOuterMinusBoxSub" x="-1142.26" y="0" z="0"/>
-    <position unit="cm" name="ShotBoxPositionInPlacement" x="100" y="0" z="-4195.3"/>
+    <position unit="cm" name="ShotBoxPositionInPlacement" x="100" y="0" z="-4000"/>
+    <position unit="cm" name="ShieldLeftPosition00" x="0" y="-896.40031" z="78.93"/>
+    <position unit="cm" name="ShieldRightPosition00" x="0" y="896.40031" z="-78.93"/>
+    <position unit="cm" name="ShieldLeft2Position00" x="0" y="-896.40031" z="78.93"/>
+    <position unit="cm" name="ShieldRight2Position00" x="0" y="896.40031" z="78.93"/>
+    <position unit="cm" name="ShieldLeftPosition01" x="-108.34999999999997" y="-896.40031" z="78.93"/>
+    <position unit="cm" name="ShieldRightPosition01" x="-108.34999999999997" y="896.40031" z="-78.93"/>
+    <position unit="cm" name="ShieldLeft2Position01" x="-108.34999999999997" y="-896.40031" z="78.93"/>
+    <position unit="cm" name="ShieldRight2Position01" x="-108.34999999999997" y="896.40031" z="78.93"/>
+    <position unit="cm" name="ShieldLeftPosition02" x="-508.34999999999997" y="-896.40031" z="78.93"/>
+    <position unit="cm" name="ShieldRightPosition02" x="-508.34999999999997" y="896.40031" z="-78.93"/>
+    <position unit="cm" name="ShieldLeft2Position02" x="-508.34999999999997" y="-896.40031" z="78.93"/>
+    <position unit="cm" name="ShieldRight2Position02" x="-508.34999999999997" y="896.40031" z="78.93"/>
+    <position unit="cm" name="ShieldLeftPosition03" x="617.6500925" y="-896.40031" z="78.93"/>
+    <position unit="cm" name="ShieldRightPosition03" x="617.6500925" y="896.40031" z="-78.93"/>
+    <position unit="cm" name="ShieldLeft2Position03" x="617.6500925" y="-896.40031" z="78.93"/>
+    <position unit="cm" name="ShieldRight2Position03" x="617.6500925" y="896.40031" z="78.93"/>
+    <position unit="cm" name="ShieldLeftPosition04" x="-711.3502462499999" y="-896.40031" z="78.93"/>
+    <position unit="cm" name="ShieldRightPosition04" x="-711.3502462499999" y="896.40031" z="-78.93"/>
+    <position unit="cm" name="ShieldLeft2Position04" x="-711.3502462499999" y="-896.40031" z="78.93"/>
+    <position unit="cm" name="ShieldRight2Position04" x="-711.3502462499999" y="896.40031" z="78.93"/>
+    <position unit="cm" name="ShieldLeftPosition10" x="0" y="-896.40031" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldRightPosition10" x="0" y="896.40031" z="-236.79000000000002"/>
+    <position unit="cm" name="ShieldLeft2Position10" x="0" y="-896.40031" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldRight2Position10" x="0" y="896.40031" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldLeftPosition11" x="-108.34999999999997" y="-896.40031" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldRightPosition11" x="-108.34999999999997" y="896.40031" z="-236.79000000000002"/>
+    <position unit="cm" name="ShieldLeft2Position11" x="-108.34999999999997" y="-896.40031" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldRight2Position11" x="-108.34999999999997" y="896.40031" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldLeftPosition12" x="-508.34999999999997" y="-896.40031" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldRightPosition12" x="-508.34999999999997" y="896.40031" z="-236.79000000000002"/>
+    <position unit="cm" name="ShieldLeft2Position12" x="-508.34999999999997" y="-896.40031" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldRight2Position12" x="-508.34999999999997" y="896.40031" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldLeftPosition13" x="617.6500925" y="-896.40031" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldRightPosition13" x="617.6500925" y="896.40031" z="-236.79000000000002"/>
+    <position unit="cm" name="ShieldLeft2Position13" x="617.6500925" y="-896.40031" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldRight2Position13" x="617.6500925" y="896.40031" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldLeftPosition14" x="-711.3502462499999" y="-896.40031" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldRightPosition14" x="-711.3502462499999" y="896.40031" z="-236.79000000000002"/>
+    <position unit="cm" name="ShieldLeft2Position14" x="-711.3502462499999" y="-896.40031" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldRight2Position14" x="-711.3502462499999" y="896.40031" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldLeftPosition20" x="0" y="-896.40031" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldRightPosition20" x="0" y="896.40031" z="-394.65000000000003"/>
+    <position unit="cm" name="ShieldLeft2Position20" x="0" y="-896.40031" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldRight2Position20" x="0" y="896.40031" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldLeftPosition21" x="-108.34999999999997" y="-896.40031" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldRightPosition21" x="-108.34999999999997" y="896.40031" z="-394.65000000000003"/>
+    <position unit="cm" name="ShieldLeft2Position21" x="-108.34999999999997" y="-896.40031" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldRight2Position21" x="-108.34999999999997" y="896.40031" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldLeftPosition22" x="-508.34999999999997" y="-896.40031" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldRightPosition22" x="-508.34999999999997" y="896.40031" z="-394.65000000000003"/>
+    <position unit="cm" name="ShieldLeft2Position22" x="-508.34999999999997" y="-896.40031" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldRight2Position22" x="-508.34999999999997" y="896.40031" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldLeftPosition23" x="617.6500925" y="-896.40031" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldRightPosition23" x="617.6500925" y="896.40031" z="-394.65000000000003"/>
+    <position unit="cm" name="ShieldLeft2Position23" x="617.6500925" y="-896.40031" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldRight2Position23" x="617.6500925" y="896.40031" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldLeftPosition24" x="-711.3502462499999" y="-896.40031" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldRightPosition24" x="-711.3502462499999" y="896.40031" z="-394.65000000000003"/>
+    <position unit="cm" name="ShieldLeft2Position24" x="-711.3502462499999" y="-896.40031" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldRight2Position24" x="-711.3502462499999" y="896.40031" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldLeftPosition30" x="0" y="-896.40031" z="552.51"/>
+    <position unit="cm" name="ShieldRightPosition30" x="0" y="896.40031" z="-552.51"/>
+    <position unit="cm" name="ShieldLeft2Position30" x="0" y="-896.40031" z="552.51"/>
+    <position unit="cm" name="ShieldRight2Position30" x="0" y="896.40031" z="552.51"/>
+    <position unit="cm" name="ShieldLeftPosition31" x="-108.34999999999997" y="-896.40031" z="552.51"/>
+    <position unit="cm" name="ShieldRightPosition31" x="-108.34999999999997" y="896.40031" z="-552.51"/>
+    <position unit="cm" name="ShieldLeft2Position31" x="-108.34999999999997" y="-896.40031" z="552.51"/>
+    <position unit="cm" name="ShieldRight2Position31" x="-108.34999999999997" y="896.40031" z="552.51"/>
+    <position unit="cm" name="ShieldLeftPosition32" x="-508.34999999999997" y="-896.40031" z="552.51"/>
+    <position unit="cm" name="ShieldRightPosition32" x="-508.34999999999997" y="896.40031" z="-552.51"/>
+    <position unit="cm" name="ShieldLeft2Position32" x="-508.34999999999997" y="-896.40031" z="552.51"/>
+    <position unit="cm" name="ShieldRight2Position32" x="-508.34999999999997" y="896.40031" z="552.51"/>
+    <position unit="cm" name="ShieldLeftPosition33" x="617.6500925" y="-896.40031" z="552.51"/>
+    <position unit="cm" name="ShieldRightPosition33" x="617.6500925" y="896.40031" z="-552.51"/>
+    <position unit="cm" name="ShieldLeft2Position33" x="617.6500925" y="-896.40031" z="552.51"/>
+    <position unit="cm" name="ShieldRight2Position33" x="617.6500925" y="896.40031" z="552.51"/>
+    <position unit="cm" name="ShieldLeftPosition34" x="-711.3502462499999" y="-896.40031" z="552.51"/>
+    <position unit="cm" name="ShieldRightPosition34" x="-711.3502462499999" y="896.40031" z="-552.51"/>
+    <position unit="cm" name="ShieldLeft2Position34" x="-711.3502462499999" y="-896.40031" z="552.51"/>
+    <position unit="cm" name="ShieldRight2Position34" x="-711.3502462499999" y="896.40031" z="552.51"/>
+    <position unit="cm" name="ShieldLeftPosition40" x="0" y="-896.40031" z="710.37"/>
+    <position unit="cm" name="ShieldRightPosition40" x="0" y="896.40031" z="-710.37"/>
+    <position unit="cm" name="ShieldLeft2Position40" x="0" y="-896.40031" z="710.37"/>
+    <position unit="cm" name="ShieldRight2Position40" x="0" y="896.40031" z="710.37"/>
+    <position unit="cm" name="ShieldLeftPosition41" x="-108.34999999999997" y="-896.40031" z="710.37"/>
+    <position unit="cm" name="ShieldRightPosition41" x="-108.34999999999997" y="896.40031" z="-710.37"/>
+    <position unit="cm" name="ShieldLeft2Position41" x="-108.34999999999997" y="-896.40031" z="710.37"/>
+    <position unit="cm" name="ShieldRight2Position41" x="-108.34999999999997" y="896.40031" z="710.37"/>
+    <position unit="cm" name="ShieldLeftPosition42" x="-508.34999999999997" y="-896.40031" z="710.37"/>
+    <position unit="cm" name="ShieldRightPosition42" x="-508.34999999999997" y="896.40031" z="-710.37"/>
+    <position unit="cm" name="ShieldLeft2Position42" x="-508.34999999999997" y="-896.40031" z="710.37"/>
+    <position unit="cm" name="ShieldRight2Position42" x="-508.34999999999997" y="896.40031" z="710.37"/>
+    <position unit="cm" name="ShieldLeftPosition43" x="617.6500925" y="-896.40031" z="710.37"/>
+    <position unit="cm" name="ShieldRightPosition43" x="617.6500925" y="896.40031" z="-710.37"/>
+    <position unit="cm" name="ShieldLeft2Position43" x="617.6500925" y="-896.40031" z="710.37"/>
+    <position unit="cm" name="ShieldRight2Position43" x="617.6500925" y="896.40031" z="710.37"/>
+    <position unit="cm" name="ShieldLeftPosition44" x="-711.3502462499999" y="-896.40031" z="710.37"/>
+    <position unit="cm" name="ShieldRightPosition44" x="-711.3502462499999" y="896.40031" z="-710.37"/>
+    <position unit="cm" name="ShieldLeft2Position44" x="-711.3502462499999" y="-896.40031" z="710.37"/>
+    <position unit="cm" name="ShieldRight2Position44" x="-711.3502462499999" y="896.40031" z="710.37"/>
+    <position unit="cm" name="ShieldLeftPosition50" x="0" y="-896.40031" z="868.23"/>
+    <position unit="cm" name="ShieldRightPosition50" x="0" y="896.40031" z="-868.23"/>
+    <position unit="cm" name="ShieldLeft2Position50" x="0" y="-896.40031" z="868.23"/>
+    <position unit="cm" name="ShieldRight2Position50" x="0" y="896.40031" z="868.23"/>
+    <position unit="cm" name="ShieldLeftPosition51" x="-108.34999999999997" y="-896.40031" z="868.23"/>
+    <position unit="cm" name="ShieldRightPosition51" x="-108.34999999999997" y="896.40031" z="-868.23"/>
+    <position unit="cm" name="ShieldLeft2Position51" x="-108.34999999999997" y="-896.40031" z="868.23"/>
+    <position unit="cm" name="ShieldRight2Position51" x="-108.34999999999997" y="896.40031" z="868.23"/>
+    <position unit="cm" name="ShieldLeftPosition52" x="-508.34999999999997" y="-896.40031" z="868.23"/>
+    <position unit="cm" name="ShieldRightPosition52" x="-508.34999999999997" y="896.40031" z="-868.23"/>
+    <position unit="cm" name="ShieldLeft2Position52" x="-508.34999999999997" y="-896.40031" z="868.23"/>
+    <position unit="cm" name="ShieldRight2Position52" x="-508.34999999999997" y="896.40031" z="868.23"/>
+    <position unit="cm" name="ShieldLeftPosition53" x="617.6500925" y="-896.40031" z="868.23"/>
+    <position unit="cm" name="ShieldRightPosition53" x="617.6500925" y="896.40031" z="-868.23"/>
+    <position unit="cm" name="ShieldLeft2Position53" x="617.6500925" y="-896.40031" z="868.23"/>
+    <position unit="cm" name="ShieldRight2Position53" x="617.6500925" y="896.40031" z="868.23"/>
+    <position unit="cm" name="ShieldLeftPosition54" x="-711.3502462499999" y="-896.40031" z="868.23"/>
+    <position unit="cm" name="ShieldRightPosition54" x="-711.3502462499999" y="896.40031" z="-868.23"/>
+    <position unit="cm" name="ShieldLeft2Position54" x="-711.3502462499999" y="-896.40031" z="868.23"/>
+    <position unit="cm" name="ShieldRight2Position54" x="-711.3502462499999" y="896.40031" z="868.23"/>
+    <position unit="cm" name="ShieldLeftPosition60" x="0" y="-896.40031" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldRightPosition60" x="0" y="896.40031" z="-1026.0900000000001"/>
+    <position unit="cm" name="ShieldLeft2Position60" x="0" y="-896.40031" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldRight2Position60" x="0" y="896.40031" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldLeftPosition61" x="-108.34999999999997" y="-896.40031" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldRightPosition61" x="-108.34999999999997" y="896.40031" z="-1026.0900000000001"/>
+    <position unit="cm" name="ShieldLeft2Position61" x="-108.34999999999997" y="-896.40031" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldRight2Position61" x="-108.34999999999997" y="896.40031" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldLeftPosition62" x="-508.34999999999997" y="-896.40031" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldRightPosition62" x="-508.34999999999997" y="896.40031" z="-1026.0900000000001"/>
+    <position unit="cm" name="ShieldLeft2Position62" x="-508.34999999999997" y="-896.40031" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldRight2Position62" x="-508.34999999999997" y="896.40031" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldLeftPosition63" x="617.6500925" y="-896.40031" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldRightPosition63" x="617.6500925" y="896.40031" z="-1026.0900000000001"/>
+    <position unit="cm" name="ShieldLeft2Position63" x="617.6500925" y="-896.40031" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldRight2Position63" x="617.6500925" y="896.40031" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldLeftPosition64" x="-711.3502462499999" y="-896.40031" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldRightPosition64" x="-711.3502462499999" y="896.40031" z="-1026.0900000000001"/>
+    <position unit="cm" name="ShieldLeft2Position64" x="-711.3502462499999" y="-896.40031" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldRight2Position64" x="-711.3502462499999" y="896.40031" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldLeftPosition70" x="0" y="-896.40031" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldRightPosition70" x="0" y="896.40031" z="-1183.9500000000003"/>
+    <position unit="cm" name="ShieldLeft2Position70" x="0" y="-896.40031" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldRight2Position70" x="0" y="896.40031" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldLeftPosition71" x="-108.34999999999997" y="-896.40031" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldRightPosition71" x="-108.34999999999997" y="896.40031" z="-1183.9500000000003"/>
+    <position unit="cm" name="ShieldLeft2Position71" x="-108.34999999999997" y="-896.40031" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldRight2Position71" x="-108.34999999999997" y="896.40031" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldLeftPosition72" x="-508.34999999999997" y="-896.40031" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldRightPosition72" x="-508.34999999999997" y="896.40031" z="-1183.9500000000003"/>
+    <position unit="cm" name="ShieldLeft2Position72" x="-508.34999999999997" y="-896.40031" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldRight2Position72" x="-508.34999999999997" y="896.40031" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldLeftPosition73" x="617.6500925" y="-896.40031" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldRightPosition73" x="617.6500925" y="896.40031" z="-1183.9500000000003"/>
+    <position unit="cm" name="ShieldLeft2Position73" x="617.6500925" y="-896.40031" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldRight2Position73" x="617.6500925" y="896.40031" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldLeftPosition74" x="-711.3502462499999" y="-896.40031" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldRightPosition74" x="-711.3502462499999" y="896.40031" z="-1183.9500000000003"/>
+    <position unit="cm" name="ShieldLeft2Position74" x="-711.3502462499999" y="-896.40031" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldRight2Position74" x="-711.3502462499999" y="896.40031" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldLeftPosition80" x="0" y="-896.40031" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldRightPosition80" x="0" y="896.40031" z="-1341.8100000000004"/>
+    <position unit="cm" name="ShieldLeft2Position80" x="0" y="-896.40031" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldRight2Position80" x="0" y="896.40031" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldLeftPosition81" x="-108.34999999999997" y="-896.40031" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldRightPosition81" x="-108.34999999999997" y="896.40031" z="-1341.8100000000004"/>
+    <position unit="cm" name="ShieldLeft2Position81" x="-108.34999999999997" y="-896.40031" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldRight2Position81" x="-108.34999999999997" y="896.40031" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldLeftPosition82" x="-508.34999999999997" y="-896.40031" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldRightPosition82" x="-508.34999999999997" y="896.40031" z="-1341.8100000000004"/>
+    <position unit="cm" name="ShieldLeft2Position82" x="-508.34999999999997" y="-896.40031" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldRight2Position82" x="-508.34999999999997" y="896.40031" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldLeftPosition83" x="617.6500925" y="-896.40031" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldRightPosition83" x="617.6500925" y="896.40031" z="-1341.8100000000004"/>
+    <position unit="cm" name="ShieldLeft2Position83" x="617.6500925" y="-896.40031" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldRight2Position83" x="617.6500925" y="896.40031" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldLeftPosition84" x="-711.3502462499999" y="-896.40031" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldRightPosition84" x="-711.3502462499999" y="896.40031" z="-1341.8100000000004"/>
+    <position unit="cm" name="ShieldLeft2Position84" x="-711.3502462499999" y="-896.40031" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldRight2Position84" x="-711.3502462499999" y="896.40031" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldLeftPosition90" x="0" y="-896.40031" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldRightPosition90" x="0" y="896.40031" z="-1499.6700000000005"/>
+    <position unit="cm" name="ShieldLeft2Position90" x="0" y="-896.40031" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldRight2Position90" x="0" y="896.40031" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldLeftPosition91" x="-108.34999999999997" y="-896.40031" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldRightPosition91" x="-108.34999999999997" y="896.40031" z="-1499.6700000000005"/>
+    <position unit="cm" name="ShieldLeft2Position91" x="-108.34999999999997" y="-896.40031" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldRight2Position91" x="-108.34999999999997" y="896.40031" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldLeftPosition92" x="-508.34999999999997" y="-896.40031" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldRightPosition92" x="-508.34999999999997" y="896.40031" z="-1499.6700000000005"/>
+    <position unit="cm" name="ShieldLeft2Position92" x="-508.34999999999997" y="-896.40031" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldRight2Position92" x="-508.34999999999997" y="896.40031" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldLeftPosition93" x="617.6500925" y="-896.40031" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldRightPosition93" x="617.6500925" y="896.40031" z="-1499.6700000000005"/>
+    <position unit="cm" name="ShieldLeft2Position93" x="617.6500925" y="-896.40031" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldRight2Position93" x="617.6500925" y="896.40031" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldLeftPosition94" x="-711.3502462499999" y="-896.40031" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldRightPosition94" x="-711.3502462499999" y="896.40031" z="-1499.6700000000005"/>
+    <position unit="cm" name="ShieldLeft2Position94" x="-711.3502462499999" y="-896.40031" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldRight2Position94" x="-711.3502462499999" y="896.40031" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldLeftPosition100" x="0" y="-896.40031" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldRightPosition100" x="0" y="896.40031" z="-1657.5300000000007"/>
+    <position unit="cm" name="ShieldLeft2Position100" x="0" y="-896.40031" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldRight2Position100" x="0" y="896.40031" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldLeftPosition101" x="-108.34999999999997" y="-896.40031" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldRightPosition101" x="-108.34999999999997" y="896.40031" z="-1657.5300000000007"/>
+    <position unit="cm" name="ShieldLeft2Position101" x="-108.34999999999997" y="-896.40031" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldRight2Position101" x="-108.34999999999997" y="896.40031" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldLeftPosition102" x="-508.34999999999997" y="-896.40031" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldRightPosition102" x="-508.34999999999997" y="896.40031" z="-1657.5300000000007"/>
+    <position unit="cm" name="ShieldLeft2Position102" x="-508.34999999999997" y="-896.40031" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldRight2Position102" x="-508.34999999999997" y="896.40031" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldLeftPosition103" x="617.6500925" y="-896.40031" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldRightPosition103" x="617.6500925" y="896.40031" z="-1657.5300000000007"/>
+    <position unit="cm" name="ShieldLeft2Position103" x="617.6500925" y="-896.40031" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldRight2Position103" x="617.6500925" y="896.40031" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldLeftPosition104" x="-711.3502462499999" y="-896.40031" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldRightPosition104" x="-711.3502462499999" y="896.40031" z="-1657.5300000000007"/>
+    <position unit="cm" name="ShieldLeft2Position104" x="-711.3502462499999" y="-896.40031" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldRight2Position104" x="-711.3502462499999" y="896.40031" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldLeftPosition110" x="0" y="-896.40031" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldRightPosition110" x="0" y="896.40031" z="-1815.3900000000008"/>
+    <position unit="cm" name="ShieldLeft2Position110" x="0" y="-896.40031" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldRight2Position110" x="0" y="896.40031" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldLeftPosition111" x="-108.34999999999997" y="-896.40031" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldRightPosition111" x="-108.34999999999997" y="896.40031" z="-1815.3900000000008"/>
+    <position unit="cm" name="ShieldLeft2Position111" x="-108.34999999999997" y="-896.40031" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldRight2Position111" x="-108.34999999999997" y="896.40031" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldLeftPosition112" x="-508.34999999999997" y="-896.40031" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldRightPosition112" x="-508.34999999999997" y="896.40031" z="-1815.3900000000008"/>
+    <position unit="cm" name="ShieldLeft2Position112" x="-508.34999999999997" y="-896.40031" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldRight2Position112" x="-508.34999999999997" y="896.40031" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldLeftPosition113" x="617.6500925" y="-896.40031" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldRightPosition113" x="617.6500925" y="896.40031" z="-1815.3900000000008"/>
+    <position unit="cm" name="ShieldLeft2Position113" x="617.6500925" y="-896.40031" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldRight2Position113" x="617.6500925" y="896.40031" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldLeftPosition114" x="-711.3502462499999" y="-896.40031" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldRightPosition114" x="-711.3502462499999" y="896.40031" z="-1815.3900000000008"/>
+    <position unit="cm" name="ShieldLeft2Position114" x="-711.3502462499999" y="-896.40031" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldRight2Position114" x="-711.3502462499999" y="896.40031" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldLeftPosition120" x="0" y="-896.40031" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldRightPosition120" x="0" y="896.40031" z="-1973.250000000001"/>
+    <position unit="cm" name="ShieldLeft2Position120" x="0" y="-896.40031" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldRight2Position120" x="0" y="896.40031" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldLeftPosition121" x="-108.34999999999997" y="-896.40031" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldRightPosition121" x="-108.34999999999997" y="896.40031" z="-1973.250000000001"/>
+    <position unit="cm" name="ShieldLeft2Position121" x="-108.34999999999997" y="-896.40031" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldRight2Position121" x="-108.34999999999997" y="896.40031" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldLeftPosition122" x="-508.34999999999997" y="-896.40031" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldRightPosition122" x="-508.34999999999997" y="896.40031" z="-1973.250000000001"/>
+    <position unit="cm" name="ShieldLeft2Position122" x="-508.34999999999997" y="-896.40031" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldRight2Position122" x="-508.34999999999997" y="896.40031" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldLeftPosition123" x="617.6500925" y="-896.40031" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldRightPosition123" x="617.6500925" y="896.40031" z="-1973.250000000001"/>
+    <position unit="cm" name="ShieldLeft2Position123" x="617.6500925" y="-896.40031" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldRight2Position123" x="617.6500925" y="896.40031" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldLeftPosition124" x="-711.3502462499999" y="-896.40031" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldRightPosition124" x="-711.3502462499999" y="896.40031" z="-1973.250000000001"/>
+    <position unit="cm" name="ShieldLeft2Position124" x="-711.3502462499999" y="-896.40031" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldRight2Position124" x="-711.3502462499999" y="896.40031" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldLeftPosition130" x="0" y="-896.40031" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldRightPosition130" x="0" y="896.40031" z="-2131.110000000001"/>
+    <position unit="cm" name="ShieldLeft2Position130" x="0" y="-896.40031" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldRight2Position130" x="0" y="896.40031" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldLeftPosition131" x="-108.34999999999997" y="-896.40031" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldRightPosition131" x="-108.34999999999997" y="896.40031" z="-2131.110000000001"/>
+    <position unit="cm" name="ShieldLeft2Position131" x="-108.34999999999997" y="-896.40031" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldRight2Position131" x="-108.34999999999997" y="896.40031" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldLeftPosition132" x="-508.34999999999997" y="-896.40031" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldRightPosition132" x="-508.34999999999997" y="896.40031" z="-2131.110000000001"/>
+    <position unit="cm" name="ShieldLeft2Position132" x="-508.34999999999997" y="-896.40031" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldRight2Position132" x="-508.34999999999997" y="896.40031" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldLeftPosition133" x="617.6500925" y="-896.40031" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldRightPosition133" x="617.6500925" y="896.40031" z="-2131.110000000001"/>
+    <position unit="cm" name="ShieldLeft2Position133" x="617.6500925" y="-896.40031" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldRight2Position133" x="617.6500925" y="896.40031" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldLeftPosition134" x="-711.3502462499999" y="-896.40031" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldRightPosition134" x="-711.3502462499999" y="896.40031" z="-2131.110000000001"/>
+    <position unit="cm" name="ShieldLeft2Position134" x="-711.3502462499999" y="-896.40031" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldRight2Position134" x="-711.3502462499999" y="896.40031" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldLeftPosition140" x="0" y="-896.40031" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldRightPosition140" x="0" y="896.40031" z="-2288.970000000001"/>
+    <position unit="cm" name="ShieldLeft2Position140" x="0" y="-896.40031" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldRight2Position140" x="0" y="896.40031" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldLeftPosition141" x="-108.34999999999997" y="-896.40031" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldRightPosition141" x="-108.34999999999997" y="896.40031" z="-2288.970000000001"/>
+    <position unit="cm" name="ShieldLeft2Position141" x="-108.34999999999997" y="-896.40031" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldRight2Position141" x="-108.34999999999997" y="896.40031" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldLeftPosition142" x="-508.34999999999997" y="-896.40031" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldRightPosition142" x="-508.34999999999997" y="896.40031" z="-2288.970000000001"/>
+    <position unit="cm" name="ShieldLeft2Position142" x="-508.34999999999997" y="-896.40031" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldRight2Position142" x="-508.34999999999997" y="896.40031" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldLeftPosition143" x="617.6500925" y="-896.40031" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldRightPosition143" x="617.6500925" y="896.40031" z="-2288.970000000001"/>
+    <position unit="cm" name="ShieldLeft2Position143" x="617.6500925" y="-896.40031" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldRight2Position143" x="617.6500925" y="896.40031" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldLeftPosition144" x="-711.3502462499999" y="-896.40031" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldRightPosition144" x="-711.3502462499999" y="896.40031" z="-2288.970000000001"/>
+    <position unit="cm" name="ShieldLeft2Position144" x="-711.3502462499999" y="-896.40031" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldRight2Position144" x="-711.3502462499999" y="896.40031" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldLeftPosition150" x="0" y="-896.40031" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldRightPosition150" x="0" y="896.40031" z="-2446.8300000000013"/>
+    <position unit="cm" name="ShieldLeft2Position150" x="0" y="-896.40031" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldRight2Position150" x="0" y="896.40031" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldLeftPosition151" x="-108.34999999999997" y="-896.40031" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldRightPosition151" x="-108.34999999999997" y="896.40031" z="-2446.8300000000013"/>
+    <position unit="cm" name="ShieldLeft2Position151" x="-108.34999999999997" y="-896.40031" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldRight2Position151" x="-108.34999999999997" y="896.40031" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldLeftPosition152" x="-508.34999999999997" y="-896.40031" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldRightPosition152" x="-508.34999999999997" y="896.40031" z="-2446.8300000000013"/>
+    <position unit="cm" name="ShieldLeft2Position152" x="-508.34999999999997" y="-896.40031" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldRight2Position152" x="-508.34999999999997" y="896.40031" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldLeftPosition153" x="617.6500925" y="-896.40031" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldRightPosition153" x="617.6500925" y="896.40031" z="-2446.8300000000013"/>
+    <position unit="cm" name="ShieldLeft2Position153" x="617.6500925" y="-896.40031" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldRight2Position153" x="617.6500925" y="896.40031" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldLeftPosition154" x="-711.3502462499999" y="-896.40031" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldRightPosition154" x="-711.3502462499999" y="896.40031" z="-2446.8300000000013"/>
+    <position unit="cm" name="ShieldLeft2Position154" x="-711.3502462499999" y="-896.40031" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldRight2Position154" x="-711.3502462499999" y="896.40031" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldLeftPosition160" x="0" y="-896.40031" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldRightPosition160" x="0" y="896.40031" z="-2604.6900000000014"/>
+    <position unit="cm" name="ShieldLeft2Position160" x="0" y="-896.40031" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldRight2Position160" x="0" y="896.40031" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldLeftPosition161" x="-108.34999999999997" y="-896.40031" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldRightPosition161" x="-108.34999999999997" y="896.40031" z="-2604.6900000000014"/>
+    <position unit="cm" name="ShieldLeft2Position161" x="-108.34999999999997" y="-896.40031" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldRight2Position161" x="-108.34999999999997" y="896.40031" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldLeftPosition162" x="-508.34999999999997" y="-896.40031" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldRightPosition162" x="-508.34999999999997" y="896.40031" z="-2604.6900000000014"/>
+    <position unit="cm" name="ShieldLeft2Position162" x="-508.34999999999997" y="-896.40031" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldRight2Position162" x="-508.34999999999997" y="896.40031" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldLeftPosition163" x="617.6500925" y="-896.40031" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldRightPosition163" x="617.6500925" y="896.40031" z="-2604.6900000000014"/>
+    <position unit="cm" name="ShieldLeft2Position163" x="617.6500925" y="-896.40031" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldRight2Position163" x="617.6500925" y="896.40031" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldLeftPosition164" x="-711.3502462499999" y="-896.40031" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldRightPosition164" x="-711.3502462499999" y="896.40031" z="-2604.6900000000014"/>
+    <position unit="cm" name="ShieldLeft2Position164" x="-711.3502462499999" y="-896.40031" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldRight2Position164" x="-711.3502462499999" y="896.40031" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldLeftPosition170" x="0" y="-896.40031" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldRightPosition170" x="0" y="896.40031" z="-2762.5500000000015"/>
+    <position unit="cm" name="ShieldLeft2Position170" x="0" y="-896.40031" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldRight2Position170" x="0" y="896.40031" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldLeftPosition171" x="-108.34999999999997" y="-896.40031" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldRightPosition171" x="-108.34999999999997" y="896.40031" z="-2762.5500000000015"/>
+    <position unit="cm" name="ShieldLeft2Position171" x="-108.34999999999997" y="-896.40031" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldRight2Position171" x="-108.34999999999997" y="896.40031" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldLeftPosition172" x="-508.34999999999997" y="-896.40031" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldRightPosition172" x="-508.34999999999997" y="896.40031" z="-2762.5500000000015"/>
+    <position unit="cm" name="ShieldLeft2Position172" x="-508.34999999999997" y="-896.40031" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldRight2Position172" x="-508.34999999999997" y="896.40031" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldLeftPosition173" x="617.6500925" y="-896.40031" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldRightPosition173" x="617.6500925" y="896.40031" z="-2762.5500000000015"/>
+    <position unit="cm" name="ShieldLeft2Position173" x="617.6500925" y="-896.40031" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldRight2Position173" x="617.6500925" y="896.40031" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldLeftPosition174" x="-711.3502462499999" y="-896.40031" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldRightPosition174" x="-711.3502462499999" y="896.40031" z="-2762.5500000000015"/>
+    <position unit="cm" name="ShieldLeft2Position174" x="-711.3502462499999" y="-896.40031" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldRight2Position174" x="-711.3502462499999" y="896.40031" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldLeftPosition180" x="0" y="-896.40031" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldRightPosition180" x="0" y="896.40031" z="-2920.4100000000017"/>
+    <position unit="cm" name="ShieldLeft2Position180" x="0" y="-896.40031" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldRight2Position180" x="0" y="896.40031" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldLeftPosition181" x="-108.34999999999997" y="-896.40031" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldRightPosition181" x="-108.34999999999997" y="896.40031" z="-2920.4100000000017"/>
+    <position unit="cm" name="ShieldLeft2Position181" x="-108.34999999999997" y="-896.40031" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldRight2Position181" x="-108.34999999999997" y="896.40031" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldLeftPosition182" x="-508.34999999999997" y="-896.40031" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldRightPosition182" x="-508.34999999999997" y="896.40031" z="-2920.4100000000017"/>
+    <position unit="cm" name="ShieldLeft2Position182" x="-508.34999999999997" y="-896.40031" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldRight2Position182" x="-508.34999999999997" y="896.40031" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldLeftPosition183" x="617.6500925" y="-896.40031" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldRightPosition183" x="617.6500925" y="896.40031" z="-2920.4100000000017"/>
+    <position unit="cm" name="ShieldLeft2Position183" x="617.6500925" y="-896.40031" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldRight2Position183" x="617.6500925" y="896.40031" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldLeftPosition184" x="-711.3502462499999" y="-896.40031" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldRightPosition184" x="-711.3502462499999" y="896.40031" z="-2920.4100000000017"/>
+    <position unit="cm" name="ShieldLeft2Position184" x="-711.3502462499999" y="-896.40031" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldRight2Position184" x="-711.3502462499999" y="896.40031" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldBackPosition00" x="291.65000000000003" y="-78.93" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position00" x="291.65000000000003" y="78.93" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition00" x="291.65000000000003" y="-78.93" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position00" x="291.65000000000003" y="78.93" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition01" x="-108.34999999999997" y="-78.93" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position01" x="-108.34999999999997" y="78.93" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition01" x="-108.34999999999997" y="-78.93" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position01" x="-108.34999999999997" y="78.93" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition02" x="-508.34999999999997" y="-78.93" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position02" x="-508.34999999999997" y="78.93" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition02" x="-508.34999999999997" y="-78.93" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position02" x="-508.34999999999997" y="78.93" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition03" x="617.6500925" y="-78.93" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position03" x="617.6500925" y="78.93" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition03" x="617.6500925" y="-78.93" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position03" x="617.6500925" y="78.93" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition04" x="-738.3502125" y="-78.93" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position04" x="-738.3502125" y="78.93" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition04" x="-738.3502125" y="-78.93" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position04" x="-738.3502125" y="78.93" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition10" x="291.65000000000003" y="-236.79000000000002" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position10" x="291.65000000000003" y="236.79000000000002" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition10" x="291.65000000000003" y="-236.79000000000002" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position10" x="291.65000000000003" y="236.79000000000002" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition11" x="-108.34999999999997" y="-236.79000000000002" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position11" x="-108.34999999999997" y="236.79000000000002" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition11" x="-108.34999999999997" y="-236.79000000000002" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position11" x="-108.34999999999997" y="236.79000000000002" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition12" x="-508.34999999999997" y="-236.79000000000002" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position12" x="-508.34999999999997" y="236.79000000000002" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition12" x="-508.34999999999997" y="-236.79000000000002" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position12" x="-508.34999999999997" y="236.79000000000002" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition13" x="617.6500925" y="-236.79000000000002" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position13" x="617.6500925" y="236.79000000000002" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition13" x="617.6500925" y="-236.79000000000002" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position13" x="617.6500925" y="236.79000000000002" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition14" x="-738.3502125" y="-236.79000000000002" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position14" x="-738.3502125" y="236.79000000000002" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition14" x="-738.3502125" y="-236.79000000000002" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position14" x="-738.3502125" y="236.79000000000002" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition20" x="291.65000000000003" y="-394.65000000000003" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position20" x="291.65000000000003" y="394.65000000000003" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition20" x="291.65000000000003" y="-394.65000000000003" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position20" x="291.65000000000003" y="394.65000000000003" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition21" x="-108.34999999999997" y="-394.65000000000003" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position21" x="-108.34999999999997" y="394.65000000000003" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition21" x="-108.34999999999997" y="-394.65000000000003" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position21" x="-108.34999999999997" y="394.65000000000003" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition22" x="-508.34999999999997" y="-394.65000000000003" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position22" x="-508.34999999999997" y="394.65000000000003" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition22" x="-508.34999999999997" y="-394.65000000000003" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position22" x="-508.34999999999997" y="394.65000000000003" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition23" x="617.6500925" y="-394.65000000000003" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position23" x="617.6500925" y="394.65000000000003" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition23" x="617.6500925" y="-394.65000000000003" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position23" x="617.6500925" y="394.65000000000003" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition24" x="-738.3502125" y="-394.65000000000003" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position24" x="-738.3502125" y="394.65000000000003" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition24" x="-738.3502125" y="-394.65000000000003" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position24" x="-738.3502125" y="394.65000000000003" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition30" x="291.65000000000003" y="-552.51" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position30" x="291.65000000000003" y="552.51" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition30" x="291.65000000000003" y="-552.51" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position30" x="291.65000000000003" y="552.51" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition31" x="-108.34999999999997" y="-552.51" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position31" x="-108.34999999999997" y="552.51" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition31" x="-108.34999999999997" y="-552.51" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position31" x="-108.34999999999997" y="552.51" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition32" x="-508.34999999999997" y="-552.51" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position32" x="-508.34999999999997" y="552.51" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition32" x="-508.34999999999997" y="-552.51" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position32" x="-508.34999999999997" y="552.51" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition33" x="617.6500925" y="-552.51" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position33" x="617.6500925" y="552.51" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition33" x="617.6500925" y="-552.51" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position33" x="617.6500925" y="552.51" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition34" x="-738.3502125" y="-552.51" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position34" x="-738.3502125" y="552.51" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition34" x="-738.3502125" y="-552.51" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position34" x="-738.3502125" y="552.51" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition40" x="291.65000000000003" y="-710.37" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position40" x="291.65000000000003" y="710.37" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition40" x="291.65000000000003" y="-710.37" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position40" x="291.65000000000003" y="710.37" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition41" x="-108.34999999999997" y="-710.37" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position41" x="-108.34999999999997" y="710.37" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition41" x="-108.34999999999997" y="-710.37" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position41" x="-108.34999999999997" y="710.37" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition42" x="-508.34999999999997" y="-710.37" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position42" x="-508.34999999999997" y="710.37" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition42" x="-508.34999999999997" y="-710.37" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position42" x="-508.34999999999997" y="710.37" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition43" x="617.6500925" y="-710.37" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position43" x="617.6500925" y="710.37" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition43" x="617.6500925" y="-710.37" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position43" x="617.6500925" y="710.37" z="0.32366"/>
+    <position unit="cm" name="ShieldBackPosition44" x="-738.3502125" y="-710.37" z="-0.32366"/>
+    <position unit="cm" name="ShieldBack2Position44" x="-738.3502125" y="710.37" z="-0.32366"/>
+    <position unit="cm" name="ShieldFrontposition44" x="-738.3502125" y="-710.37" z="0.32366"/>
+    <position unit="cm" name="ShieldFront2position44" x="-738.3502125" y="710.37" z="0.32366"/>
     <position unit="cm" name="posCryoInDetEnc" x="-50.0000000000001" y="0" z="0"/>
     <position unit="cm" name="posCenter" x="0" y="0" z="0"/>
     <rotation unit="degree" name="rUWireAboutX" x="150" y="0" z="0"/>
@@ -1268,6 +1765,9 @@
     </element>
     <element name="phosphorus" Z="15" formula="P">
       <atom value="30.973"/>
+    </element>
+    <element name="manganese" Z="25" formula="Mn">
+      <atom value="54.94"/>
     </element>
     <material name="Vacuum" formula="">
       <D value="1e-25"/>
@@ -1558,6 +2058,29 @@
       <composite ref="carbon" n="2"/>
       <composite ref="hydrogen" n="4"/>
     </material>
+    <material name="Wood" formula="">
+      <D value="0.5"/>
+      <fraction ref="hydrogen" n="6.0"/>
+      <fraction ref="carbon" n="50.0"/>
+      <fraction ref="oxygen" n="44.0"/>
+    </material>
+    <material name="fDuneSteel" formula="">
+      <D value="7.93"/>
+      <fraction ref="iron" n="0.958"/>
+      <fraction ref="manganese" n="0.018"/>
+      <fraction ref="nickel" n="0.008"/>
+      <fraction ref="silicon" n="0.006"/>
+      <fraction ref="copper" n="0.005"/>
+      <fraction ref="chromium" n="0.003"/>
+      <fraction ref="carbon" n="0.002"/>
+    </material>
+    <material name="Foam" formula="">
+      <D value="0.09"/>
+      <fraction ref="carbon" n="54.0"/>
+      <fraction ref="oxygen" n="15.0"/>
+      <fraction ref="nitrogen" n="4.0"/>
+      <fraction ref="hydrogen" n="60.0"/>
+    </material>
   </materials>
   <solids>
     <box name="IBeamTopFlange" lunit="cm" x="4.0" y="40.2" z="1894.0"/>
@@ -1693,13 +2216,6 @@
       <positionref ref="center"/>
       <rotationref ref="identity"/>
     </subtraction>
-    <box name="WorldBox" lunit="cm" x="5000.0" y="5000.0" z="7500.0"/>
-    <subtraction name="OuterAir">
-      <first ref="WorldBox"/>
-      <second ref="ShellOutW"/>
-      <positionref ref="center"/>
-      <rotationref ref="identity"/>
-    </subtraction>
     <box name="DetEnclosureBox" lunit="cm" x="2315.0" y="1980.0" z="15060.0"/>
     <box name="RadioRockBox" lunit="cm" x="2515.0" y="2380.0" z="15460.0"/>
     <box name="ConcreteBox" lunit="cm" x="27.49" y="1980.0" z="15060.0"/>
@@ -1753,48 +2269,59 @@
       <positionref ref="posOuterMinusBoxSub"/>
       <rotationref ref="dr"/>
     </subtraction>
-    <box name="World" lunit="cm" x="5000.0" y="5000.0" z="7500.0"/>
+    <box name="ShieldBlock" lunit="cm" x="399.9995" y="0.004" z="155.65949000000003"/>
+    <box name="ShieldBlockTop" lunit="cm" x="251.999685" y="0.004" z="155.65949000000003"/>
+    <box name="ShieldBlockBot" lunit="cm" x="59.999925" y="0.004" z="155.65949000000003"/>
+    <box name="World" lunit="cm" x="50000.0" y="50000.0" z="75000.0"/>
   </solids>
   <structure>
     <volume name="IBeamTop">
-      <materialref ref="AirSteelMixture"/>
+      <materialref ref="fDuneSteel"/>
       <solidref ref="TopBeamUnion2.1"/>
     </volume>
     <volume name="IBeamBot">
-      <materialref ref="AirSteelMixture"/>
+      <materialref ref="fDuneSteel"/>
       <solidref ref="TopBeamUnion2.2"/>
     </volume>
     <volume name="IBeamSide">
-      <materialref ref="AirSteelMixture"/>
+      <materialref ref="fDuneSteel"/>
       <solidref ref="TopBeamUnion2.3"/>
     </volume>
     <volume name="BeltHoleUni">
-      <materialref ref="AirSteelMixture"/>
+      <materialref ref="fDuneSteel"/>
       <solidref ref="BeltHoleUnion"/>
     </volume>
     <volume name="BeltUni">
-      <materialref ref="AirSteelMixture"/>
+      <materialref ref="fDuneSteel"/>
       <solidref ref="BeltUnion"/>
     </volume>
     <volume name="fShellLog">
-      <materialref ref="AirSteelMixture"/>
+      <materialref ref="fDuneSteel"/>
       <solidref ref="fShell"/>
     </volume>
     <volume name="FoamLog">
-      <materialref ref="AirSteelMixture"/>
+      <materialref ref="Foam"/>
       <solidref ref="Foam"/>
     </volume>
     <volume name="WoodLog">
-      <materialref ref="AirSteelMixture"/>
+      <materialref ref="Wood"/>
       <solidref ref="Wood"/>
     </volume>
     <volume name="ShellOutLog">
       <materialref ref="AirSteelMixture"/>
       <solidref ref="WarmSkin"/>
     </volume>
-    <volume name="OuterAirLog">
-      <materialref ref="Air"/>
-      <solidref ref="OuterAir"/>
+    <volume name="ShieldBlockLog">
+      <materialref ref="Water"/>
+      <solidref ref="ShieldBlock"/>
+    </volume>
+    <volume name="ShieldBlockTopLog">
+      <materialref ref="Water"/>
+      <solidref ref="ShieldBlockTop"/>
+    </volume>
+    <volume name="ShieldBlockBotLog">
+      <materialref ref="Water"/>
+      <solidref ref="ShieldBlockBot"/>
     </volume>
     <volume name="VolRadioRockShell">
       <materialref ref="DUSEL_Rock"/>
@@ -1809,7 +2336,7 @@
       <solidref ref="GroutBox"/>
     </volume>
     <volume name="VolShotBox">
-      <materialref ref="Concrete"/>
+      <materialref ref="ShotRock"/>
       <solidref ref="ShotOuterMinusBox"/>
     </volume>
     <volume name="volWorld">
@@ -2516,6 +3043,86 @@
         <rotationref ref="fc2"/>
       </physvol>
       <physvol>
+        <volumeref ref="IBeamTop"/>
+        <positionref ref="IBeamTopPlacementPos18"/>
+        <rotationref ref="fc"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamBot"/>
+        <positionref ref="IBeamBackPlacementPos18"/>
+        <rotationref ref="fc"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamSide"/>
+        <positionref ref="IBeamLeftPlacementPos18"/>
+        <rotationref ref="fc2"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamSide"/>
+        <positionref ref="IBeamRightPlacementPos18"/>
+        <rotationref ref="fc2"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamTop"/>
+        <positionref ref="IBeamTopPlacementPos218"/>
+        <rotationref ref="fc"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamBot"/>
+        <positionref ref="IBeamBotPlacementPos218"/>
+        <rotationref ref="fc"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamSide"/>
+        <positionref ref="IBeamLeftPlacementPos218"/>
+        <rotationref ref="fc2"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamSide"/>
+        <positionref ref="IBeamRightPlacementPos218"/>
+        <rotationref ref="fc2"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamTop"/>
+        <positionref ref="IBeamTopPlacementPos19"/>
+        <rotationref ref="fc"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamBot"/>
+        <positionref ref="IBeamBackPlacementPos19"/>
+        <rotationref ref="fc"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamSide"/>
+        <positionref ref="IBeamLeftPlacementPos19"/>
+        <rotationref ref="fc2"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamSide"/>
+        <positionref ref="IBeamRightPlacementPos19"/>
+        <rotationref ref="fc2"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamTop"/>
+        <positionref ref="IBeamTopPlacementPos219"/>
+        <rotationref ref="fc"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamBot"/>
+        <positionref ref="IBeamBotPlacementPos219"/>
+        <rotationref ref="fc"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamSide"/>
+        <positionref ref="IBeamLeftPlacementPos219"/>
+        <rotationref ref="fc2"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamSide"/>
+        <positionref ref="IBeamRightPlacementPos219"/>
+        <rotationref ref="fc2"/>
+      </physvol>
+      <physvol>
         <volumeref ref="IBeamSide"/>
         <positionref ref="IBeamFrontPlacementPos0"/>
         <rotationref ref="fc3"/>
@@ -2523,16 +3130,6 @@
       <physvol>
         <volumeref ref="IBeamSide"/>
         <positionref ref="IBeamBackPlacementPos2ndLoop0"/>
-        <rotationref ref="fc3"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="IBeamSide"/>
-        <positionref ref="IBeamFrontPlacementPos20"/>
-        <rotationref ref="fc3"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="IBeamSide"/>
-        <positionref ref="IBeamBackPlacementPos20"/>
         <rotationref ref="fc3"/>
       </physvol>
       <physvol>
@@ -2593,6 +3190,26 @@
       <physvol>
         <volumeref ref="IBeamSide"/>
         <positionref ref="IBeamBackPlacementPos23"/>
+        <rotationref ref="fc3"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamSide"/>
+        <positionref ref="IBeamFrontPlacementPos4"/>
+        <rotationref ref="fc3"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamSide"/>
+        <positionref ref="IBeamBackPlacementPos2ndLoop4"/>
+        <rotationref ref="fc3"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamSide"/>
+        <positionref ref="IBeamFrontPlacementPos24"/>
+        <rotationref ref="fc3"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="IBeamSide"/>
+        <positionref ref="IBeamBackPlacementPos24"/>
         <rotationref ref="fc3"/>
       </physvol>
       <physvol>
@@ -7576,8 +8193,2403 @@
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="OuterAirLog"/>
-        <positionref ref="OuterAirPosition"/>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition00"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition00"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position00"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position00"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition01"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition01"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position01"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position01"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition02"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition02"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position02"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position02"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition03"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition03"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position03"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position03"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition04"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition04"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position04"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position04"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition10"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition10"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position10"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position10"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition11"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition11"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position11"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position11"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition12"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition12"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position12"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position12"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition13"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition13"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position13"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position13"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition14"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition14"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position14"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position14"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition20"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition20"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position20"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position20"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition21"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition21"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position21"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position21"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition22"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition22"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position22"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position22"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition23"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition23"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position23"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position23"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition24"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition24"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position24"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position24"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition30"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition30"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position30"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position30"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition31"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition31"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position31"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position31"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition32"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition32"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position32"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position32"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition33"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition33"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position33"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position33"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition34"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition34"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position34"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position34"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition40"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition40"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position40"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position40"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition41"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition41"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position41"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position41"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition42"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition42"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position42"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position42"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition43"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition43"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position43"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position43"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition44"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition44"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position44"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position44"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition50"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition50"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position50"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position50"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition51"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition51"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position51"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position51"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition52"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition52"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position52"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position52"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition53"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition53"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position53"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position53"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition54"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition54"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position54"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position54"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition60"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition60"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position60"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position60"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition61"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition61"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position61"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position61"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition62"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition62"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position62"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position62"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition63"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition63"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position63"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position63"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition64"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition64"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position64"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position64"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition70"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition70"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position70"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position70"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition71"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition71"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position71"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position71"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition72"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition72"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position72"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position72"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition73"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition73"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position73"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position73"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition74"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition74"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position74"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position74"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition80"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition80"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position80"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position80"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition81"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition81"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position81"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position81"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition82"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition82"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position82"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position82"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition83"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition83"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position83"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position83"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition84"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition84"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position84"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position84"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition90"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition90"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position90"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position90"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition91"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition91"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position91"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position91"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition92"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition92"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position92"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position92"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition93"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition93"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position93"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position93"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition94"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition94"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position94"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position94"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition100"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition100"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position100"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position100"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition101"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition101"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position101"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position101"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition102"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition102"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position102"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position102"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition103"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition103"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position103"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position103"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition104"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition104"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position104"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position104"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition110"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition110"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position110"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position110"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition111"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition111"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position111"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position111"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition112"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition112"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position112"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position112"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition113"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition113"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position113"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position113"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition114"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition114"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position114"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position114"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition120"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition120"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position120"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position120"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition121"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition121"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position121"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position121"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition122"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition122"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position122"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position122"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition123"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition123"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position123"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position123"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition124"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition124"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position124"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position124"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition130"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition130"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position130"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position130"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition131"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition131"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position131"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position131"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition132"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition132"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position132"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position132"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition133"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition133"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position133"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position133"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition134"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition134"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position134"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position134"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition140"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition140"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position140"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position140"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition141"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition141"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position141"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position141"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition142"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition142"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position142"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position142"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition143"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition143"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position143"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position143"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition144"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition144"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position144"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position144"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition150"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition150"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position150"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position150"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition151"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition151"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position151"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position151"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition152"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition152"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position152"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position152"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition153"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition153"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position153"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position153"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition154"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition154"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position154"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position154"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition160"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition160"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position160"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position160"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition161"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition161"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position161"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position161"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition162"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition162"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position162"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position162"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition163"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition163"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position163"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position163"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition164"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition164"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position164"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position164"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition170"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition170"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position170"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position170"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition171"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition171"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position171"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position171"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition172"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition172"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position172"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position172"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition173"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition173"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position173"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position173"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition174"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition174"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position174"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position174"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition180"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition180"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position180"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position180"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition181"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition181"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position181"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position181"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeftPosition182"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRightPosition182"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldLeft2Position182"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldRight2Position182"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeftPosition183"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRightPosition183"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldLeft2Position183"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldRight2Position183"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeftPosition184"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRightPosition184"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldLeft2Position184"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockBotLog"/>
+        <positionref ref="ShieldRight2Position184"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition00"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position00"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition00"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position00"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition01"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position01"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition01"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position01"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition02"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position02"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition02"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position02"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldBackPosition03"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldBack2Position03"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldFrontposition03"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldFront2position03"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition04"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position04"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition04"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position04"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition10"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position10"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition10"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position10"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition11"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position11"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition11"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position11"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition12"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position12"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition12"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position12"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldBackPosition13"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldBack2Position13"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldFrontposition13"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldFront2position13"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition14"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position14"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition14"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position14"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition20"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position20"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition20"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position20"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition21"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position21"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition21"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position21"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition22"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position22"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition22"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position22"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldBackPosition23"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldBack2Position23"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldFrontposition23"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldFront2position23"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition24"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position24"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition24"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position24"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition30"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position30"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition30"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position30"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition31"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position31"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition31"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position31"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition32"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position32"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition32"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position32"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldBackPosition33"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldBack2Position33"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldFrontposition33"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldFront2position33"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition34"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position34"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition34"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position34"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition40"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position40"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition40"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position40"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition41"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position41"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition41"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position41"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition42"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position42"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition42"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position42"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldBackPosition43"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldBack2Position43"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldFrontposition43"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockTopLog"/>
+        <positionref ref="ShieldFront2position43"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBackPosition44"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldBack2Position44"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFrontposition44"/>
+        <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="ShieldBlockLog"/>
+        <positionref ref="ShieldFront2position44"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>

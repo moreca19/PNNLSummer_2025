@@ -52,7 +52,7 @@ class BeltsBuilder(gegede.builder.Builder):
         globals.World = kwds
 
     def construct(self, geom):
-        # get all the relevant stuff here
+        
         globals.SetDerived()
         self.PlacementList = []
 
@@ -101,7 +101,7 @@ class BeltsBuilder(gegede.builder.Builder):
 						pos = tr2)
         
         
-        BeltHoleUniLog = make_volume(geom, 'AirSteelMixture', BeltHoleUni, 'BeltHoleUni', aux = True) 
+        BeltHoleUniLog = make_volume(geom, 'fDuneSteel', BeltHoleUni, 'BeltHoleUni', aux = True)  
         
 
         Union2 = geom.shapes.Boolean('Union2', type = 'union', 
@@ -116,7 +116,7 @@ class BeltsBuilder(gegede.builder.Builder):
         
         
 
-        BeltUniLog = make_volume(geom, 'AirSteelMixture', BeltUni, 'BeltUni', aux = True)
+        BeltUniLog = make_volume(geom, 'fDuneSteel', BeltUni, 'BeltUni', aux = True)
 	
 
         zbsp = fSpacing
@@ -307,10 +307,9 @@ class BeltsBuilder(gegede.builder.Builder):
                                                             	volume = belt,
                                                                 rot= fc3Rotation)
                 self.PlacementList.append(BeltFront)
-                print(f" j is {jj}")
+                
 
-            print("xpls is at " + str(xpl))
-            print(f" i is {ii}")
+            
             xpl += zbsp
 
                 

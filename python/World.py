@@ -91,21 +91,19 @@ class WorldBuilder(gegede.builder.Builder):
         construct_materials(geom)
         construct_definitions(geom)
 
-        # create the world box
+        
         worldBox = geom.shapes.Box(self.name,
-                                   dx=Q('5000cm')/2 ,
-                                   dy=Q('5000cm')/2,
-                                   dz=Q('7500cm')/2)## this creates the world "box" whereteh detector will go in
+                                   dx=Q('50000cm')/2 ,
+                                   dy=Q('50000cm')/2,
+                                   dz=Q('75000cm')/2)
 
-        # put it in the world volume
-        worldLV = geom.structure.Volume('vol'+self.name, material="Air", shape=worldBox)## make taht box we created above a avtualy logical volume
+       
+        worldLV = geom.structure.Volume('vol'+self.name, material="Air", shape=worldBox)
         print("about to print the name")
         print(self.name)
         self.add_volume(worldLV)## add it to the registry
 
-        # get the detector enclosure sub-builder
-        #detenc = self.get_builder("DetEnclosure")## get the detenclose subbuiler, creates an instance of the class
-        #detencLV = detenc.get_volume()## gets the colume that was created in DetEnclosure
+        
         
         
         Ibeams = self.get_builder("IBeams")
@@ -123,9 +121,14 @@ class WorldBuilder(gegede.builder.Builder):
         for i in CryostatPlacement:
             worldLV.placements.append(i.name)
 
+        ShieldinWalls = self.get_builder("ShieldingWalls")
+        walls = ShieldinWalls.PlacementList
+        for i in walls:
+            worldLV.placements.append(i.name)
+
         Cavern = self.get_builder("Cavern")
         CavernPlacement = Cavern.PlacementList
         for i in CavernPlacement:
-            worldLV.placements.append(i.name)
+           worldLV.placements.append(i.name)
 
         return worldLV
