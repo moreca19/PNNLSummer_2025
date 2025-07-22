@@ -213,7 +213,7 @@ class Params:
         type(self)._tpc['TPC_x'] = type(self)._tpc['TPCActive_x'] + type(self)._tpc['ReadoutPlane']
         type(self)._tpc['TPC_y'] = type(self)._tpc['widthCRM']
         type(self)._tpc['TPC_z'] = type(self)._tpc['lengthCRM']
-#################################################################################################################################################################################################################
+
         # Cryostat parameters
         if type(self)._world['workspace'] != 0:
             if type(self)._tpc['nCRM_x']== 1:

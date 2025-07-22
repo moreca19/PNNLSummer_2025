@@ -30,7 +30,7 @@ class CavernBuilder(gegede.builder.Builder):
         globals.World = kwds
 
     def construct(self, geom):
-        # get all the relevant stuff here
+        
         globals.SetDerived()
         self.PlacementList = []
 
@@ -107,12 +107,11 @@ class CavernBuilder(gegede.builder.Builder):
                                                                 pos = geom.structure.Position('RadioRockShellPositionInPlacement',
                                                                 x = "0cm",
                                                                 y =  "0cm",
-                                                                z = "-4195.3cm"),
+                                                                z = "-4000cm"),
                                                             	)
         self.PlacementList.append(volRadioRockShellPlacement)
 
         ##__ConcreteVolume__##
-
         VolConcrete = make_volume(geom, 'Concrete', concreteBox, 'volConcrete', aux = True )
 
         volConcretePlacement = geom.structure.Placement('ConcretePLacement',
@@ -121,13 +120,12 @@ class CavernBuilder(gegede.builder.Builder):
                                                                 pos = geom.structure.Position('ConcretePositionInPlacement',
                                                                 y = "0cm",
                                                                 x =  "-1043.53cm",
-                                                                z = "-4195.3cm"),
+                                                                z = "-4000cm"),
                                                             	)
         self.PlacementList.append(volConcretePlacement)
 
         ##__GorutVolume__##
-
-        VolGrout = make_volume(geom, 'Concrete', groutBox, 'volGrout', aux=True)
+        VolGrout = make_volume(geom, 'Concrete', groutBox, 'volGrout', aux=True) 
 
         volGroutPlacement = geom.structure.Placement('GroutPLacement',
                                                                rot = DefaultRotation,
@@ -135,35 +133,37 @@ class CavernBuilder(gegede.builder.Builder):
                                                                 pos = geom.structure.Position('GroutPositionInPlacement',
                                                                 y = "0cm",
                                                                 x =  "-1028.29cm",
-                                                                z = "-4195.3cm"),
+                                                                z = "-4000cm"),
                                                             	)
         self.PlacementList.append(volGroutPlacement)
 
 
         
         
+        
+        
         ##__ShotBoX, defining all variable down here because, proccess is longer, dont want it to be confusing__##
         concSubBox = geom.shapes.Box('oncSubBox',
 					dy = Q('1980cm')/2,
 					dx = Q('30.48cm')/2,
-					dz = Q('15060cm')/2) ## this box will be used in the last subtraction
+					dz = Q('15060cm')/2) 
         
         shotInnerBox = geom.shapes.Box('ShotInnerBox',
 					dy = Q('1959.68cm')/2,
 					dx = Q('2315.0cm')/2,
-					dz = Q('15039.68cm')/2) ## this box will be used in the first subtraction
+					dz = Q('15039.68cm')/2) 
         
         shotOuterBox = geom.shapes.Box('ShotOuterBox',
 					dy = Q('1980.68cm')/2,
 					dx = Q('2315.0cm')/2,
-					dz = Q('15060.0cm')/2) #box for union
+					dz = Q('15060.0cm')/2) 
         
         shotOuterrArch = geom.shapes.Tubs('ShotOuterArch',
 					rmin = Q('0cm'),
 					rmax = Q('1284cm'),
 					dz = Q('15060cm')/2,
 					sphi = Q('40.00000000011459deg'),
-					dphi = Q('100deg')) #arch for the union
+					dphi = Q('100deg')) 
         
         shotInnerArch = geom.shapes.Tubs('ShotInnerArch',
 					rmin = Q('0cm'),
@@ -179,7 +179,7 @@ class CavernBuilder(gegede.builder.Builder):
 						pos = geom.structure.Position('shotOuterArchPos',
                                    y = Q('0cm'),
                                    x =Q('332.160709162cm'),
-                                   z=Q('0cm'))) # the union needed for first sub
+                                   z=Q('0cm'))) 
         
         shotInnerBoxSub = geom.shapes.Boolean('ShotInnerBoxSub', type = 'subtraction', 
 						first = shotOuterBoolAdd, 
@@ -199,7 +199,7 @@ class CavernBuilder(gegede.builder.Builder):
 						pos = geom.structure.Position('posOuterMinusBoxSub', y ="0cm", x ="-1142.26cm", z="0cm"), 
 						rot = DefaultRotation)
         
-        volShotBox = make_volume(geom, 'Concrete', shotOuterMinusBox, 'VolShotBox', aux = True) ## still need to fix the material its made off.
+        volShotBox = make_volume(geom, 'ShotRock', shotOuterMinusBox, 'VolShotBox', aux = True) 
 
         volShotBoxPlacement = geom.structure.Placement('ShotBoxPLacement',
                                                                rot = DefaultRotation,
@@ -207,12 +207,12 @@ class CavernBuilder(gegede.builder.Builder):
                                                                 pos = geom.structure.Position('ShotBoxPositionInPlacement',
                                                                 y = "0cm",
                                                                 x =  "100cm",
-                                                                z = "-4195.3cm"),
+                                                                z = "-4000cm"),
                                                             	)
         self.PlacementList.append(volShotBoxPlacement)
 
         
-
+##4195.3
 
 
 
