@@ -266,9 +266,9 @@ def construct_materials(geom):
 						elements = (("carbon", 2),
 									("hydrogen", 4)))
 	WoodMaterial = geom.matter.Mixture("Wood", density = "0.5g/cc",
-						components = (("hydrogen", 6),
-									("carbon", 50),
-									("oxygen", 44)))
+						components = (("hydrogen", 6/100),
+									("carbon", 50/100),
+									("oxygen", 44/100)))
 	m_dunesteel = geom.matter.Mixture("fDuneSteel", density = "7.93g/cc",
 						components =(("iron", 0.958),
 									("manganese", 0.018),

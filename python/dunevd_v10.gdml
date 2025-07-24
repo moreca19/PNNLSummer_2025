@@ -2060,9 +2060,9 @@
     </material>
     <material name="Wood" formula="">
       <D value="0.5"/>
-      <fraction ref="hydrogen" n="6.0"/>
-      <fraction ref="carbon" n="50.0"/>
-      <fraction ref="oxygen" n="44.0"/>
+      <fraction ref="hydrogen" n="0.06"/>
+      <fraction ref="carbon" n="0.5"/>
+      <fraction ref="oxygen" n="0.44"/>
     </material>
     <material name="fDuneSteel" formula="">
       <D value="7.93"/>

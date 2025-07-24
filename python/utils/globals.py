@@ -235,10 +235,10 @@ class Params:
         type(self)._cryostat['yLArBuffer'] = 0.5 * (type(self)._cryostat['Argon_y'] - type(self)._tpc['widthTPCActive'])
         type(self)._cryostat['zLArBuffer'] = 0.5 * (type(self)._cryostat['Argon_z'] - type(self)._tpc['lengthTPCActive'])
         type(self)._cryostat['Cryostat_x'] = type(self)._cryostat['Argon_x'] + 2*type(self)._cryostat['SteelThickness']
-        print("the value of cryostatx after is:", self._cryostat['Cryostat_x'])
+        #print("the value of cryostatx after is:", self._cryostat['Cryostat_x'])
         #print("the value of cryosatay before is:",self._cryostat['Cryostat_y'])
         type(self)._cryostat['Cryostat_y'] = type(self)._cryostat['Argon_y'] + 2*type(self)._cryostat['SteelThickness']
-        print("the value of cryostaty after is:", self._cryostat['Cryostat_y'])
+        #print("the value of cryostaty after is:", self._cryostat['Cryostat_y'])
         type(self)._cryostat['Cryostat_z'] = type(self)._cryostat['Argon_z'] + 2*type(self)._cryostat['SteelThickness']
         type(self)._cryostat['TPCEnclosure_x'] = type(self)._cryostat['Argon_x'] -                                                              \
                                                  type(self)._cryostat['HeightGaseousAr'] +                                                      \

@@ -87,6 +87,7 @@ class WorldBuilder(gegede.builder.Builder):
 
     def construct(self, geom):
         # get all the relevant stuff here
+        print("runnning.......")
         globals.SetDerived()
         construct_materials(geom)
         construct_definitions(geom)
@@ -99,8 +100,6 @@ class WorldBuilder(gegede.builder.Builder):
 
        
         worldLV = geom.structure.Volume('vol'+self.name, material="Air", shape=worldBox)
-        print("about to print the name")
-        print(self.name)
         self.add_volume(worldLV)## add it to the registry
 
 
@@ -130,7 +129,11 @@ class WorldBuilder(gegede.builder.Builder):
         for i in CavernPlacement:
 
            worldLV.placements.append(i.name)
+        
 
+<<<<<<< HEAD
+        print("done......!")
+=======
         
         ShieldingFloors = self.get_builder("ShieldingFloors")
         ShieldingFloorPlacements = ShieldingFloors.PlacementList
@@ -139,4 +142,5 @@ class WorldBuilder(gegede.builder.Builder):
 
 
 
+>>>>>>> 530f2e0858dcd8ad7108562c0c93bc4633f30d0f
         return worldLV

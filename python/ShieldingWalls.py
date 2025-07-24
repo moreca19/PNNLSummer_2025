@@ -60,14 +60,14 @@ def make_placement(geom, position, name,volume):
 
 ## Creating a position helper function ##
 def make_position(geom, name, X,Y,Z):
-    print("in the making positon fucntion")
+    
     position = geom.structure.Position(name, x=Y,y=X,z=Z)
 
     if position == None:
        return print("creation of position was failed")
         
     else:
-        print("position was created!")
+        
         return position
 
 ##============================================##
