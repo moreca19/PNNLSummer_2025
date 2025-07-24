@@ -41,10 +41,10 @@
 #         detencLV = detenc.get_volume()## gets the colume that was created in DetEnclosure
         
         
-#         # Ibeams = self.get_builder("IBeams")
-#         # placementsToPut = Ibeams.PlacementList
+#         #Ibeams = self.get_builder("IBeams")
+#         #placementsToPut = Ibeams.PlacementList
 
-#         # define where it goes inside the world volume
+#         define where it goes inside the world volume
 #         detenc_pos = geom.structure.Position('pos'+detenc.name,
 #                                              x = globals.get("OriginXSet"),
 #                                              y = globals.get("OriginYSet"),
@@ -102,8 +102,7 @@ class WorldBuilder(gegede.builder.Builder):
         worldLV = geom.structure.Volume('vol'+self.name, material="Air", shape=worldBox)
         self.add_volume(worldLV)## add it to the registry
 
-        
-        
+
         
         Ibeams = self.get_builder("IBeams")
         placementsToPut = Ibeams.PlacementList
@@ -128,8 +127,20 @@ class WorldBuilder(gegede.builder.Builder):
         Cavern = self.get_builder("Cavern")
         CavernPlacement = Cavern.PlacementList
         for i in CavernPlacement:
+
            worldLV.placements.append(i.name)
         
 
+<<<<<<< HEAD
         print("done......!")
+=======
+        
+        ShieldingFloors = self.get_builder("ShieldingFloors")
+        ShieldingFloorPlacements = ShieldingFloors.PlacementList
+        for i in ShieldingFloorPlacements:
+            worldLV.placements.append(i.name)
+
+
+
+>>>>>>> 530f2e0858dcd8ad7108562c0c93bc4633f30d0f
         return worldLV
