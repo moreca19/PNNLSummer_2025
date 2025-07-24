@@ -131,16 +131,5 @@ class WorldBuilder(gegede.builder.Builder):
            worldLV.placements.append(i.name)
         
 
-<<<<<<< HEAD
         print("done......!")
-=======
-        
-        ShieldingFloors = self.get_builder("ShieldingFloors")
-        ShieldingFloorPlacements = ShieldingFloors.PlacementList
-        for i in ShieldingFloorPlacements:
-            worldLV.placements.append(i.name)
-
-
-
->>>>>>> 530f2e0858dcd8ad7108562c0c93bc4633f30d0f
         return worldLV
