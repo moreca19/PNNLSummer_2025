@@ -278,10 +278,10 @@ def construct_materials(geom):
 									("chromium", 0.003),
 									("carbon", 0.002)))
 	m_foam = geom.matter.Mixture("Foam", density = "0.09g/cc",
-						components =(("carbon", 54),
-									("oxygen", 15),
-									("nitrogen",4),
-									("hydrogen", 60)))
+						components =(("carbon", 54/100),
+									("oxygen", 15/100),
+									("nitrogen",4/100),
+									("hydrogen", 60/100)))
 	
 
 
