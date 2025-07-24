@@ -142,7 +142,7 @@ class CryostatBuilder(gegede.builder.Builder):
                                             ) 
         self.PlacementList.append(WoodPla)
 
-        ###this is the start of wood Logical volume###
+        ###this is the start of warmskin Logical volume###
         ShellOutW = geom.shapes.Box('ShellOutW',
 					dy = fCryostat_x/2 +fWarmSkinThickness+ fWoodThickness +fShieldThickness+ fColdSkinThickness + Offset,
 					dx = fCryostat_y/2 +fWarmSkinThickness+ fWoodThickness +fShieldThickness+ fColdSkinThickness + Offset,
@@ -151,7 +151,7 @@ class CryostatBuilder(gegede.builder.Builder):
         fShellW = geom.shapes.Boolean('WarmSkin', type = 'subtraction', 
 						first = ShellOutW, 
 						second = sOutWood)
-        fLogicShellW = make_volume(geom,"AirSteelMixture",fShellW, "ShellOutLog", aux=True)
+        fLogicShellW = make_volume(geom,"fDuneSteel",fShellW, "ShellOutLog", aux=True)
 
         ShellOutPla = geom.structure.Placement('Warmskin',
                                                                 
