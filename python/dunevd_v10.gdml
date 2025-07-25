@@ -1183,6 +1183,386 @@
     <position unit="cm" name="BeltBackPlacement2_3_4" x="841.1" y="710.37" z="-3236.7"/>
     <position unit="cm" name="BeltFrontPlacement_3_4" x="841.1" y="-710.37" z="3236.7"/>
     <position unit="cm" name="BeltFrontPlacement2_3_4" x="841.1" y="710.37" z="3236.7"/>
+    <position unit="cm" name="ShieldingFloor_-5_0_position" x="-819.6" y="-789.3000000000001" z="78.93"/>
+    <position unit="cm" name="ShieldingFloor_-4_0_position" x="-819.6" y="-631.44" z="78.93"/>
+    <position unit="cm" name="ShieldingFloor_-3_0_position" x="-819.6" y="-473.58000000000004" z="78.93"/>
+    <position unit="cm" name="ShieldingFloor_-2_0_position" x="-819.6" y="-315.72" z="78.93"/>
+    <position unit="cm" name="ShieldingFloor_-1_0_position" x="-819.6" y="-157.86" z="78.93"/>
+    <position unit="cm" name="ShieldingFloor_0_0_position" x="-819.6" y="0.0" z="78.93"/>
+    <position unit="cm" name="ShieldingFloor_1_0_position" x="-819.6" y="157.86" z="78.93"/>
+    <position unit="cm" name="ShieldingFloor_2_0_position" x="-819.6" y="315.72" z="78.93"/>
+    <position unit="cm" name="ShieldingFloor_3_0_position" x="-819.6" y="473.58000000000004" z="78.93"/>
+    <position unit="cm" name="ShieldingFloor_4_0_position" x="-819.6" y="631.44" z="78.93"/>
+    <position unit="cm" name="ShieldingFloor_-5_1_position" x="-819.6" y="-789.3000000000001" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor_-4_1_position" x="-819.6" y="-631.44" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor_-3_1_position" x="-819.6" y="-473.58000000000004" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor_-2_1_position" x="-819.6" y="-315.72" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor_-1_1_position" x="-819.6" y="-157.86" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor_0_1_position" x="-819.6" y="0.0" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor_1_1_position" x="-819.6" y="157.86" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor_2_1_position" x="-819.6" y="315.72" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor_3_1_position" x="-819.6" y="473.58000000000004" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor_4_1_position" x="-819.6" y="631.44" z="236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor_-5_2_position" x="-819.6" y="-789.3000000000001" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor_-4_2_position" x="-819.6" y="-631.44" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor_-3_2_position" x="-819.6" y="-473.58000000000004" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor_-2_2_position" x="-819.6" y="-315.72" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor_-1_2_position" x="-819.6" y="-157.86" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor_0_2_position" x="-819.6" y="0.0" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor_1_2_position" x="-819.6" y="157.86" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor_2_2_position" x="-819.6" y="315.72" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor_3_2_position" x="-819.6" y="473.58000000000004" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor_4_2_position" x="-819.6" y="631.44" z="394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor_-5_3_position" x="-819.6" y="-789.3000000000001" z="552.51"/>
+    <position unit="cm" name="ShieldingFloor_-4_3_position" x="-819.6" y="-631.44" z="552.51"/>
+    <position unit="cm" name="ShieldingFloor_-3_3_position" x="-819.6" y="-473.58000000000004" z="552.51"/>
+    <position unit="cm" name="ShieldingFloor_-2_3_position" x="-819.6" y="-315.72" z="552.51"/>
+    <position unit="cm" name="ShieldingFloor_-1_3_position" x="-819.6" y="-157.86" z="552.51"/>
+    <position unit="cm" name="ShieldingFloor_0_3_position" x="-819.6" y="0.0" z="552.51"/>
+    <position unit="cm" name="ShieldingFloor_1_3_position" x="-819.6" y="157.86" z="552.51"/>
+    <position unit="cm" name="ShieldingFloor_2_3_position" x="-819.6" y="315.72" z="552.51"/>
+    <position unit="cm" name="ShieldingFloor_3_3_position" x="-819.6" y="473.58000000000004" z="552.51"/>
+    <position unit="cm" name="ShieldingFloor_4_3_position" x="-819.6" y="631.44" z="552.51"/>
+    <position unit="cm" name="ShieldingFloor_-5_4_position" x="-819.6" y="-789.3000000000001" z="710.37"/>
+    <position unit="cm" name="ShieldingFloor_-4_4_position" x="-819.6" y="-631.44" z="710.37"/>
+    <position unit="cm" name="ShieldingFloor_-3_4_position" x="-819.6" y="-473.58000000000004" z="710.37"/>
+    <position unit="cm" name="ShieldingFloor_-2_4_position" x="-819.6" y="-315.72" z="710.37"/>
+    <position unit="cm" name="ShieldingFloor_-1_4_position" x="-819.6" y="-157.86" z="710.37"/>
+    <position unit="cm" name="ShieldingFloor_0_4_position" x="-819.6" y="0.0" z="710.37"/>
+    <position unit="cm" name="ShieldingFloor_1_4_position" x="-819.6" y="157.86" z="710.37"/>
+    <position unit="cm" name="ShieldingFloor_2_4_position" x="-819.6" y="315.72" z="710.37"/>
+    <position unit="cm" name="ShieldingFloor_3_4_position" x="-819.6" y="473.58000000000004" z="710.37"/>
+    <position unit="cm" name="ShieldingFloor_4_4_position" x="-819.6" y="631.44" z="710.37"/>
+    <position unit="cm" name="ShieldingFloor_-5_5_position" x="-819.6" y="-789.3000000000001" z="868.23"/>
+    <position unit="cm" name="ShieldingFloor_-4_5_position" x="-819.6" y="-631.44" z="868.23"/>
+    <position unit="cm" name="ShieldingFloor_-3_5_position" x="-819.6" y="-473.58000000000004" z="868.23"/>
+    <position unit="cm" name="ShieldingFloor_-2_5_position" x="-819.6" y="-315.72" z="868.23"/>
+    <position unit="cm" name="ShieldingFloor_-1_5_position" x="-819.6" y="-157.86" z="868.23"/>
+    <position unit="cm" name="ShieldingFloor_0_5_position" x="-819.6" y="0.0" z="868.23"/>
+    <position unit="cm" name="ShieldingFloor_1_5_position" x="-819.6" y="157.86" z="868.23"/>
+    <position unit="cm" name="ShieldingFloor_2_5_position" x="-819.6" y="315.72" z="868.23"/>
+    <position unit="cm" name="ShieldingFloor_3_5_position" x="-819.6" y="473.58000000000004" z="868.23"/>
+    <position unit="cm" name="ShieldingFloor_4_5_position" x="-819.6" y="631.44" z="868.23"/>
+    <position unit="cm" name="ShieldingFloor_-5_6_position" x="-819.6" y="-789.3000000000001" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor_-4_6_position" x="-819.6" y="-631.44" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor_-3_6_position" x="-819.6" y="-473.58000000000004" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor_-2_6_position" x="-819.6" y="-315.72" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor_-1_6_position" x="-819.6" y="-157.86" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor_0_6_position" x="-819.6" y="0.0" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor_1_6_position" x="-819.6" y="157.86" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor_2_6_position" x="-819.6" y="315.72" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor_3_6_position" x="-819.6" y="473.58000000000004" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor_4_6_position" x="-819.6" y="631.44" z="1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor_-5_7_position" x="-819.6" y="-789.3000000000001" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor_-4_7_position" x="-819.6" y="-631.44" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor_-3_7_position" x="-819.6" y="-473.58000000000004" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor_-2_7_position" x="-819.6" y="-315.72" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor_-1_7_position" x="-819.6" y="-157.86" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor_0_7_position" x="-819.6" y="0.0" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor_1_7_position" x="-819.6" y="157.86" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor_2_7_position" x="-819.6" y="315.72" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor_3_7_position" x="-819.6" y="473.58000000000004" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor_4_7_position" x="-819.6" y="631.44" z="1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor_-5_8_position" x="-819.6" y="-789.3000000000001" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor_-4_8_position" x="-819.6" y="-631.44" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor_-3_8_position" x="-819.6" y="-473.58000000000004" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor_-2_8_position" x="-819.6" y="-315.72" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor_-1_8_position" x="-819.6" y="-157.86" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor_0_8_position" x="-819.6" y="0.0" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor_1_8_position" x="-819.6" y="157.86" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor_2_8_position" x="-819.6" y="315.72" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor_3_8_position" x="-819.6" y="473.58000000000004" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor_4_8_position" x="-819.6" y="631.44" z="1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor_-5_9_position" x="-819.6" y="-789.3000000000001" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor_-4_9_position" x="-819.6" y="-631.44" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor_-3_9_position" x="-819.6" y="-473.58000000000004" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor_-2_9_position" x="-819.6" y="-315.72" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor_-1_9_position" x="-819.6" y="-157.86" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor_0_9_position" x="-819.6" y="0.0" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor_1_9_position" x="-819.6" y="157.86" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor_2_9_position" x="-819.6" y="315.72" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor_3_9_position" x="-819.6" y="473.58000000000004" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor_4_9_position" x="-819.6" y="631.44" z="1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor_-5_10_position" x="-819.6" y="-789.3000000000001" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor_-4_10_position" x="-819.6" y="-631.44" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor_-3_10_position" x="-819.6" y="-473.58000000000004" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor_-2_10_position" x="-819.6" y="-315.72" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor_-1_10_position" x="-819.6" y="-157.86" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor_0_10_position" x="-819.6" y="0.0" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor_1_10_position" x="-819.6" y="157.86" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor_2_10_position" x="-819.6" y="315.72" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor_3_10_position" x="-819.6" y="473.58000000000004" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor_4_10_position" x="-819.6" y="631.44" z="1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor_-5_11_position" x="-819.6" y="-789.3000000000001" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor_-4_11_position" x="-819.6" y="-631.44" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor_-3_11_position" x="-819.6" y="-473.58000000000004" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor_-2_11_position" x="-819.6" y="-315.72" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor_-1_11_position" x="-819.6" y="-157.86" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor_0_11_position" x="-819.6" y="0.0" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor_1_11_position" x="-819.6" y="157.86" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor_2_11_position" x="-819.6" y="315.72" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor_3_11_position" x="-819.6" y="473.58000000000004" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor_4_11_position" x="-819.6" y="631.44" z="1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor_-5_12_position" x="-819.6" y="-789.3000000000001" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor_-4_12_position" x="-819.6" y="-631.44" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor_-3_12_position" x="-819.6" y="-473.58000000000004" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor_-2_12_position" x="-819.6" y="-315.72" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor_-1_12_position" x="-819.6" y="-157.86" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor_0_12_position" x="-819.6" y="0.0" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor_1_12_position" x="-819.6" y="157.86" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor_2_12_position" x="-819.6" y="315.72" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor_3_12_position" x="-819.6" y="473.58000000000004" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor_4_12_position" x="-819.6" y="631.44" z="1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor_-5_13_position" x="-819.6" y="-789.3000000000001" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor_-4_13_position" x="-819.6" y="-631.44" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor_-3_13_position" x="-819.6" y="-473.58000000000004" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor_-2_13_position" x="-819.6" y="-315.72" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor_-1_13_position" x="-819.6" y="-157.86" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor_0_13_position" x="-819.6" y="0.0" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor_1_13_position" x="-819.6" y="157.86" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor_2_13_position" x="-819.6" y="315.72" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor_3_13_position" x="-819.6" y="473.58000000000004" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor_4_13_position" x="-819.6" y="631.44" z="2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor_-5_14_position" x="-819.6" y="-789.3000000000001" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor_-4_14_position" x="-819.6" y="-631.44" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor_-3_14_position" x="-819.6" y="-473.58000000000004" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor_-2_14_position" x="-819.6" y="-315.72" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor_-1_14_position" x="-819.6" y="-157.86" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor_0_14_position" x="-819.6" y="0.0" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor_1_14_position" x="-819.6" y="157.86" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor_2_14_position" x="-819.6" y="315.72" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor_3_14_position" x="-819.6" y="473.58000000000004" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor_4_14_position" x="-819.6" y="631.44" z="2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor_-5_15_position" x="-819.6" y="-789.3000000000001" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor_-4_15_position" x="-819.6" y="-631.44" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor_-3_15_position" x="-819.6" y="-473.58000000000004" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor_-2_15_position" x="-819.6" y="-315.72" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor_-1_15_position" x="-819.6" y="-157.86" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor_0_15_position" x="-819.6" y="0.0" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor_1_15_position" x="-819.6" y="157.86" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor_2_15_position" x="-819.6" y="315.72" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor_3_15_position" x="-819.6" y="473.58000000000004" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor_4_15_position" x="-819.6" y="631.44" z="2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor_-5_16_position" x="-819.6" y="-789.3000000000001" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor_-4_16_position" x="-819.6" y="-631.44" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor_-3_16_position" x="-819.6" y="-473.58000000000004" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor_-2_16_position" x="-819.6" y="-315.72" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor_-1_16_position" x="-819.6" y="-157.86" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor_0_16_position" x="-819.6" y="0.0" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor_1_16_position" x="-819.6" y="157.86" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor_2_16_position" x="-819.6" y="315.72" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor_3_16_position" x="-819.6" y="473.58000000000004" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor_4_16_position" x="-819.6" y="631.44" z="2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor_-5_17_position" x="-819.6" y="-789.3000000000001" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor_-4_17_position" x="-819.6" y="-631.44" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor_-3_17_position" x="-819.6" y="-473.58000000000004" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor_-2_17_position" x="-819.6" y="-315.72" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor_-1_17_position" x="-819.6" y="-157.86" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor_0_17_position" x="-819.6" y="0.0" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor_1_17_position" x="-819.6" y="157.86" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor_2_17_position" x="-819.6" y="315.72" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor_3_17_position" x="-819.6" y="473.58000000000004" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor_4_17_position" x="-819.6" y="631.44" z="2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor_-5_18_position" x="-819.6" y="-789.3000000000001" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor_-4_18_position" x="-819.6" y="-631.44" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor_-3_18_position" x="-819.6" y="-473.58000000000004" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor_-2_18_position" x="-819.6" y="-315.72" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor_-1_18_position" x="-819.6" y="-157.86" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor_0_18_position" x="-819.6" y="0.0" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor_1_18_position" x="-819.6" y="157.86" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor_2_18_position" x="-819.6" y="315.72" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor_3_18_position" x="-819.6" y="473.58000000000004" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor_4_18_position" x="-819.6" y="631.44" z="2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor2_-5_0_position" x="-819.6" y="-789.3000000000001" z="-78.93"/>
+    <position unit="cm" name="ShieldingFloor2_-4_0_position" x="-819.6" y="-631.44" z="-78.93"/>
+    <position unit="cm" name="ShieldingFloor2_-3_0_position" x="-819.6" y="-473.58000000000004" z="-78.93"/>
+    <position unit="cm" name="ShieldingFloor2_-2_0_position" x="-819.6" y="-315.72" z="-78.93"/>
+    <position unit="cm" name="ShieldingFloor2_-1_0_position" x="-819.6" y="-157.86" z="-78.93"/>
+    <position unit="cm" name="ShieldingFloor2_0_0_position" x="-819.6" y="0.0" z="-78.93"/>
+    <position unit="cm" name="ShieldingFloor2_1_0_position" x="-819.6" y="157.86" z="-78.93"/>
+    <position unit="cm" name="ShieldingFloor2_2_0_position" x="-819.6" y="315.72" z="-78.93"/>
+    <position unit="cm" name="ShieldingFloor2_3_0_position" x="-819.6" y="473.58000000000004" z="-78.93"/>
+    <position unit="cm" name="ShieldingFloor2_4_0_position" x="-819.6" y="631.44" z="-78.93"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-1_position" x="-819.6" y="-789.3000000000001" z="-236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-1_position" x="-819.6" y="-631.44" z="-236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-1_position" x="-819.6" y="-473.58000000000004" z="-236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-1_position" x="-819.6" y="-315.72" z="-236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-1_position" x="-819.6" y="-157.86" z="-236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor2_0_-1_position" x="-819.6" y="0.0" z="-236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor2_1_-1_position" x="-819.6" y="157.86" z="-236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor2_2_-1_position" x="-819.6" y="315.72" z="-236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor2_3_-1_position" x="-819.6" y="473.58000000000004" z="-236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor2_4_-1_position" x="-819.6" y="631.44" z="-236.79000000000002"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-2_position" x="-819.6" y="-789.3000000000001" z="-394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-2_position" x="-819.6" y="-631.44" z="-394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-2_position" x="-819.6" y="-473.58000000000004" z="-394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-2_position" x="-819.6" y="-315.72" z="-394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-2_position" x="-819.6" y="-157.86" z="-394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor2_0_-2_position" x="-819.6" y="0.0" z="-394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor2_1_-2_position" x="-819.6" y="157.86" z="-394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor2_2_-2_position" x="-819.6" y="315.72" z="-394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor2_3_-2_position" x="-819.6" y="473.58000000000004" z="-394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor2_4_-2_position" x="-819.6" y="631.44" z="-394.65000000000003"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-3_position" x="-819.6" y="-789.3000000000001" z="-552.51"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-3_position" x="-819.6" y="-631.44" z="-552.51"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-3_position" x="-819.6" y="-473.58000000000004" z="-552.51"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-3_position" x="-819.6" y="-315.72" z="-552.51"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-3_position" x="-819.6" y="-157.86" z="-552.51"/>
+    <position unit="cm" name="ShieldingFloor2_0_-3_position" x="-819.6" y="0.0" z="-552.51"/>
+    <position unit="cm" name="ShieldingFloor2_1_-3_position" x="-819.6" y="157.86" z="-552.51"/>
+    <position unit="cm" name="ShieldingFloor2_2_-3_position" x="-819.6" y="315.72" z="-552.51"/>
+    <position unit="cm" name="ShieldingFloor2_3_-3_position" x="-819.6" y="473.58000000000004" z="-552.51"/>
+    <position unit="cm" name="ShieldingFloor2_4_-3_position" x="-819.6" y="631.44" z="-552.51"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-4_position" x="-819.6" y="-789.3000000000001" z="-710.37"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-4_position" x="-819.6" y="-631.44" z="-710.37"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-4_position" x="-819.6" y="-473.58000000000004" z="-710.37"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-4_position" x="-819.6" y="-315.72" z="-710.37"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-4_position" x="-819.6" y="-157.86" z="-710.37"/>
+    <position unit="cm" name="ShieldingFloor2_0_-4_position" x="-819.6" y="0.0" z="-710.37"/>
+    <position unit="cm" name="ShieldingFloor2_1_-4_position" x="-819.6" y="157.86" z="-710.37"/>
+    <position unit="cm" name="ShieldingFloor2_2_-4_position" x="-819.6" y="315.72" z="-710.37"/>
+    <position unit="cm" name="ShieldingFloor2_3_-4_position" x="-819.6" y="473.58000000000004" z="-710.37"/>
+    <position unit="cm" name="ShieldingFloor2_4_-4_position" x="-819.6" y="631.44" z="-710.37"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-5_position" x="-819.6" y="-789.3000000000001" z="-868.23"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-5_position" x="-819.6" y="-631.44" z="-868.23"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-5_position" x="-819.6" y="-473.58000000000004" z="-868.23"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-5_position" x="-819.6" y="-315.72" z="-868.23"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-5_position" x="-819.6" y="-157.86" z="-868.23"/>
+    <position unit="cm" name="ShieldingFloor2_0_-5_position" x="-819.6" y="0.0" z="-868.23"/>
+    <position unit="cm" name="ShieldingFloor2_1_-5_position" x="-819.6" y="157.86" z="-868.23"/>
+    <position unit="cm" name="ShieldingFloor2_2_-5_position" x="-819.6" y="315.72" z="-868.23"/>
+    <position unit="cm" name="ShieldingFloor2_3_-5_position" x="-819.6" y="473.58000000000004" z="-868.23"/>
+    <position unit="cm" name="ShieldingFloor2_4_-5_position" x="-819.6" y="631.44" z="-868.23"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-6_position" x="-819.6" y="-789.3000000000001" z="-1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-6_position" x="-819.6" y="-631.44" z="-1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-6_position" x="-819.6" y="-473.58000000000004" z="-1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-6_position" x="-819.6" y="-315.72" z="-1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-6_position" x="-819.6" y="-157.86" z="-1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor2_0_-6_position" x="-819.6" y="0.0" z="-1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor2_1_-6_position" x="-819.6" y="157.86" z="-1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor2_2_-6_position" x="-819.6" y="315.72" z="-1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor2_3_-6_position" x="-819.6" y="473.58000000000004" z="-1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor2_4_-6_position" x="-819.6" y="631.44" z="-1026.0900000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-7_position" x="-819.6" y="-789.3000000000001" z="-1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-7_position" x="-819.6" y="-631.44" z="-1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-7_position" x="-819.6" y="-473.58000000000004" z="-1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-7_position" x="-819.6" y="-315.72" z="-1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-7_position" x="-819.6" y="-157.86" z="-1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor2_0_-7_position" x="-819.6" y="0.0" z="-1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor2_1_-7_position" x="-819.6" y="157.86" z="-1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor2_2_-7_position" x="-819.6" y="315.72" z="-1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor2_3_-7_position" x="-819.6" y="473.58000000000004" z="-1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor2_4_-7_position" x="-819.6" y="631.44" z="-1183.9500000000003"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-8_position" x="-819.6" y="-789.3000000000001" z="-1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-8_position" x="-819.6" y="-631.44" z="-1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-8_position" x="-819.6" y="-473.58000000000004" z="-1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-8_position" x="-819.6" y="-315.72" z="-1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-8_position" x="-819.6" y="-157.86" z="-1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor2_0_-8_position" x="-819.6" y="0.0" z="-1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor2_1_-8_position" x="-819.6" y="157.86" z="-1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor2_2_-8_position" x="-819.6" y="315.72" z="-1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor2_3_-8_position" x="-819.6" y="473.58000000000004" z="-1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor2_4_-8_position" x="-819.6" y="631.44" z="-1341.8100000000004"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-9_position" x="-819.6" y="-789.3000000000001" z="-1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-9_position" x="-819.6" y="-631.44" z="-1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-9_position" x="-819.6" y="-473.58000000000004" z="-1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-9_position" x="-819.6" y="-315.72" z="-1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-9_position" x="-819.6" y="-157.86" z="-1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor2_0_-9_position" x="-819.6" y="0.0" z="-1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor2_1_-9_position" x="-819.6" y="157.86" z="-1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor2_2_-9_position" x="-819.6" y="315.72" z="-1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor2_3_-9_position" x="-819.6" y="473.58000000000004" z="-1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor2_4_-9_position" x="-819.6" y="631.44" z="-1499.6700000000005"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-10_position" x="-819.6" y="-789.3000000000001" z="-1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-10_position" x="-819.6" y="-631.44" z="-1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-10_position" x="-819.6" y="-473.58000000000004" z="-1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-10_position" x="-819.6" y="-315.72" z="-1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-10_position" x="-819.6" y="-157.86" z="-1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor2_0_-10_position" x="-819.6" y="0.0" z="-1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor2_1_-10_position" x="-819.6" y="157.86" z="-1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor2_2_-10_position" x="-819.6" y="315.72" z="-1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor2_3_-10_position" x="-819.6" y="473.58000000000004" z="-1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor2_4_-10_position" x="-819.6" y="631.44" z="-1657.5300000000007"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-11_position" x="-819.6" y="-789.3000000000001" z="-1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-11_position" x="-819.6" y="-631.44" z="-1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-11_position" x="-819.6" y="-473.58000000000004" z="-1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-11_position" x="-819.6" y="-315.72" z="-1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-11_position" x="-819.6" y="-157.86" z="-1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor2_0_-11_position" x="-819.6" y="0.0" z="-1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor2_1_-11_position" x="-819.6" y="157.86" z="-1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor2_2_-11_position" x="-819.6" y="315.72" z="-1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor2_3_-11_position" x="-819.6" y="473.58000000000004" z="-1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor2_4_-11_position" x="-819.6" y="631.44" z="-1815.3900000000008"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-12_position" x="-819.6" y="-789.3000000000001" z="-1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-12_position" x="-819.6" y="-631.44" z="-1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-12_position" x="-819.6" y="-473.58000000000004" z="-1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-12_position" x="-819.6" y="-315.72" z="-1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-12_position" x="-819.6" y="-157.86" z="-1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor2_0_-12_position" x="-819.6" y="0.0" z="-1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor2_1_-12_position" x="-819.6" y="157.86" z="-1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor2_2_-12_position" x="-819.6" y="315.72" z="-1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor2_3_-12_position" x="-819.6" y="473.58000000000004" z="-1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor2_4_-12_position" x="-819.6" y="631.44" z="-1973.250000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-13_position" x="-819.6" y="-789.3000000000001" z="-2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-13_position" x="-819.6" y="-631.44" z="-2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-13_position" x="-819.6" y="-473.58000000000004" z="-2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-13_position" x="-819.6" y="-315.72" z="-2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-13_position" x="-819.6" y="-157.86" z="-2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor2_0_-13_position" x="-819.6" y="0.0" z="-2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor2_1_-13_position" x="-819.6" y="157.86" z="-2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor2_2_-13_position" x="-819.6" y="315.72" z="-2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor2_3_-13_position" x="-819.6" y="473.58000000000004" z="-2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor2_4_-13_position" x="-819.6" y="631.44" z="-2131.110000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-14_position" x="-819.6" y="-789.3000000000001" z="-2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-14_position" x="-819.6" y="-631.44" z="-2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-14_position" x="-819.6" y="-473.58000000000004" z="-2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-14_position" x="-819.6" y="-315.72" z="-2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-14_position" x="-819.6" y="-157.86" z="-2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor2_0_-14_position" x="-819.6" y="0.0" z="-2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor2_1_-14_position" x="-819.6" y="157.86" z="-2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor2_2_-14_position" x="-819.6" y="315.72" z="-2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor2_3_-14_position" x="-819.6" y="473.58000000000004" z="-2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor2_4_-14_position" x="-819.6" y="631.44" z="-2288.970000000001"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-15_position" x="-819.6" y="-789.3000000000001" z="-2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-15_position" x="-819.6" y="-631.44" z="-2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-15_position" x="-819.6" y="-473.58000000000004" z="-2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-15_position" x="-819.6" y="-315.72" z="-2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-15_position" x="-819.6" y="-157.86" z="-2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor2_0_-15_position" x="-819.6" y="0.0" z="-2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor2_1_-15_position" x="-819.6" y="157.86" z="-2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor2_2_-15_position" x="-819.6" y="315.72" z="-2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor2_3_-15_position" x="-819.6" y="473.58000000000004" z="-2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor2_4_-15_position" x="-819.6" y="631.44" z="-2446.8300000000013"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-16_position" x="-819.6" y="-789.3000000000001" z="-2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-16_position" x="-819.6" y="-631.44" z="-2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-16_position" x="-819.6" y="-473.58000000000004" z="-2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-16_position" x="-819.6" y="-315.72" z="-2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-16_position" x="-819.6" y="-157.86" z="-2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor2_0_-16_position" x="-819.6" y="0.0" z="-2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor2_1_-16_position" x="-819.6" y="157.86" z="-2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor2_2_-16_position" x="-819.6" y="315.72" z="-2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor2_3_-16_position" x="-819.6" y="473.58000000000004" z="-2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor2_4_-16_position" x="-819.6" y="631.44" z="-2604.6900000000014"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-17_position" x="-819.6" y="-789.3000000000001" z="-2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-17_position" x="-819.6" y="-631.44" z="-2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-17_position" x="-819.6" y="-473.58000000000004" z="-2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-17_position" x="-819.6" y="-315.72" z="-2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-17_position" x="-819.6" y="-157.86" z="-2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor2_0_-17_position" x="-819.6" y="0.0" z="-2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor2_1_-17_position" x="-819.6" y="157.86" z="-2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor2_2_-17_position" x="-819.6" y="315.72" z="-2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor2_3_-17_position" x="-819.6" y="473.58000000000004" z="-2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor2_4_-17_position" x="-819.6" y="631.44" z="-2762.5500000000015"/>
+    <position unit="cm" name="ShieldingFloor2_-5_-18_position" x="-819.6" y="-789.3000000000001" z="-2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor2_-4_-18_position" x="-819.6" y="-631.44" z="-2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor2_-3_-18_position" x="-819.6" y="-473.58000000000004" z="-2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor2_-2_-18_position" x="-819.6" y="-315.72" z="-2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor2_-1_-18_position" x="-819.6" y="-157.86" z="-2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor2_0_-18_position" x="-819.6" y="0.0" z="-2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor2_1_-18_position" x="-819.6" y="157.86" z="-2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor2_2_-18_position" x="-819.6" y="315.72" z="-2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor2_3_-18_position" x="-819.6" y="473.58000000000004" z="-2920.4100000000017"/>
+    <position unit="cm" name="ShieldingFloor2_4_-18_position" x="-819.6" y="631.44" z="-2920.4100000000017"/>
     <position unit="cm" name="fPhysShellPlacement" x="0" y="0" z="0"/>
     <position unit="cm" name="FoamPosition" x="0" y="0" z="0"/>
     <position unit="cm" name="WoodPosition" x="0" y="0" z="0"/>
@@ -2076,10 +2456,10 @@
     </material>
     <material name="Foam" formula="">
       <D value="0.09"/>
-      <fraction ref="carbon" n="54.0"/>
-      <fraction ref="oxygen" n="15.0"/>
-      <fraction ref="nitrogen" n="4.0"/>
-      <fraction ref="hydrogen" n="60.0"/>
+      <fraction ref="carbon" n="0.54"/>
+      <fraction ref="oxygen" n="0.15"/>
+      <fraction ref="nitrogen" n="0.04"/>
+      <fraction ref="hydrogen" n="0.6"/>
     </material>
   </materials>
   <solids>
@@ -2187,6 +2567,7 @@
       <positionref ref="tr2"/>
       <rotationref ref="identity"/>
     </union>
+    <box name="box_name" lunit="cm" x="40.0" y="152.86" z="150.56000000000003"/>
     <box name="Cryostat" lunit="cm" x="1320.0" y="1500.0" z="6020.0"/>
     <box name="ShellOut" lunit="cm" x="1320.36" y="1500.36" z="6020.36"/>
     <subtraction name="fShell">
@@ -2308,20 +2689,12 @@
       <solidref ref="Wood"/>
     </volume>
     <volume name="ShellOutLog">
-      <materialref ref="AirSteelMixture"/>
+      <materialref ref="fDuneSteel"/>
       <solidref ref="WarmSkin"/>
     </volume>
-    <volume name="ShieldBlockLog">
+    <volume name="boxshapeVol">
       <materialref ref="Water"/>
-      <solidref ref="ShieldBlock"/>
-    </volume>
-    <volume name="ShieldBlockTopLog">
-      <materialref ref="Water"/>
-      <solidref ref="ShieldBlockTop"/>
-    </volume>
-    <volume name="ShieldBlockBotLog">
-      <materialref ref="Water"/>
-      <solidref ref="ShieldBlockBot"/>
+      <solidref ref="box_name"/>
     </volume>
     <volume name="VolRadioRockShell">
       <materialref ref="DUSEL_Rock"/>
@@ -8193,2403 +8566,1903 @@
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition00"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition00"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position00"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position00"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition01"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition01"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position01"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position01"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition02"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition02"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position02"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position02"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition03"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition03"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position03"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position03"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition04"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition04"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position04"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position04"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition10"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition10"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position10"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position10"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition11"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition11"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position11"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position11"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition12"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition12"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position12"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position12"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition13"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition13"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position13"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position13"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition14"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition14"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position14"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position14"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition20"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition20"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position20"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position20"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition21"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition21"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position21"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position21"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition22"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition22"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position22"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position22"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition23"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition23"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position23"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position23"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition24"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition24"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position24"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position24"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition30"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition30"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position30"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position30"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition31"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition31"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position31"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position31"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition32"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition32"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position32"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position32"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition33"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition33"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position33"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position33"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition34"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition34"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position34"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position34"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition40"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition40"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position40"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position40"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition41"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition41"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position41"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position41"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition42"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition42"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position42"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position42"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition43"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition43"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position43"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position43"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition44"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition44"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position44"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position44"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition50"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition50"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position50"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position50"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition51"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition51"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position51"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position51"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition52"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition52"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position52"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position52"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition53"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition53"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position53"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position53"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition54"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition54"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position54"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position54"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition60"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition60"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position60"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position60"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition61"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition61"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position61"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position61"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition62"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition62"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position62"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position62"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition63"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition63"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position63"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position63"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition64"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition64"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position64"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position64"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition70"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition70"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position70"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position70"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition71"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition71"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position71"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position71"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition72"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition72"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position72"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position72"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition73"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition73"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position73"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position73"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition74"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition74"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position74"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position74"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition80"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition80"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position80"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position80"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition81"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition81"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position81"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position81"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition82"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition82"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position82"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position82"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition83"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition83"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position83"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position83"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition84"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition84"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position84"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position84"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition90"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-5_18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition90"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-4_18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position90"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-3_18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position90"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-2_18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition91"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_-1_18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition91"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_0_18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position91"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_1_18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position91"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_2_18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition92"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_3_18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition92"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor_4_18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position92"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position92"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition93"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition93"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position93"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position93"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition94"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition94"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position94"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position94"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_0_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition100"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition100"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position100"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position100"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition101"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition101"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position101"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position101"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition102"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition102"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-1_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position102"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position102"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition103"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition103"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position103"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position103"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition104"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition104"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position104"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position104"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-2_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition110"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition110"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position110"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position110"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition111"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition111"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position111"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position111"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition112"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition112"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-3_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position112"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position112"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition113"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition113"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position113"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position113"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition114"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition114"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position114"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position114"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-4_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition120"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition120"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position120"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position120"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition121"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition121"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position121"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position121"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition122"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition122"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-5_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position122"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position122"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition123"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition123"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position123"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position123"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition124"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition124"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position124"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position124"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-6_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition130"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition130"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position130"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position130"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition131"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition131"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position131"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position131"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition132"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition132"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-7_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position132"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position132"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition133"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition133"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position133"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position133"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition134"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition134"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position134"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position134"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-8_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition140"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition140"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position140"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position140"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition141"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition141"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position141"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position141"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition142"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition142"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-9_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position142"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position142"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition143"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition143"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position143"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position143"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition144"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition144"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position144"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position144"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-10_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition150"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition150"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position150"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position150"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition151"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition151"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position151"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position151"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition152"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition152"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-11_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position152"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position152"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition153"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition153"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position153"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position153"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition154"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition154"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position154"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position154"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-12_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition160"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition160"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position160"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position160"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition161"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition161"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position161"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position161"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition162"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition162"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-13_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position162"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position162"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition163"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition163"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position163"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position163"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition164"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition164"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position164"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position164"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-14_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition170"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition170"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position170"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position170"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition171"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition171"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position171"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position171"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition172"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition172"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-15_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position172"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position172"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition173"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition173"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position173"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position173"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition174"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition174"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position174"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position174"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-16_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition180"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition180"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position180"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position180"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition181"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition181"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position181"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position181"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeftPosition182"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRightPosition182"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-17_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldLeft2Position182"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-5_-18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldRight2Position182"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-4_-18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeftPosition183"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-3_-18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRightPosition183"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-2_-18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldLeft2Position183"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_-1_-18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldRight2Position183"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_0_-18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeftPosition184"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_1_-18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRightPosition184"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_2_-18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldLeft2Position184"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_3_-18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>
-        <volumeref ref="ShieldBlockBotLog"/>
-        <positionref ref="ShieldRight2Position184"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition00"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position00"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition00"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position00"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition01"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position01"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition01"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position01"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition02"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position02"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition02"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position02"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldBackPosition03"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldBack2Position03"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldFrontposition03"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldFront2position03"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition04"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position04"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition04"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position04"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition10"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position10"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition10"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position10"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition11"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position11"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition11"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position11"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition12"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position12"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition12"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position12"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldBackPosition13"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldBack2Position13"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldFrontposition13"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldFront2position13"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition14"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position14"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition14"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position14"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition20"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position20"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition20"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position20"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition21"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position21"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition21"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position21"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition22"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position22"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition22"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position22"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldBackPosition23"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldBack2Position23"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldFrontposition23"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldFront2position23"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition24"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position24"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition24"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position24"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition30"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position30"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition30"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position30"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition31"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position31"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition31"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position31"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition32"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position32"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition32"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position32"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldBackPosition33"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldBack2Position33"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldFrontposition33"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldFront2position33"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition34"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position34"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition34"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position34"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition40"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position40"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition40"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position40"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition41"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position41"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition41"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position41"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition42"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position42"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition42"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position42"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldBackPosition43"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldBack2Position43"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldFrontposition43"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockTopLog"/>
-        <positionref ref="ShieldFront2position43"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBackPosition44"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldBack2Position44"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFrontposition44"/>
-        <rotationref ref="identity"/>
-      </physvol>
-      <physvol>
-        <volumeref ref="ShieldBlockLog"/>
-        <positionref ref="ShieldFront2position44"/>
+        <volumeref ref="boxshapeVol"/>
+        <positionref ref="ShieldingFloor2_4_-18_position"/>
         <rotationref ref="identity"/>
       </physvol>
       <physvol>

@@ -8,6 +8,7 @@ from utils import *
 #--------------------#
 fht = Q('841.1cm')
 fst = Q('896.4cm')
+fzpl = Q('6473.2cm')
 fSpacing = Q('157.86cm')
 fIFlangeWidth = Q('0.42cm')
 fIFlangeThick = Q('4cm')
@@ -188,6 +189,33 @@ class CryostatBuilder(gegede.builder.Builder):
         self.PlacementList.append(OuterAirPla)
 
         '''
+
+        ##this is the start of the rock floor volume
+
+        # rockThick = Q('1000cm')
+
+        # rockFloor = geom.shapes.Box('RockFloor',
+		# 			dy = fst*1.5,
+		# 			dx = rockThick/2,
+		# 			dz = (fzpl/2)*1.1)
+        
+        # fLogicRockFloor = make_volume(geom,'DUSEL_Rock',rockFloor, "RockFloorLog", aux=True)
+
+
+        # fPhysRockFloor = geom.structure.Placement('RockFloorPlacement',
+                                                                
+        #                                     pos = geom.structure.Position('RockFloorPosition',
+        #                                     y = "0cm",
+        #                                     x =  -(fht+Q('110cm')+rockThick/2),
+        #                                     z = "0cm"),
+        #                                     volume = fLogicRockFloor
+                                                                
+        #                                     ) 
+        # self.PlacementList.append(fPhysRockFloor)
+
+
+
+
 
     
         
