@@ -119,7 +119,7 @@ class CavernBuilder(gegede.builder.Builder):
                                                                volume = VolConcrete,
                                                                 pos = geom.structure.Position('ConcretePositionInPlacement',
                                                                 y = "0cm",
-                                                                x =  "-1043.53cm",
+                                                                x = "-1043.53cm",
                                                                 z = "-4000cm"),
                                                             	)
         self.PlacementList.append(volConcretePlacement)
