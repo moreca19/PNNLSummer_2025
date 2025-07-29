@@ -129,10 +129,10 @@ class WorldBuilder(gegede.builder.Builder):
         # for i in walls:
         #     worldLV.placements.append(i.name)
 
-        # Cavern = self.get_builder("Cavern")
-        # CavernPlacement = Cavern.PlacementList
-        # for i in CavernPlacement:
-        #     worldLV.placements.append(i.name)
+        Cavern = self.get_builder("Cavern")
+        CavernPlacement = Cavern.PlacementList
+        for i in CavernPlacement:
+            worldLV.placements.append(i.name)
         
 
         
