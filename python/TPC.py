@@ -36,7 +36,7 @@ class TPCBuilder(gegede.builder.Builder):
 
         # get the constituent logical volumes
         tpcactive_LV = geom.structure.Volume('vol'+self.name+'Active',
-                                             material = "LAr",
+                                             material = "G4_lAr",
                                              shape = crmactiveBox)
         tpcactive_LV.params.append(("SensDet","SimEnergyDeposit"))
         tpcactive_LV.params.append(("StepLimit","0.5208*cm"))
@@ -55,7 +55,7 @@ class TPCBuilder(gegede.builder.Builder):
         pid = 0
         for plane in ['U', 'V', 'Z']:
             tpcplane_LV = geom.structure.Volume('vol'+self.name+'Plane'+plane,
-                                                material = "LAr",
+                                                material = "G4_lAr",
                                                 shape = crmplaneBoxes[plane])
             rotation = "rPlus90AboutX" if plane == 'Z' else "r%sWireAboutX" % plane
             if wires:
@@ -85,7 +85,7 @@ class TPCBuilder(gegede.builder.Builder):
 
         # final placements
         tpc_LV = geom.structure.Volume('vol'+self.name,
-                                       material = "LAr",
+                                       material = "G4_lAr",
                                        shape = crmBox)
         self.add_volume(tpc_LV)
         # place the individual place

@@ -105,7 +105,7 @@ class CryostatBuilder(gegede.builder.Builder):
 					dx = fCryostat_y/2 - fColdSkinThickness*2 + Offset,
 					dz = fCryostat_z/2 - fColdSkinThickness*2 +Offset)
         
-        LArBoxLog = make_volume(geom, 'LAr', LarBox, "LArBoxLogical", aux=True)
+        LArBoxLog = make_volume(geom, "G4_lAr", LarBox, "LArBoxLogical", aux=True)
 
         LArBoxPlacement = geom.structure.Placement('LArBoxPlacement',
                                                                 

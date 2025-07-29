@@ -70,14 +70,14 @@ class ArapucaBuilder(gegede.builder.Builder):
 
         # define all the sub-volumes
         opdetsens_LV = geom.structure.Volume('volOpDetSensitive',
-                                             material = "LAr",
+                                             material = "G4_lAr",
                                              shape = arapucaAccBox)
         arapuca_LV = geom.structure.Volume('Arapuca',
                                            material = "G10",
                                            shape = arapucaWallsBox)
         # define the larger volumes
         arapucaenc_LV = geom.structure.Volume('volArapuca',
-                                              material = "LAr",
+                                              material = "G4_lAr",
                                               shape = arapucaEnclosureBox)
         # add it to the builder
         self.add_volume(arapucaenc_LV)
@@ -92,14 +92,14 @@ class ArapucaBuilder(gegede.builder.Builder):
         if globals.get("nCRM_x") == 2:
             # define all the sub-volumes
             opdetsens2_LV = geom.structure.Volume('volOpDetSensitiveDouble',
-                                                 material = "LAr",
+                                                 material = "G4_lAr",
                                                  shape = arapucaDoubleAccBox)
             arapuca2_LV = geom.structure.Volume('ArapucaDouble',
                                                 material = "G10",
                                                 shape = arapucaDoubleWallsBox)
             # define the larger volumes
             arapucaenc2_LV = geom.structure.Volume('volArapucaDouble',
-                                                   material = "LAr",
+                                                   material = "G4_lAr",
                                                    shape = arapucaEnclosureBox)
             # add it to the builder
             self.add_volume(arapucaenc2_LV)
