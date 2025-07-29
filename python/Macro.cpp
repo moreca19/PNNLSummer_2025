@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 
 
     TApplication app("app", &argc, argv);
-    TGeoManager::Import("dunevd_v10.gdml");
+    TGeoManager::Import("dunevd_New.gdml");
 
     TGeoVolume* vol = gGeoManager->FindVolumeFast("fShellLog");
     vol->SetLineColor(kOrange);

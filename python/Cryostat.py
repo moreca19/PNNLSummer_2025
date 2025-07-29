@@ -85,6 +85,7 @@ class CryostatBuilder(gegede.builder.Builder):
         
 
 
+
         fPhysShell = geom.structure.Placement('fPhysShell',
                                                                 
                                             pos = geom.structure.Position('fPhysShellPlacement',
@@ -96,6 +97,30 @@ class CryostatBuilder(gegede.builder.Builder):
                                             )  
     
         self.PlacementList.append(fPhysShell)
+
+
+        ###box full of liquid argon inside cryostat
+        LarBox = geom.shapes.Box('LArBox',
+					dy = fCryostat_x/2 - fColdSkinThickness*2 + Offset,
+					dx = fCryostat_y/2 - fColdSkinThickness*2 + Offset,
+					dz = fCryostat_z/2 - fColdSkinThickness*2 +Offset)
+        
+        LArBoxLog = make_volume(geom, 'LAr', LarBox, "LArBoxLogical", aux=True)
+
+        LArBoxPlacement = geom.structure.Placement('LArBoxPlacement',
+                                                                
+                                            pos = geom.structure.Position('LArBoxPosition',
+                                            x = "0cm",
+                                            y =  "0cm",
+                                            z = "0cm"),
+                                            volume = LArBoxLog
+                                                                
+                                            )  
+    
+        self.PlacementList.append(LArBoxPlacement)
+
+
+
       
         ###this is the start of foam logical volume###
         sOutShield = geom.shapes.Box('InShield',
