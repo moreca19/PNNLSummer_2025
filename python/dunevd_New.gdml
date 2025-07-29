@@ -2702,6 +2702,22 @@
       <materialref ref="Water"/>
       <solidref ref="box_name"/>
     </volume>
+    <volume name="VolRadioRockShell">
+      <materialref ref="DUSEL_Rock"/>
+      <solidref ref="FirstSub"/>
+    </volume>
+    <volume name="volConcrete">
+      <materialref ref="Concrete"/>
+      <solidref ref="ConcreteBox"/>
+    </volume>
+    <volume name="volGrout">
+      <materialref ref="Concrete"/>
+      <solidref ref="GroutBox"/>
+    </volume>
+    <volume name="VolShotBox">
+      <materialref ref="ShotRock"/>
+      <solidref ref="ShotOuterMinusBox"/>
+    </volume>
     <volume name="volWorld">
       <materialref ref="Air"/>
       <solidref ref="World"/>
@@ -10459,6 +10475,26 @@
         <volumeref ref="boxshapeVol"/>
         <positionref ref="ShieldingFloor2_4_-18_position"/>
         <rotationref ref="identity"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VolRadioRockShell"/>
+        <positionref ref="RadioRockShellPositionInPlacement"/>
+        <rotationref ref="dr"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volConcrete"/>
+        <positionref ref="ConcretePositionInPlacement"/>
+        <rotationref ref="dr"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="volGrout"/>
+        <positionref ref="GroutPositionInPlacement"/>
+        <rotationref ref="dr"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="VolShotBox"/>
+        <positionref ref="ShotBoxPositionInPlacement"/>
+        <rotationref ref="dr"/>
       </physvol>
     </volume>
   </structure>
