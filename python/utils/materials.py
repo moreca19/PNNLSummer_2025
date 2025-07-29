@@ -149,7 +149,7 @@ def construct_materials(geom):
 						components = (("copper", 0.981),
 									("beryllium", 0.019)))
 
-	m_lar = geom.matter.Mixture("LAr", density = "1.40g/cc",
+	m_lar = geom.matter.Mixture("G4_lAr", density = "1.40g/cc",
 						components = (("argon", 1.0000),))
 
 	m_argas = geom.matter.Mixture("ArGas", density = "0.00166g/cc",

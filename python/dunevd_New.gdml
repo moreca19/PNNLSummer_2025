@@ -2300,7 +2300,7 @@
       <fraction ref="copper" n="0.981"/>
       <fraction ref="beryllium" n="0.019"/>
     </material>
-    <material name="LAr" formula="">
+    <material name="G4_lAr" formula="">
       <D value="1.4"/>
       <fraction ref="argon" n="1.0"/>
     </material>
@@ -2683,7 +2683,7 @@
       <solidref ref="fShell"/>
     </volume>
     <volume name="LArBoxLogical">
-      <materialref ref="LAr"/>
+      <materialref ref="G4_lAr"/>
       <solidref ref="LArBox"/>
     </volume>
     <volume name="FoamLog">
