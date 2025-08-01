@@ -68,8 +68,8 @@ class ShieldingFloorsBuilder(gegede.builder.Builder):
         eps = Q('21.5cm')
         zbsp = fSpacing
         zpl=zbsp/2
-        for ii in range(19):
-                for jj in range(-5, 5):
+        for ii in range(20):
+                for jj in range(-5, 6):
                         box_name = f'ShieldingFloor_{jj}_{ii}'
 
                         #box_lv = geom.structure.Volume(box_name + '_lv', material=geom.get_material("Water"), shape=box_shape)
@@ -91,8 +91,8 @@ class ShieldingFloorsBuilder(gegede.builder.Builder):
                 zpl+=zbsp
 
         zpl=-zbsp/2
-        for ii in range(0, -19, -1):
-                for jj in range(-5, 5):
+        for ii in range(0, -20, -1):
+                for jj in range(-5, 6): 
                         box_name = f'ShieldingFloor_{jj}_{ii}'
 
                         #box_lv = geom.structure.Volume(box_name + '_lv', material=geom.get_material("Water"), shape=box_shape)

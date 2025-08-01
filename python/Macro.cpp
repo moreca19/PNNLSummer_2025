@@ -18,44 +18,43 @@ int main(int argc, char **argv)
     TApplication app("app", &argc, argv);
     TGeoManager::Import("dunevd_New.gdml");
 
-    TGeoVolume* vol = gGeoManager->FindVolumeFast("fShellLog");
-    vol->SetLineColor(kOrange);
-    vol->SetFillColor(kOrange);
-    vol->SetTransparency(0);
+    TGeoVolume* vol4 = gGeoManager->FindVolumeFast("IBeamSide");
+    vol4->SetLineColor(kGray+2);
+    vol4->SetFillColor(kGray+2);
+    TGeoVolume* vol5 = gGeoManager->FindVolumeFast("IBeamTop");
+    vol5->SetLineColor(kGray+2);
+    vol5->SetFillColor(kGray+2);
+    TGeoVolume* vol6 = gGeoManager->FindVolumeFast("IBeamBot");
+    vol6->SetLineColor(kGray+2);
+    vol6->SetFillColor(kGray+2);
 
-    cout << "fShellVoume is the blue one" << endl;
- 
     TGeoVolume* vol2 = gGeoManager->FindVolumeFast("BeltUni");
-    vol2->SetLineColor(kBlack);
-    vol2->SetFillColor(kBlack);
-
-    cout << "BeltUni volume is the black one" << endl;
-
+    vol2->SetLineColor(kRed);
+    vol2->SetFillColor(kRed);
     TGeoVolume* vol3 = gGeoManager->FindVolumeFast("BeltHoleUni");
     vol3->SetLineColor(kRed);
     vol3->SetFillColor(kRed);
 
-    cout << "BeltHoleUni volume is the red one" << endl;
-
-    TGeoVolume* vol4 = gGeoManager->FindVolumeFast("IBeamSide");
-    vol4->SetLineColor(kGreen);
-    vol4->SetFillColor(kGreen);
-    TGeoVolume* vol5 = gGeoManager->FindVolumeFast("IBeamTop");
-    vol5->SetLineColor(kGreen);
-    vol5->SetFillColor(kGreen);
-    TGeoVolume* vol6 = gGeoManager->FindVolumeFast("IBeamBot");
-    vol6->SetLineColor(kGreen);
-    vol6->SetFillColor(kGreen);
-
-    cout << "all of the Ibeams are the green ones" << endl;
-    cout << "gets to here" << endl;
+    TGeoVolume* vol = gGeoManager->FindVolumeFast("fShellLog");
+    vol->SetLineColor(kOrange);
+    vol->SetFillColor(kOrange);
+    vol->SetTransparency(0);
+    
     TGeoVolume* vol7 = gGeoManager->FindVolumeFast("FoamLog");
-    vol7->SetLineColor(kBlack);
-    vol7->SetFillColor(kBlack);
+    vol7->SetLineColor(kCyan);
+    vol7->SetFillColor(kCyan);
 
     TGeoVolume* vol8 = gGeoManager->FindVolumeFast("WoodLog");
     vol8->SetLineColor(kViolet);
     vol8->SetFillColor(kViolet);
+
+    TGeoVolume* vol9 = gGeoManager->FindVolumeFast("ShellOutLog");
+    vol9->SetLineColor(kPink);
+    vol9->SetFillColor(kPink);
+
+    TGeoVolume* vol10 = gGeoManager->FindVolumeFast("LArBoxLogical");
+    vol10->SetLineColor(kTeal);
+    vol10->SetFillColor(kTeal);
     
 
     gGeoManager->GetTopVolume()->Draw("same");
