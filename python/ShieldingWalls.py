@@ -1,6 +1,6 @@
 import gegede.builder
 from gegede import Quantity as Q
-import pdb; 
+
 from utils import *
 
 #....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -117,7 +117,7 @@ class ShieldingWallsBuilder(gegede.builder.Builder):
 					dz = (BlockWidth /2))
         
         fcRotation = geom.structure.Rotation('fcRotation', x= "0deg", y= "0deg",z= "0deg")
-        fc2Rotation = geom.structure.Rotation('fc2Rotation',x= "0deg", y= "90deg",z= "0deg")
+        fc2Rotation = geom.structure.Rotation('fc2Rotation',x= "90deg", y= "0deg",z= "0deg")
         fc3Rotation = geom.structure.Rotation('fc3Rotation', x= "0deg", y= "0deg",z= "90deg")
 
         ShieldBlockLog = make_volume(geom,'Water',ShieldBlock, 'ShieldBlockLog', aux = True  )
@@ -147,7 +147,7 @@ class ShieldingWallsBuilder(gegede.builder.Builder):
                     continue
 
 
-                #pdb.set_trace()
+                
                 shieldLeftPosition = make_position(geom , f'ShieldLeftPosition{ii}{jj}',-st,y,-zpl)
                 shieldLeft = make_placement(geom, shieldLeftPosition,f'ShieldLeftPlacement{ii}{jj}', shield, fcRotation)
                 self.PlacementList.append(shieldLeft)
