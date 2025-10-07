@@ -1,30 +1,7 @@
 import gegede.builder
 from gegede import Quantity as Q
-
 from utils import *
-
-
-#....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-#Globals
-#--------------------#
-fht = Q('841.1cm')
-fst = Q('896.4cm')
-fSpacing = Q('157.86cm')
-fIFlangeWidth = Q('0.42cm')
-fIFlangeThick = Q('4cm')
-fIFlangeWaist = Q('2.2cm')
-fIFlangeHeight = Q('110.8cm')
-fIPortSpacing = Q('400cm')
-
-
-fITopLength = Q('1783.2cm') + fIFlangeHeight
-fISideLength = Q('1673.2cm') + fIFlangeHeight
-fIPortHoleRad = Q('40cm')	
-	
-#....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
-
-
+from MyNewGlobals import *
 
 def make_volume(geom, material, shape, name='', aux=False):
     name_lv = name
@@ -123,10 +100,6 @@ class BeltsBuilder(gegede.builder.Builder):
         zpl = (zbsp/2)
         xpl = Q('0cm')
         eps = Q('21.5cm')
-        cpIT = Q('0cm')
-        cpIB = Q('0cm')
-        cpIL = Q('0cm')
-        cpIR = Q('0cm')
         fzpl = Q('6473.2cm')
 
         for ii in range (19):

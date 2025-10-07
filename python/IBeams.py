@@ -1,21 +1,7 @@
 import gegede.builder
 from gegede import Quantity as Q
 from utils import *
-#....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-#Globals
-#--------------------#
-fht = Q('841.1cm')
-fst = Q('896.4cm')
-fSpacing = Q('157.86cm')
-fIFlangeWidth = Q('40.2cm')
-fIFlangeThick = Q('4cm')
-fIFlangeWaist = Q('2.2cm')
-fIFlangeHeight = Q('110.8cm')
-fIPortSpacing = Q('400cm')
-fITopLength = Q('1783.2cm') + fIFlangeHeight
-fISideLength = Q('1473.2cm') + fIFlangeHeight
-fIPortHoleRad = Q('40cm')	
-#....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+from MyNewGlobals import *
 
 def make_volume(geom, material, shape, name='', aux=False):
     name_lv = name
@@ -132,19 +118,12 @@ class IBeamsBuilder(gegede.builder.Builder):
 						second = IBeamSideFlange,
 						pos = IBeamBottomPosition)
         fIBeamSideLog = make_volume(geom, 'fDuneSteel', fBeamSideVol2, 'IBeamSide', aux = True) 
-        #big box for ibeams volume
+        
         
         ht = fht
         st = fst
         zbsp = fSpacing
-        cpIT = Q('0')
-        cpIB = Q('0')
-        cpIL = Q('0')
-        cpIR = Q('0')
         zpl = Q('0cm')
-        mIL  = Q('0')
-        cpIF = Q('0')
-        cpIBk = Q('0')
         xpl = Q('0cm')
         fzpl = Q('6473.2cm')
 

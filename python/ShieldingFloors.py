@@ -1,27 +1,28 @@
 import gegede.builder
 from gegede import Quantity as Q
-
 from utils import *
+from MyNewGlobals import *
+
 
 
 #....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 #Globals
 #--------------------#
-fht = Q('841.1cm')
-fst = Q('896.4cm')
-fSpacing = Q('157.86cm')
-fIFlangeWidth = Q('0.42cm')
-fIFlangeThick = Q('4cm')
-fIFlangeWaist = Q('2.2cm')
-fIFlangeHeight = Q('110.8cm')
-fIPortSpacing = Q('400cm')
+# fht = Q('841.1cm')
+# fst = Q('896.4cm')
+# fSpacing = Q('157.86cm')
+# fIFlangeWidth = Q('0.42cm')
+# fIFlangeThick = Q('4cm')
+# fIFlangeWaist = Q('2.2cm')
+# fIFlangeHeight = Q('110.8cm')
+# fIPortSpacing = Q('400cm')
 
 
-fITopLength = Q('1783.2cm') + fIFlangeHeight
-fISideLength = Q('1673.2cm') + fIFlangeHeight
-fIPortHoleRad = Q('40cm')	
+# fITopLength = Q('1783.2cm') + fIFlangeHeight
+# fISideLength = Q('1673.2cm') + fIFlangeHeight
+# fIPortHoleRad = Q('40cm')	
 
-BlockThickness = Q('0.40m')
+# BlockThickness = Q('0.40m')
 
 #....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 

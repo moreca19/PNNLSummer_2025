@@ -1,6 +1,5 @@
 import gegede.builder
 from gegede import Quantity as Q
-
 from utils import *
 
 

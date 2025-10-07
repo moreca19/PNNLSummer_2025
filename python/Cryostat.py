@@ -1,41 +1,7 @@
 import gegede.builder
 from gegede import Quantity as Q
 from utils import *
-
-
-#....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-#Globals
-#--------------------#
-fht = Q('841.1cm')
-fst = Q('896.4cm')
-fzpl = Q('6473.2cm')
-fSpacing = Q('157.86cm')
-fIFlangeWidth = Q('0.42cm')
-fIFlangeThick = Q('4cm')
-fIFlangeWaist = Q('2.2cm')
-fIFlangeHeight = Q('110.8cm')
-fIPortSpacing = Q('400cm')
-
-
-fITopLength = Q('1783.2cm') + fIFlangeHeight
-fISideLength = Q('1673.2cm') + fIFlangeHeight
-fIPortHoleRad = Q('40cm')	
-
-
-fColdSkinThickness = Q('0.18cm')
-Offset = Q('10cm')
-fCryostat_x = Q('1480cm')
-fCryostat_y = Q('1300cm')
-fCryostat_z = Q('6000cm')
-fShieldThickness = Q('77.6cm')
-fWoodThickness = Q('4.8cm')
-fWarmSkinThickness = Q('2.4cm')
-
-
-
-
-	
-#....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+from MyNewGlobals import *
 
 def make_volume(geom, material, shape, name='', aux=False):
     name_lv = name
@@ -191,52 +157,9 @@ class CryostatBuilder(gegede.builder.Builder):
         self.PlacementList.append(ShellOutPla)
         
 
-        ##this is the start of air box logical volume###
-
-        '''worldBox = geom.shapes.Box("WorldBox",
-                                   dy=Q('5000cm')/2 ,
-                                   dx=Q('5000cm')/2,
-                                   dz=Q('7500cm')/2)
-        fOuterAir = geom.shapes.Boolean('OuterAir', type = 'subtraction', 
-						first = worldBox, 
-						second = ShellOutW)
-        fLogicOAir = make_volume(geom, "Air",fOuterAir,"OuterAirLog", aux=True)
-
-        OuterAirPla = geom.structure.Placement('OuterAirPla',
-                                                                
-                                            pos = geom.structure.Position('OuterAirPosition',
-                                            x = "0cm",
-                                            y =  "0cm",
-                                            z = "0cm"),
-                                            volume = fLogicOAir
-                                                                
-                                            ) 
-        self.PlacementList.append(OuterAirPla)
-
-        '''
-
-        ##this is the start of the rock floor volume
-
-        # rockThick = Q('1000cm')
-
-        # rockFloor = geom.shapes.Box('RockFloor',
-		# 			dy = fst*1.5,
-		# 			dx = rockThick/2,
-		# 			dz = (fzpl/2)*1.1)
         
-        # fLogicRockFloor = make_volume(geom,'DUSEL_Rock',rockFloor, "RockFloorLog", aux=True)
 
-
-        # fPhysRockFloor = geom.structure.Placement('RockFloorPlacement',
-                                                                
-        #                                     pos = geom.structure.Position('RockFloorPosition',
-        #                                     y = "0cm",
-        #                                     x =  -(fht+Q('110cm')+rockThick/2),
-        #                                     z = "0cm"),
-        #                                     volume = fLogicRockFloor
-                                                                
-        #                                     ) 
-        # self.PlacementList.append(fPhysRockFloor)
+       
 
 
 
